@@ -27,10 +27,10 @@ namespace BehaviorTree
         public Node(List<Node> children)
         {
             foreach (Node child in children)
-                _Attach(child);
+                Attach(child);
         }
 
-        private void _Attach(Node node)
+        private void Attach(Node node)
         {
             node.parent = this;
             children.Add(node);
