@@ -15,7 +15,7 @@ public class TaskRushing : Node
     {
         if (Random.Range(0, 10) > 5)
         {
-            Debug.Log("B_돌진");
+            Debug.Log("A_돌진");
             state = NodeState.SUCCESS;
         }
         else

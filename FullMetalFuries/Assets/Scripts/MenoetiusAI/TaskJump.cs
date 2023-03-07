@@ -15,7 +15,7 @@ public class TaskJump : Node
     {
         if (Random.Range(0, 10) > 5)
         {
-            Debug.Log("C_도약");
+            Debug.Log("B_도약");
             state = NodeState.SUCCESS;
         }
         else

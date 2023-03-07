@@ -17,7 +17,7 @@ namespace BehaviorTree
         public Node parent;
         protected List<Node> children = new List<Node>();
 
-        private Dictionary<string, object> _dataContext = new Dictionary<string, object>();
+        //private Dictionary<string, object> _dataContext = new Dictionary<string, object>();
 
         public Node()
         {
@@ -38,6 +38,7 @@ namespace BehaviorTree
 
         public virtual NodeState Evaluate() => NodeState.FAILURE;
 
+        /*
         public void SetData(string key, object value)
         {
             _dataContext[key] = value;
@@ -78,6 +79,7 @@ namespace BehaviorTree
             }
             return false;
         }
+        */
     }
 
 }

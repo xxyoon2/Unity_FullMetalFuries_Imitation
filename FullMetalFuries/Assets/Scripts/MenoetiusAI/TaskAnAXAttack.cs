@@ -15,7 +15,7 @@ public class TaskAnAXAttack : Node
     {
         if (Random.Range(0, 10) > 5)
         {
-            Debug.Log("A_도끼휘두르기");
+            Debug.Log("D_도끼휘두르기");
             state = NodeState.SUCCESS;
         }
         else

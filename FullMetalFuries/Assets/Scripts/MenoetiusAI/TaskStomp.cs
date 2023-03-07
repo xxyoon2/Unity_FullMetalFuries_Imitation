@@ -15,7 +15,7 @@ public class TaskStomp : Node
     {
         if (Random.Range(0, 10) > 5)
         {
-            Debug.Log("D_발구르기");
+            Debug.Log("C_발구르기");
             state = NodeState.SUCCESS;
         }
         else
