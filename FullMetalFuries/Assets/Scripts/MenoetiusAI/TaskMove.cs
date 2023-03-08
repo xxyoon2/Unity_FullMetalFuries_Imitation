@@ -14,7 +14,7 @@ public class TaskMove : Node
     public override NodeState Evaluate()
     {
         Debug.Log("이동");
-        state = NodeState.RUNNING;
+        state = NodeState.SUCCESS;
         return state;
     }
 }

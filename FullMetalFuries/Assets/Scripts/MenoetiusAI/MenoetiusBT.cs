@@ -4,8 +4,12 @@ using BehaviorTree;
 
 public class MenoetiusBT : Tree
 {
-    [UnityEngine.SerializeField] private UnityEngine.GameObject _target;
-    public static float attackRange = 5f;
+    [UnityEngine.SerializeField] private float _attackRange = 5f;
+    public float attackRange
+    {
+        get { return _attackRange; }
+        set { attackRange = _attackRange; }
+    }
 
 
     protected override Node SetupTree()
@@ -18,10 +22,9 @@ public class MenoetiusBT : Tree
                 new TaskRushing(),      // 돌진
                 new TaskJump(),         // 도약
                 new TaskStomp(),        // 발구르기
-                new CheckTargetLocation(_target, transform),
+                new CheckTargetLocation(transform),
                 new TaskAnAXAttack(),   // 도끼
             }),
-            //new TaskAttack(),
         });
 
         return root;

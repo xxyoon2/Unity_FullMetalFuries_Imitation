@@ -6,21 +6,20 @@ using BehaviorTree;
 
 public class CheckTargetLocation : Node
 {
-    private UnityEngine.GameObject _target;
     private Transform _transform;
 
-    public CheckTargetLocation(UnityEngine.GameObject target, Transform transform)
+    public CheckTargetLocation(Transform transform)
     {
-        _target = target;
         _transform = transform;
     }
 
     public override NodeState Evaluate()
     {
-        var targetPosition = _target.transform.position;
+        var targetPosition = GameObject.FindWithTag("Player").transform.position;
         var MenoePosition = _transform.position;
         float distance = (targetPosition - MenoePosition).sqrMagnitude;
-        if (distance >= MenoetiusBT.attackRange)
+        float attackRange = _transform.GetComponent<MenoetiusBT>().attackRange;
+        if (distance >= attackRange)
         {
             state = NodeState.SUCCESS;
             return state;
