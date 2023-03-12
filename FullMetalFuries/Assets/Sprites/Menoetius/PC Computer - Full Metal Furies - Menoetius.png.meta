@@ -1,0 +1,3456 @@
+fileFormatVersion: 2
+guid: 359348940948e482093b09e71050426c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 3348
+        width: 660
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2402a4dc0c7345f3996d434b1e5d09a
+      internalID: 1843098463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 3334
+        width: 86
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae10f721471744ca1864939eaa41cb77
+      internalID: -555453255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_2
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 3235
+        width: 88
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934d750b8f560458789b96613f51b7c6
+      internalID: 2056430357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 3235
+        width: 87
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f24101e5a834f609029ff51f97a18d
+      internalID: -1071012808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_4
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 3235
+        width: 128
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d157d0f6cb234a99b9cf2c45244f304
+      internalID: -130948785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_5
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 3209
+        width: 82
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4490fd440aa0749f8a35228edd7676d8
+      internalID: 1022762401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_6
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 3120
+        width: 98
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66246a2bd81d443d48c28c18b641714e
+      internalID: 59413644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 3120
+        width: 120
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a470f8ef85c09438392fb7f7679ca3d8
+      internalID: 894062779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_8
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 3120
+        width: 116
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d28825ffe86041fa8fd1072393d3e16
+      internalID: 1084732440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_9
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 3120
+        width: 91
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97e5776c727b4fc48ca52523e0e5cda
+      internalID: -157966622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_10
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 3120
+        width: 89
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8d108fd195d4b1c9fc0676ea5f4221
+      internalID: 2069041989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_11
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 3094
+        width: 74
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bcbf341e55e4fc69168779aafb487e
+      internalID: -263653819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_12
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 3007
+        width: 90
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cf6d69173f74eecb60f189b9f04eaf
+      internalID: 1033955291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_13
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 3007
+        width: 90
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd0a3a7b9fcd40a3b7234ca05a0ba43
+      internalID: -955028479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_14
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 3007
+        width: 91
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328e5a24f74424b52b1d66657b3b6dda
+      internalID: 332258005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_15
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 3007
+        width: 91
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59fa2968ca68411db004ac7e18c06f2
+      internalID: -383360994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_16
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 3007
+        width: 90
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc85937f1514479f87f3ac08c505dc8
+      internalID: -1265507852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_17
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 2981
+        width: 62
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1840c9e3d814702a61fb12923ba9fb
+      internalID: -2107721285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_18
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2894
+        width: 85
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d3fdeaaeb0d43678ed7a57fd114bd9
+      internalID: -1510968984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_19
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 2867
+        width: 50
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f264fa9a646364024a16aa715fe7ecde
+      internalID: -1462636556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_20
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 2782
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc7f30528cf642578826a6d05bb8b84
+      internalID: 373200610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_21
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 2755
+        width: 78
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5040e24385a2c4031ae8fe2332a9a574
+      internalID: 255840183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_22
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 2672
+        width: 87
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d257536942454809a474d78938ed463
+      internalID: -1325264643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_23
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 2644
+        width: 56
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18d5e676e9e14bb299dda123c2772a3
+      internalID: -52863341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_24
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 2560
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed3f4597bb844ac6ab07f8b0fb10e26
+      internalID: -1762870866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_25
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 2534
+        width: 44
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3735050e6bb5041338e1ad8fc9261906
+      internalID: 611262474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_26
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2450
+        width: 88
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fa602fb8dfb48329e6a7d9fad07804
+      internalID: 817055764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_27
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2423
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a919f1bc7511e44a5b60e6a1771a3485
+      internalID: -1018459885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_28
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 2340
+        width: 82
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f8a1c8dbd9348aaa3c6d79a4fb9d42
+      internalID: -387798205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_29
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 2340
+        width: 82
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf55a5beaf66a4f89b413e53754f48f9
+      internalID: -200045940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_30
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 2340
+        width: 83
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81ecaadecb6a4dbfb62abfff9b7a761
+      internalID: -1697388971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_31
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 2340
+        width: 84
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e8d020f07384546845d7212b3ec8e3
+      internalID: -278865792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_32
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 2340
+        width: 87
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215cfb8a02b9c4ebd8318d07cf1b14a7
+      internalID: -2094420481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_33
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 2340
+        width: 90
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c10aa5c2bbf44b49cdeaa64d70a56e
+      internalID: 1988411460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_34
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 2340
+        width: 90
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50314a656df3e4e8981508f8a864d311
+      internalID: 52012848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_35
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 2340
+        width: 88
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45595aeb2ade4e14a2c1f1c2739d7fb
+      internalID: -1079895986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_36
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 2340
+        width: 85
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabbe3e93889142b4ac883b89969c3b6
+      internalID: -2054810644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_37
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2313
+        width: 69
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba17acf564e640a0bdee6b0b5e1604a
+      internalID: -1137368626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_38
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2231
+        width: 90
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88a979314c204a99aa6f175175faff6
+      internalID: 1614489190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_39
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 2231
+        width: 90
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8699a86e2ad94f7eb1305e14cf635a7
+      internalID: -1076544795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_40
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 2231
+        width: 91
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4beaee9b487684470bda28b8404c39ca
+      internalID: -75231660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_41
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 2231
+        width: 91
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13fd55823527946a8a73a5069b6ac0d6
+      internalID: -1850486817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_42
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 2231
+        width: 90
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114e4d5e1fcde4e1d876843c561f03f5
+      internalID: 1944916888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_43
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 2231
+        width: 90
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe83ecaca563547c3a726267f262ae38
+      internalID: 193069793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_44
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 2231
+        width: 90
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f059bbf38934477aeae3ec0dc9b7df
+      internalID: -1575800697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_45
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2203
+        width: 84
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d506cebeca44342968f837d026a8f830
+      internalID: 1348506697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_46
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2123
+        width: 90
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06cd6818222f4b2db4423c7700d295f
+      internalID: -1986094217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_47
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 2123
+        width: 85
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08aba7c6342ec49b1a68c740ccb5bd86
+      internalID: -1117971774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_48
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2095
+        width: 87
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885a02daed1b346a99d7969c28d92665
+      internalID: 2143457785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_49
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2013
+        width: 90
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cc561e36f334c50ae933edac083916
+      internalID: 1161320223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_50
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 2013
+        width: 90
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e6e9c2706e14fe28367b05de552c91
+      internalID: 24214620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_51
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1986
+        width: 71
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd504cb72fcdf4a9794e01cfa378ed25
+      internalID: 386649794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_52
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1904
+        width: 90
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51713181be1442eb9abc9f270c67991
+      internalID: 523570903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_53
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1904
+        width: 89
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccc7222e97d6422daa40b3b9cad3797
+      internalID: 223532143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_54
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1904
+        width: 87
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856524304af7c403f8364eb601722f63
+      internalID: 400688855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_55
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1876
+        width: 73
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1af9568a3b74f21837f8fce7d59626
+      internalID: 1033000696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_56
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1796
+        width: 90
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4458007d2d954498eb511485fe24f701
+      internalID: 1078880639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_57
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1796
+        width: 90
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f13eafbbe7a4b55b1511a059e9b411
+      internalID: -593863658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_58
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1796
+        width: 91
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d08c8ea1f79438a9a96810faa93594
+      internalID: -203934379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_59
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1796
+        width: 91
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e61131c67e8146659a15b0be3d9a06d
+      internalID: -290503625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_60
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1769
+        width: 59
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40adaf4ee4da1497ebc19de9e9f4311d
+      internalID: 134999170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_61
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1688
+        width: 90
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f323a27e1d44c25ba2b09a9397a2ad
+      internalID: -486520549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_62
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1661
+        width: 36
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08196a67110b143e793fc5a3a7cdf1c6
+      internalID: -1376183624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1580
+        width: 118
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166cb716cb5054949869bc8fcfbeced3
+      internalID: 716852088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_64
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1580
+        width: 90
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf10aa06ce30b4a1e99ef0203694efe4
+      internalID: 368468293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_65
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1580
+        width: 91
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c001e86f190d74c609d6582bd3ac0ec2
+      internalID: -1326170152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_66
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1580
+        width: 91
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b882cf9a62764007b35b80bf9a3a649
+      internalID: 1053660041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_67
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1580
+        width: 90
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa0f71bd51ee4f8b85e8cf49efb5496
+      internalID: -473378780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_68
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1580
+        width: 90
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458222b6f5f6640d7815d05fe7017a32
+      internalID: -1409714426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_69
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1580
+        width: 89
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfca131afa344b2f8398d0c2d67b997
+      internalID: 701156039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_70
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1580
+        width: 87
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286a2c05c40d84472bddcb1859568643
+      internalID: 1829807081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_71
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1580
+        width: 89
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f507e0ae3d0524708abafd9d527bc50d
+      internalID: 54749997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_72
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1580
+        width: 89
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26e04ff1d359496782a6d553bfd43ac
+      internalID: -1519993728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_73
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1580
+        width: 87
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3431b52c9a849739ba7de9549b67e9
+      internalID: -1315795039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_74
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 1580
+        width: 89
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490f6fe20456745fa869a3929d3462ee
+      internalID: -1625310273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_75
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 1580
+        width: 87
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8528fc69dff4ddb98cd1ff8ae8d262
+      internalID: 2023128032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_76
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 1580
+        width: 88
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e301d8ba4f0314bd39f525302215e830
+      internalID: -1194001593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_77
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 1580
+        width: 87
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877587851f1cb409dbe9fd4c68d55d6a
+      internalID: -499043506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_78
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 1580
+        width: 89
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda6c88b77f0640a4b7bed1c448ad1ad
+      internalID: 2032976932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_79
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1580
+        width: 90
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cd93fb118d743e3883ae57438dc536
+      internalID: 1749699317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_80
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 1580
+        width: 88
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0b3da5abc444b8fbf7e91f34be4bc0
+      internalID: -618454698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_81
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1552
+        width: 58
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1830c9c199a454f06a74dd9419398d8d
+      internalID: -336571861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_82
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1473
+        width: 88
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e474b4525b9143e78de14489ff0ae24
+      internalID: 2104164304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_83
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1473
+        width: 88
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f04da9c4cc145de8681a75d1992d00
+      internalID: -1372476759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_84
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1473
+        width: 91
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba39d1e2988304dc7990f09a3514f6fe
+      internalID: 889279350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_85
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1473
+        width: 91
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0823fb0a722284591ab72e7a5b74205d
+      internalID: -19787481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_86
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1446
+        width: 36
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9eed967d0da49a1be76042b8a9cfa8
+      internalID: -1388563123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_87
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1446
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff53ff4a609c94aa988f5ce861597e93
+      internalID: 1208112014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_88
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1367
+        width: 89
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c993330ffdb4180884a93b2b319ee8
+      internalID: 188620508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_89
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1367
+        width: 89
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013a1ccb92540416a81af3ae82d2e19a
+      internalID: 1368468811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_90
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1367
+        width: 88
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40dc9021693d24f468aa47f823d17b2b
+      internalID: -142052930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_91
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1367
+        width: 89
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0d7371b4caa4b34a9c05945a901068
+      internalID: -915511106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_92
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1367
+        width: 87
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbd5738cdd6442639f79ee26f62a19d
+      internalID: -1415335621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_93
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1339
+        width: 68
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9833fd655f2f142098444ff3ef808154
+      internalID: 1976244235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_94
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1258
+        width: 85
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459ea4dbc27aa4b089ede9c326f87308
+      internalID: 1410829042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_95
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1258
+        width: 85
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92e02376ff1046fab740df15e5a1b3b
+      internalID: 1057086086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_96
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1258
+        width: 86
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5974fef74df9641118755e6be2b012e1
+      internalID: -1369419218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_97
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1258
+        width: 89
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea1c977c5acd4e61b8f7cddcf3020ac
+      internalID: -708426069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_98
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1258
+        width: 90
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81cdfd0a3169480db05e5da7791d1de
+      internalID: 1754718671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_99
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1232
+        width: 52
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa453d7124364560b322c820bbbfdb7
+      internalID: 136646712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_100
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1153
+        width: 90
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6796fa7bddf114118bfd78774994274b
+      internalID: 1804297703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_101
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1153
+        width: 89
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608d7635fb1a34948959e742a7f23573
+      internalID: -599583205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_102
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1126
+        width: 64
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175b03c07d73946c2bf7a0cc94b133bb
+      internalID: 2124973401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_103
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1046
+        width: 90
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedb3903098894bea97fa841112b4e3d
+      internalID: -1711490475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_104
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1047
+        width: 90
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f8a414b65bf49198fccd34056fa7ec
+      internalID: 1274546502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_105
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1047
+        width: 91
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0c5a5be70f04b02829b3297e32d670
+      internalID: -171963191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_106
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1047
+        width: 89
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1481818aa75f64d23b72a9ff6ffa6122
+      internalID: -711947538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_107
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1047
+        width: 88
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8aee3b270939492da211c75d2f7e746
+      internalID: 1879170877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_108
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1047
+        width: 88
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77d700e7eeb74fecb7c5c5d5bd86bbe
+      internalID: 440887496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_109
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1047
+        width: 88
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3a82d1ace8f431db0da5d15336df16
+      internalID: -638255731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_110
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1047
+        width: 87
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189cb218661144188953ea35cb8c24cb
+      internalID: -600935369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_111
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1047
+        width: 89
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b878a6279f9ad42fb839259f00983196
+      internalID: -438891919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_112
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1020
+        width: 69
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5069f8541be0549a2907284f3287fda5
+      internalID: -228816743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_113
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 943
+        width: 98
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ce06f816594425e885b0c33f30f5e2
+      internalID: 1617016780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_114
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 943
+        width: 97
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0326e125986470390453d24caba6be
+      internalID: -1711833554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_115
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 943
+        width: 98
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50254298eee8644c79851746f192cb0a
+      internalID: 14865403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_116
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 943
+        width: 99
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492433a11144f4817882eff112a9aa05
+      internalID: -308443969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_117
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 943
+        width: 97
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141a1bb2a58994261b22ea3f69398955
+      internalID: -1911860156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_118
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 916
+        width: 69
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984370029eb16478684857cf1c448870
+      internalID: 1182020771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_119
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 839
+        width: 94
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d3dc19f5ff647faa58a1dec90611b5
+      internalID: 253416729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_120
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 811
+        width: 71
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b280c85e954f448d5aefeee0c1d4741c
+      internalID: 458498435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_121
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 735
+        width: 90
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87669759c629348ff8d925292d997c1d
+      internalID: -342219715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_122
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 708
+        width: 63
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339aca59eb7c7420398ec52b0d3cb827
+      internalID: -1581255906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_123
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 634
+        width: 85
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68df2008b501c4967916af4dab785e92
+      internalID: -843279756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_124
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 606
+        width: 51
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a00ad4347134a2f95d826180a5953d
+      internalID: -89157321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_125
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 543
+        width: 104
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320482e4f93d24423adfed300b151aaf
+      internalID: 491742895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_126
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 515
+        width: 50
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe986f6452a8405097c48453dfb6583
+      internalID: 900571680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_127
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 453
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de6299070f43484ea5f732133246259
+      internalID: 857841919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_128
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 427
+        width: 51
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e56d5109608849c1b966a79340ed9f7
+      internalID: 2119140226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_129
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 362
+        width: 104
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5910f3d4dd6e417495cd465eaa91148
+      internalID: 739722925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_130
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 336
+        width: 57
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58acbba21c92435d86030ccbff55e76
+      internalID: -1323398958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_131
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 274
+        width: 104
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbe970239d54495f90959113a3d321a
+      internalID: -979645775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_132
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 246
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129c1eb5a13254452bfd4408d7e84be0
+      internalID: 624316248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_133
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 205
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba6e351396a14bdd98633243673d4e9
+      internalID: -1203837318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_134
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 205
+        width: 45
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc0bebf3dfda45f4888c9358250d7f2
+      internalID: -19050205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_135
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 205
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ec3bd79424c4564a294f1db6ea5d61
+      internalID: -699401633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_136
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 178
+        width: 40
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f1d877ec20a439a9ba7839c1ab57ad
+      internalID: -1860179703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_137
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 137
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9fca02d7af7a4fe7b831c16806b1d57
+      internalID: 514069082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_138
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 137
+        width: 45
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b95bc24bf0634fcb9d16240addddb58
+      internalID: -1440986443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_139
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 137
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf4b5da57b1e4fd9a31c2320a587350
+      internalID: -2075155522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_140
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 109
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52de63a908084256997260c16429ed2
+      internalID: 884777813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_141
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 71
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220f882b31bcb40a9b062d8c2721fd18
+      internalID: 2101145038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_142
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 71
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fe869272abe494cb1e87380557f634
+      internalID: -838753831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_143
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 71
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b72283822ec24bc69aa391688487417
+      internalID: -1696775775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_144
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 44
+        width: 50
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e4569fadafc4c62b22e82d2dc550b4
+      internalID: -1887087647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_145
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 11
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b9fa40bf5174fce8bfa6263d87919f
+      internalID: 598456062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_146
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 11
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c031fdbf9e14c64b5093ba9c050d58
+      internalID: 85018750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_147
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 10
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c684dd3bd67440c845fd5f065f2f3b
+      internalID: -651723197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_148
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 10
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16bfdf139f5a4f0d84b09fe5f3bf9b2
+      internalID: 1054232851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_149
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 10
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5a6d43636984714a8c4929f443c2df
+      internalID: -1425975590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Menoetius_150
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 11
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a389cee2bc74f6cb4af3823c739f43
+      internalID: -960123078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Full Metal Furies - Menoetius_13: -955028479
+      PC Computer - Full Metal Furies - Menoetius_53: 223532143
+      PC Computer - Full Metal Furies - Menoetius_85: -19787481
+      PC Computer - Full Metal Furies - Menoetius_134: -19050205
+      PC Computer - Full Metal Furies - Menoetius_48: 2143457785
+      PC Computer - Full Metal Furies - Menoetius_56: 1078880639
+      PC Computer - Full Metal Furies - Menoetius_97: -708426069
+      PC Computer - Full Metal Furies - Menoetius_57: -593863658
+      PC Computer - Full Metal Furies - Menoetius_74: -1625310273
+      PC Computer - Full Metal Furies - Menoetius_90: -142052930
+      PC Computer - Full Metal Furies - Menoetius_26: 817055764
+      PC Computer - Full Metal Furies - Menoetius_10: 2069041989
+      PC Computer - Full Metal Furies - Menoetius_22: -1325264643
+      PC Computer - Full Metal Furies - Menoetius_123: -843279756
+      PC Computer - Full Metal Furies - Menoetius_82: 2104164304
+      PC Computer - Full Metal Furies - Menoetius_43: 193069793
+      PC Computer - Full Metal Furies - Menoetius_44: -1575800697
+      PC Computer - Full Metal Furies - Menoetius_109: -638255731
+      PC Computer - Full Metal Furies - Menoetius_116: -308443969
+      PC Computer - Full Metal Furies - Menoetius_8: 1084732440
+      PC Computer - Full Metal Furies - Menoetius_38: 1614489190
+      PC Computer - Full Metal Furies - Menoetius_36: -2054810644
+      PC Computer - Full Metal Furies - Menoetius_49: 1161320223
+      PC Computer - Full Metal Furies - Menoetius_132: 624316248
+      PC Computer - Full Metal Furies - Menoetius_6: 59413644
+      PC Computer - Full Metal Furies - Menoetius_118: 1182020771
+      PC Computer - Full Metal Furies - Menoetius_80: -618454698
+      PC Computer - Full Metal Furies - Menoetius_83: -1372476759
+      PC Computer - Full Metal Furies - Menoetius_37: -1137368626
+      PC Computer - Full Metal Furies - Menoetius_7: 894062779
+      PC Computer - Full Metal Furies - Menoetius_11: -263653819
+      PC Computer - Full Metal Furies - Menoetius_75: 2023128032
+      PC Computer - Full Metal Furies - Menoetius_20: 373200610
+      PC Computer - Full Metal Furies - Menoetius_69: 701156039
+      PC Computer - Full Metal Furies - Menoetius_95: 1057086086
+      PC Computer - Full Metal Furies - Menoetius_102: 2124973401
+      PC Computer - Full Metal Furies - Menoetius_39: -1076544795
+      PC Computer - Full Metal Furies - Menoetius_111: -438891919
+      PC Computer - Full Metal Furies - Menoetius_59: -290503625
+      PC Computer - Full Metal Furies - Menoetius_18: -1510968984
+      PC Computer - Full Metal Furies - Menoetius_127: 857841919
+      PC Computer - Full Metal Furies - Menoetius_122: -1581255906
+      PC Computer - Full Metal Furies - Menoetius_4: -130948785
+      PC Computer - Full Metal Furies - Menoetius_113: 1617016780
+      PC Computer - Full Metal Furies - Menoetius_115: 14865403
+      PC Computer - Full Metal Furies - Menoetius_81: -336571861
+      PC Computer - Full Metal Furies - Menoetius_15: -383360994
+      PC Computer - Full Metal Furies - Menoetius_101: -599583205
+      PC Computer - Full Metal Furies - Menoetius_66: 1053660041
+      PC Computer - Full Metal Furies - Menoetius_1: -555453255
+      PC Computer - Full Metal Furies - Menoetius_5: 1022762401
+      PC Computer - Full Metal Furies - Menoetius_130: -1323398958
+      PC Computer - Full Metal Furies - Menoetius_25: 611262474
+      PC Computer - Full Metal Furies - Menoetius_12: 1033955291
+      PC Computer - Full Metal Furies - Menoetius_45: 1348506697
+      PC Computer - Full Metal Furies - Menoetius_104: 1274546502
+      PC Computer - Full Metal Furies - Menoetius_100: 1804297703
+      PC Computer - Full Metal Furies - Menoetius_32: -2094420481
+      PC Computer - Full Metal Furies - Menoetius_120: 458498435
+      PC Computer - Full Metal Furies - Menoetius_133: -1203837318
+      PC Computer - Full Metal Furies - Menoetius_76: -1194001593
+      PC Computer - Full Metal Furies - Menoetius_54: 400688855
+      PC Computer - Full Metal Furies - Menoetius_55: 1033000696
+      PC Computer - Full Metal Furies - Menoetius_86: -1388563123
+      PC Computer - Full Metal Furies - Menoetius_77: -499043506
+      PC Computer - Full Metal Furies - Menoetius_71: 54749997
+      PC Computer - Full Metal Furies - Menoetius_149: -1425975590
+      PC Computer - Full Metal Furies - Menoetius_103: -1711490475
+      PC Computer - Full Metal Furies - Menoetius_125: 491742895
+      PC Computer - Full Metal Furies - Menoetius_139: -2075155522
+      PC Computer - Full Metal Furies - Menoetius_114: -1711833554
+      PC Computer - Full Metal Furies - Menoetius_145: 598456062
+      PC Computer - Full Metal Furies - Menoetius_91: -915511106
+      PC Computer - Full Metal Furies - Menoetius_107: 1879170877
+      PC Computer - Full Metal Furies - Menoetius_98: 1754718671
+      PC Computer - Full Metal Furies - Menoetius_110: -600935369
+      PC Computer - Full Metal Furies - Menoetius_87: 1208112014
+      PC Computer - Full Metal Furies - Menoetius_46: -1986094217
+      PC Computer - Full Metal Furies - Menoetius_106: -711947538
+      PC Computer - Full Metal Furies - Menoetius_60: 134999170
+      PC Computer - Full Metal Furies - Menoetius_33: 1988411460
+      PC Computer - Full Metal Furies - Menoetius_52: 523570903
+      PC Computer - Full Metal Furies - Menoetius_72: -1519993728
+      PC Computer - Full Metal Furies - Menoetius_31: -278865792
+      PC Computer - Full Metal Furies - Menoetius_99: 136646712
+      PC Computer - Full Metal Furies - Menoetius_89: 1368468811
+      PC Computer - Full Metal Furies - Menoetius_67: -473378780
+      PC Computer - Full Metal Furies - Menoetius_137: 514069082
+      PC Computer - Full Metal Furies - Menoetius_96: -1369419218
+      PC Computer - Full Metal Furies - Menoetius_143: -1696775775
+      PC Computer - Full Metal Furies - Menoetius_2: 2056430357
+      PC Computer - Full Metal Furies - Menoetius_128: 2119140226
+      PC Computer - Full Metal Furies - Menoetius_42: 1944916888
+      PC Computer - Full Metal Furies - Menoetius_92: -1415335621
+      PC Computer - Full Metal Furies - Menoetius_94: 1410829042
+      PC Computer - Full Metal Furies - Menoetius_136: -1860179703
+      PC Computer - Full Metal Furies - Menoetius_126: 900571680
+      PC Computer - Full Metal Furies - Menoetius_93: 1976244235
+      PC Computer - Full Metal Furies - Menoetius_108: 440887496
+      PC Computer - Full Metal Furies - Menoetius_140: 884777813
+      PC Computer - Full Metal Furies - Menoetius_112: -228816743
+      PC Computer - Full Metal Furies - Menoetius_62: -1376183624
+      PC Computer - Full Metal Furies - Menoetius_84: 889279350
+      PC Computer - Full Metal Furies - Menoetius_142: -838753831
+      PC Computer - Full Metal Furies - Menoetius_63: 716852088
+      PC Computer - Full Metal Furies - Menoetius_58: -203934379
+      PC Computer - Full Metal Furies - Menoetius_9: -157966622
+      PC Computer - Full Metal Furies - Menoetius_150: -960123078
+      PC Computer - Full Metal Furies - Menoetius_124: -89157321
+      PC Computer - Full Metal Furies - Menoetius_70: 1829807081
+      PC Computer - Full Metal Furies - Menoetius_78: 2032976932
+      PC Computer - Full Metal Furies - Menoetius_117: -1911860156
+      PC Computer - Full Metal Furies - Menoetius_131: -979645775
+      PC Computer - Full Metal Furies - Menoetius_105: -171963191
+      PC Computer - Full Metal Furies - Menoetius_3: -1071012808
+      PC Computer - Full Metal Furies - Menoetius_65: -1326170152
+      PC Computer - Full Metal Furies - Menoetius_24: -1762870866
+      PC Computer - Full Metal Furies - Menoetius_64: 368468293
+      PC Computer - Full Metal Furies - Menoetius_68: -1409714426
+      PC Computer - Full Metal Furies - Menoetius_88: 188620508
+      PC Computer - Full Metal Furies - Menoetius_35: -1079895986
+      PC Computer - Full Metal Furies - Menoetius_146: 85018750
+      PC Computer - Full Metal Furies - Menoetius_34: 52012848
+      PC Computer - Full Metal Furies - Menoetius_0: 1843098463
+      PC Computer - Full Metal Furies - Menoetius_144: -1887087647
+      PC Computer - Full Metal Furies - Menoetius_30: -1697388971
+      PC Computer - Full Metal Furies - Menoetius_14: 332258005
+      PC Computer - Full Metal Furies - Menoetius_40: -75231660
+      PC Computer - Full Metal Furies - Menoetius_135: -699401633
+      PC Computer - Full Metal Furies - Menoetius_148: 1054232851
+      PC Computer - Full Metal Furies - Menoetius_129: 739722925
+      PC Computer - Full Metal Furies - Menoetius_21: 255840183
+      PC Computer - Full Metal Furies - Menoetius_29: -200045940
+      PC Computer - Full Metal Furies - Menoetius_28: -387798205
+      PC Computer - Full Metal Furies - Menoetius_119: 253416729
+      PC Computer - Full Metal Furies - Menoetius_16: -1265507852
+      PC Computer - Full Metal Furies - Menoetius_47: -1117971774
+      PC Computer - Full Metal Furies - Menoetius_17: -2107721285
+      PC Computer - Full Metal Furies - Menoetius_50: 24214620
+      PC Computer - Full Metal Furies - Menoetius_41: -1850486817
+      PC Computer - Full Metal Furies - Menoetius_79: 1749699317
+      PC Computer - Full Metal Furies - Menoetius_23: -52863341
+      PC Computer - Full Metal Furies - Menoetius_121: -342219715
+      PC Computer - Full Metal Furies - Menoetius_51: 386649794
+      PC Computer - Full Metal Furies - Menoetius_73: -1315795039
+      PC Computer - Full Metal Furies - Menoetius_138: -1440986443
+      PC Computer - Full Metal Furies - Menoetius_147: -651723197
+      PC Computer - Full Metal Furies - Menoetius_141: 2101145038
+      PC Computer - Full Metal Furies - Menoetius_19: -1462636556
+      PC Computer - Full Metal Furies - Menoetius_61: -486520549
+      PC Computer - Full Metal Furies - Menoetius_27: -1018459885
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
