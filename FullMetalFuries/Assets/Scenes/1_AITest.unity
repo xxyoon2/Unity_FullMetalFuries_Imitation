@@ -702,9 +702,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1790291278}
+  - component: {fileID: 1790291279}
   - component: {fileID: 1790291277}
   - component: {fileID: 1790291276}
-  - component: {fileID: 1790291279}
   m_Layer: 0
   m_Name: FSM
   m_TagString: Untagged
@@ -745,6 +745,10 @@ Animation:
   m_Animations:
   - {fileID: 7400000, guid: 7f3f182cac0ca4b6a80ec7a889772c67, type: 2}
   - {fileID: 7400000, guid: 6746d28fb5c0b4fafbc30f18589f7566, type: 2}
+  - {fileID: 7400000, guid: 1dd74675de71a48b79ac3cf3da4955a1, type: 2}
+  - {fileID: 7400000, guid: 6c9ff991c829941e39fe0db2f9194806, type: 2}
+  - {fileID: 7400000, guid: 3dc03d17e31284b609892a0dc5b6f3d4, type: 2}
+  - {fileID: 7400000, guid: 6d3334953da42400ab092ab2af1ea159, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
