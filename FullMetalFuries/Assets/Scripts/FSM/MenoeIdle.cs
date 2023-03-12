@@ -12,8 +12,6 @@ public class MenoeIdle : StateMachineBehaviour
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         _counter = WAITING_TIME;
-        
-        Debug.Log("대기");
     }
 
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

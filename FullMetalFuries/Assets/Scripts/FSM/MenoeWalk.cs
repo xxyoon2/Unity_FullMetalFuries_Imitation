@@ -6,8 +6,6 @@ public class MenoeWalk : StateMachineBehaviour
 {
     private Vector2 _pos;
     private Transform _transform;
-    private Rigidbody2D _rigidbody;
-    private GameObject _target;
 
     private const float SPEED = 0.5f;
     private const float DISTANCE = 1f;
@@ -52,11 +50,8 @@ public class MenoeWalk : StateMachineBehaviour
     {
         _transform = animator.transform;
         _pos = SetDestination();
-        _rigidbody = _transform.GetComponent<Rigidbody2D>();
 
         animator.SetInteger("attack", (int)SkillTree.NONE);
-
-        Debug.Log("이동");
     }
 
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -79,7 +74,6 @@ public class MenoeWalk : StateMachineBehaviour
                     {
                         break;
                     }
-                    Debug.Log("공격");
                     animator.SetInteger("attack", (int)skill);
                     return;
                 default:
