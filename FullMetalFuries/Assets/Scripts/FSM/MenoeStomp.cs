@@ -13,7 +13,7 @@ public class MenoeStomp : StateMachineBehaviour
         Collider2D collider = Physics2D.OverlapCircle(attackRange.position, ATTACK_RANGE_RADIUS, PLAYER_LAYER);
         if (collider != null)
         {
-            Debug.Log("으악1");
+            // 데미지 입혔다고 알리기
         }
 
         // 폭격 관련 이벤트 알림
