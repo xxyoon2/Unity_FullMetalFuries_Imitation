@@ -8,7 +8,7 @@ public class MenoeRush : StateMachineBehaviour
     private Vector2 _targetPosition;
     private Vector2 _dirVector;
 
-    private const float SPEED  = 5f;
+    private const float SPEED  = 6f;
     private const float DURATION = 3f;
 
     private float _counter = 0f;
