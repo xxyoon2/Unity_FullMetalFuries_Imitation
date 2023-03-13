@@ -4,39 +4,35 @@ using UnityEngine;
 
 public class MenoeRush : StateMachineBehaviour
 {
-    private Transform _target;
     private Transform _Menoetius;
+    private Vector2 _targetPosition;
+    private Vector2 _dirVector;
 
-    private const float SPEED  = 1f;
+    private const float SPEED  = 5f;
+    private const float DURATION = 3f;
+
+    private float _counter = 0f;
 
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        // 플레이어 위치 받아옴
-        _target = GameObject.FindWithTag("Player").transform;
+        _targetPosition = GameObject.FindWithTag("Player").transform.position;
         _Menoetius = animator.transform;
+        Vector2 _menoetiusPosition = _Menoetius.position;
+        _dirVector = (_targetPosition - _menoetiusPosition).normalized;
+
+        _counter = 0f;
+        animator.SetBool("isRush", true);
     }
 
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        // 플레이어로 향해 돌진
-        // 공격 범위 내에 플레이어가 있다면 데미지
-        
+        if (_counter >= DURATION)
+        {
+            animator.SetBool("isRush", false);
+        }
+
+        Vector2 movePoint = new Vector2(_Menoetius.position.x, _Menoetius.position.y) + _dirVector * SPEED;
+        _Menoetius.position = Vector2.MoveTowards(_Menoetius.position, movePoint, SPEED * Time.deltaTime);
+        _counter += Time.deltaTime;
     }
-
-    //override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-
-    //}
-
-    // OnStateMove is called right after Animator.OnAnimatorMove()
-    //override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    // Implement code that processes and affects root motion
-    //}
-
-    // OnStateIK is called right after Animator.OnAnimatorIK()
-    //override public void OnStateIK(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    // Implement code that sets up animation IK (inverse kinematics)
-    //}
 }
