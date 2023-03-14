@@ -1,0 +1,56 @@
+@startuml
+
+title Player Skill Tree Class Diagram
+
+class Player
+{
+    int level
+    int health
+    int str
+    int tec
+
+    State state
+
+    PrimaryAttack attack;
+    SecondarySkill sec;
+    EvadeAbility evade;
+    PowerAbility power;
+}
+
+enum State
+{
+    DEATH
+    ALIVE
+}
+
+class Skill
+{
+    float damage;
+}
+
+class PrimaryAttack
+{
+ 
+}
+
+class SecondarySkill
+{
+
+}
+
+class EvadeAbility
+{
+
+}
+
+class PowerAbility
+{
+
+}
+
+Skill --> PrimaryAttack
+Skill --> SecondarySkill
+Skill --> EvadeAbility
+Skill --> PowerAbility
+
+@enduml
