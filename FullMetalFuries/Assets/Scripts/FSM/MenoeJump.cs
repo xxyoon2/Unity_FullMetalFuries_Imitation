@@ -8,8 +8,7 @@ public class MenoeJump : StateMachineBehaviour
     private Vector3 _targetPoint;
     private Vector3 _jumpingPoint;
 
-    private Vector3 _point1;
-    private Vector3 _point2;
+    private Vector3 _point;
 
     private float _counter = 0f;
 
