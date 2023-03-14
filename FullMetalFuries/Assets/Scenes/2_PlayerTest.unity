@@ -302,6 +302,8 @@ GameObject:
   - component: {fileID: 1903858323}
   - component: {fileID: 1903858322}
   - component: {fileID: 1903858324}
+  - component: {fileID: 1903858325}
+  - component: {fileID: 1903858326}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -402,6 +404,30 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1903858325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903858321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 472776ce4ddbe4cdc864456c37e57870, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1903858326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903858321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22249683a0a5941bfb17f15ae1798d58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1008205904758487498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -412,6 +438,10 @@ PrefabInstance:
     - target: {fileID: 1008205905187116161, guid: c8d24b32ca8f9456eafc8d02125961dc, type: 3}
       propertyPath: m_Name
       value: FSM
+      objectReference: {fileID: 0}
+    - target: {fileID: 1008205905187116161, guid: c8d24b32ca8f9456eafc8d02125961dc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1008205905187116164, guid: c8d24b32ca8f9456eafc8d02125961dc, type: 3}
       propertyPath: m_RootOrder
