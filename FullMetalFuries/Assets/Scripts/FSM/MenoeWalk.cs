@@ -63,8 +63,7 @@ public class MenoeWalk : StateMachineBehaviour
         {
             _pos = SetDestination();
 
-            //SkillTree skill = (SkillTree)Attack();
-            SkillTree skill = SkillTree.JUMP;
+            SkillTree skill = (SkillTree)Attack();
             switch (skill)
             {
                 case SkillTree.AX:
