@@ -5,9 +5,10 @@ title Player Skill Tree Class Diagram
 class Player
 {
     int level
-    int health
+    int hp
     int str
     int tec
+    float speed
 
     State state
 
@@ -20,6 +21,7 @@ class Player
 enum State
 {
     DEATH
+    EVADE
     ALIVE
 }
 
