@@ -35,10 +35,10 @@ public class Controller : MonoBehaviour
         x = Input.GetAxis(xAxisName);
         y = Input.GetAxis(yAxisName);
 
-        evade = Input.GetButton(evadeName);
+        evade = Input.GetButtonDown(evadeName);
         power = Input.GetButtonDown(powerName);
         attack = Input.GetMouseButtonDown(LEFT_MOUSE_BUTTON);
-        sec = Input.GetMouseButton(RIGHT_MOUSE_BUTTON);
+        sec = Input.GetMouseButtonDown(RIGHT_MOUSE_BUTTON);
 
         change = Input.GetButtonDown(eKeyName);
 
