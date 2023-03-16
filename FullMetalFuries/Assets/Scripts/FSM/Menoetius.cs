@@ -15,5 +15,10 @@ public class Menoetius : MonoBehaviour
     {
         Debug.Log($"미노 : 아야 {_hp}");
         _hp -= damage;
+
+        if (_hp <= 0)
+        {
+            Debug.Log("미노 : 죽음");
+        }
     }
 }

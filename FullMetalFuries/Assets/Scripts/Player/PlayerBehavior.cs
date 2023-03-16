@@ -67,9 +67,15 @@ public class PlayerBehavior : MonoBehaviour
     {
         Debug.Log("아야");
         _hp -= damage;
+
+        if (_hp <= 0)
+        {
+            Dead();
+        }
     }
 
     private void Dead()
     {
+        Debug.Log("사망");
     }
 }
