@@ -6,8 +6,9 @@ public class PlayerBehavior : MonoBehaviour
 {
     private Controller _controller;
     private Rigidbody2D _rigidbody;
+    private Animator _animator;
 
-    private const float MOVE_SPEED = 5f;
+    private const float MOVE_SPEED = 2f;
 
     [SerializeField] private int _hp = 100;
 
@@ -15,6 +16,7 @@ public class PlayerBehavior : MonoBehaviour
     {
         _controller = GetComponent<Controller>();
         _rigidbody = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
 
         GameManager.Instance.playerHit.AddListener(Hit);
     }
@@ -24,6 +26,10 @@ public class PlayerBehavior : MonoBehaviour
         if (_controller.x != 0 || _controller.y != 0)
         {
             Move();
+        }
+        else
+        {
+            _animator.SetBool("isStop", true);
         }
 
         if (_controller.attack)
@@ -55,6 +61,17 @@ public class PlayerBehavior : MonoBehaviour
         Vector2 playerPosition = transform.position;
         Vector2 point = playerPosition + Vector2.right * _controller.x + Vector2.up * _controller.y;
         _rigidbody.MovePosition(point + MOVE_SPEED * Time.deltaTime * Vector2.right);
+        _animator.SetBool("isStop", false);
+
+        Debug.Log($"{_rigidbody.velocity.normalized.x}");
+        if (_controller.x > 0)
+        {
+            transform.localScale = new Vector3(1f, 1f, 1f);
+        }
+        else
+        {
+            transform.localScale = new Vector3(-1f, 1f, 1f);
+        }
     }
 
     private void Attack()
