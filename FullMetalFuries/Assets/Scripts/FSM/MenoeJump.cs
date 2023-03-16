@@ -14,6 +14,7 @@ public class MenoeJump : StateMachineBehaviour
 
     private const float JUMP_HEIGHT = 20f;
     private const float SPEED = 5f;
+    private const int DAMAGE = 15;
 
     private Vector2 BezierCurve(float t)
     {
@@ -57,7 +58,8 @@ public class MenoeJump : StateMachineBehaviour
         Collider2D collider = Physics2D.OverlapCircle(attackRange.position, ATTACK_RANGE_RADIUS, PLAYER_LAYER);
         if (collider != null)
         {
-            // 데미지 입혔다고 알리기
+            Debug.Log("미노 : 공격");
+            GameManager.Instance.SufferDamage(DAMAGE);
         }
     }
 }
