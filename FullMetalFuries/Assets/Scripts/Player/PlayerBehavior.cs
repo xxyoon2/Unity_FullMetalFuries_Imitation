@@ -63,7 +63,6 @@ public class PlayerBehavior : MonoBehaviour
         _rigidbody.MovePosition(point + MOVE_SPEED * Time.deltaTime * Vector2.right);
         _animator.SetBool("isStop", false);
 
-        Debug.Log($"{_rigidbody.velocity.normalized.x}");
         if (_controller.x > 0)
         {
             transform.localScale = new Vector3(1f, 1f, 1f);
