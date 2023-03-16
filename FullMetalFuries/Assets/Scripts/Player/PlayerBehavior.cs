@@ -8,9 +8,15 @@ public class PlayerBehavior : MonoBehaviour
     private Rigidbody2D _rigidbody;
     private Animator _animator;
 
+    private readonly string combinationKey = "attackCombination";
+    private readonly string timeLimitKey = "attackTimeLimit";
+
     private const float MOVE_SPEED = 2f;
 
     [SerializeField] private int _hp = 100;
+
+    private int attackCombination = 1;
+    private float attackTimeLimit = 0;
 
     void Start()
     {
@@ -76,7 +82,11 @@ public class PlayerBehavior : MonoBehaviour
     private void Attack()
     {
         Debug.Log("공격");
-        GameManager.Instance.InflictDamage(5);
+
+        _animator.SetInteger(combinationKey, attackCombination % 2 + 1);
+        _animator.SetTrigger("attack");
+        attackCombination += 1;
+        //GameManager.Instance.InflictDamage(5);
     }
 
     private void Hit(int damage)
