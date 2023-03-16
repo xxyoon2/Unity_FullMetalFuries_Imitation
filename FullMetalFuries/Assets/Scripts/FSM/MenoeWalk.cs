@@ -9,7 +9,7 @@ public class MenoeWalk : StateMachineBehaviour
 
     private const float SPEED = 0.5f;
     private const float DISTANCE = 1f;
-    private const float ATTACK_RANGE = 3f;
+    private const float ATTACK_RANGE = 5f;
 
     enum SkillTree
     {
@@ -64,6 +64,7 @@ public class MenoeWalk : StateMachineBehaviour
             _pos = SetDestination();
 
             SkillTree skill = (SkillTree)Attack();
+            //SkillTree skill = SkillTree.AX;
             switch (skill)
             {
                 case SkillTree.AX:

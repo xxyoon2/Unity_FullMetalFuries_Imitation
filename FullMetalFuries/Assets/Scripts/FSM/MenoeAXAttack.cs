@@ -5,6 +5,7 @@ using UnityEngine;
 public class MenoeAXAttack : StateMachineBehaviour
 {
     private const int PLAYER_LAYER = 1 << 7;
+    private const int DAMAGE = 10;
 
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -12,7 +13,8 @@ public class MenoeAXAttack : StateMachineBehaviour
         Collider2D collider = Physics2D.OverlapBox(attackRange.transform.position, attackRange.transform.localScale, 0f, PLAYER_LAYER);
         if (collider != null)
         {
-            // 데미지 입혔다고 알리기
+            Debug.Log("미노 : 공격");
+            GameManager.Instance.SufferDamage(DAMAGE);
         }
     }
 }

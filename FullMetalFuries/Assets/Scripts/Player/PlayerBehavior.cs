@@ -9,10 +9,14 @@ public class PlayerBehavior : MonoBehaviour
 
     private const float MOVE_SPEED = 5f;
 
+    [SerializeField] private int _hp = 100;
+
     void Start()
     {
         _controller = GetComponent<Controller>();
         _rigidbody = GetComponent<Rigidbody2D>();
+
+        GameManager.Instance.playerHit.AddListener(Hit);
     }
 
     void Update()
@@ -24,8 +28,7 @@ public class PlayerBehavior : MonoBehaviour
 
         if (_controller.attack)
         {
-            // 공격
-            Debug.Log("공격 ");
+            Attack();
         }
 
         if (_controller.sec)
@@ -52,5 +55,27 @@ public class PlayerBehavior : MonoBehaviour
         Vector2 playerPosition = transform.position;
         Vector2 point = playerPosition + Vector2.right * _controller.x + Vector2.up * _controller.y;
         _rigidbody.MovePosition(point + MOVE_SPEED * Time.deltaTime * Vector2.right);
+    }
+
+    private void Attack()
+    {
+        Debug.Log("공격");
+        GameManager.Instance.InflictDamage(5);
+    }
+
+    private void Hit(int damage)
+    {
+        Debug.Log("아야");
+        _hp -= damage;
+
+        if (_hp <= 0)
+        {
+            Dead();
+        }
+    }
+
+    private void Dead()
+    {
+        Debug.Log("사망");
     }
 }
