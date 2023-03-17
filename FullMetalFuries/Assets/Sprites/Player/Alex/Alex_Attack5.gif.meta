@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -66,6 +66,42 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -78,7 +114,364 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Alex_Attack5_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 39
+        height: 27
+      alignment: 9
+      pivot: {x: 0.81, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573ac949233f84f189ae4222b8e3618b
+      internalID: 563853944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex_Attack5_1
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 0
+        width: 39
+        height: 27
+      alignment: 9
+      pivot: {x: 0.81, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a311867a77d764bd4bf59f53cc728062
+      internalID: -844860867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex_Attack5_2
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 0
+        width: 40
+        height: 27
+      alignment: 9
+      pivot: {x: 0.81, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5944f7de9e684770884d1b9f4c88560
+      internalID: 1889202160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex_Attack5_3
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 0
+        width: 40
+        height: 27
+      alignment: 9
+      pivot: {x: 0.81, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a090540b75e5a4b26a81db83fb00c8a0
+      internalID: -1741851724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex_Attack5_4
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 37
+        height: 29
+      alignment: 9
+      pivot: {x: 0.82, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bd407dab61146fbb188f8ed0c358e1
+      internalID: 480462434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex_Attack5_5
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 0
+        width: 35
+        height: 35
+      alignment: 9
+      pivot: {x: 0.82, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacc323518ea648cfb6a407890314aae
+      internalID: -1706766771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex_Attack5_6
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 0
+        width: 34
+        height: 38
+      alignment: 9
+      pivot: {x: 0.8, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8cea7b82b815451e9081548c15d21ac
+      internalID: 1873321435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex_Attack5_7
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 0
+        width: 40
+        height: 31
+      alignment: 9
+      pivot: {x: 0.8, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee47051ecc884ce888c0d1db4ba5645
+      internalID: 844529450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex_Attack5_8
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 0
+        width: 80
+        height: 64
+      alignment: 9
+      pivot: {x: 0.44, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a2a78f2311f4f3bbf14090b749a15f
+      internalID: 405852447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex_Attack5_9
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 0
+        width: 78
+        height: 35
+      alignment: 9
+      pivot: {x: 0.47, y: 0.24}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a10e99ba5f04a53848ee15bc216b3e
+      internalID: 1272875906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex_Attack5_10
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 0
+        width: 45
+        height: 34
+      alignment: 9
+      pivot: {x: 0.81, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f23ffed7a4a423698f2ce3bdafd0c2
+      internalID: -1810358617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex_Attack5_11
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 0
+        width: 39
+        height: 28
+      alignment: 9
+      pivot: {x: 0.81, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7bcf7711b67e4c3290f3fa6b28842b9
+      internalID: -1181923069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex_Attack5_12
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 0
+        width: 39
+        height: 28
+      alignment: 9
+      pivot: {x: 0.8, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f9a16e590cf4dc993ca2ea6f727c90
+      internalID: -670678576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex_Attack5_13
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 0
+        width: 39
+        height: 28
+      alignment: 9
+      pivot: {x: 0.8, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8194093dbdfd24c1ab8e9a637d7e5ec2
+      internalID: 2116074958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex_Attack5_14
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 0
+        width: 39
+        height: 28
+      alignment: 9
+      pivot: {x: 0.81, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760bd54f0a3a14820883dc397ded0ac6
+      internalID: -1774841212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex_Attack5_15
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 0
+        width: 39
+        height: 28
+      alignment: 9
+      pivot: {x: 0.82, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627be90c790534496b487ddd528d896a
+      internalID: 1164074322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex_Attack5_16
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 39
+        height: 28
+      alignment: 9
+      pivot: {x: 0.8, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf9c2a6d46ba4670a2a4593b04dbee8
+      internalID: -520074884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +482,24 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Alex_Attack5_0: 563853944
+      Alex_Attack5_7: 844529450
+      Alex_Attack5_9: 1272875906
+      Alex_Attack5_14: -1774841212
+      Alex_Attack5_8: 405852447
+      Alex_Attack5_10: -1810358617
+      Alex_Attack5_5: -1706766771
+      Alex_Attack5_4: 480462434
+      Alex_Attack5_2: 1889202160
+      Alex_Attack5_6: 1873321435
+      Alex_Attack5_13: 2116074958
+      Alex_Attack5_16: -520074884
+      Alex_Attack5_15: 1164074322
+      Alex_Attack5_12: -670678576
+      Alex_Attack5_11: -1181923069
+      Alex_Attack5_1: -844860867
+      Alex_Attack5_3: -1741851724
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
