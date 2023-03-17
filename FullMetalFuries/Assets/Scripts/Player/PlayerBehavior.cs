@@ -66,7 +66,7 @@ public class PlayerBehavior : MonoBehaviour
     {
         Vector2 playerPosition = transform.position;
         Vector2 point = playerPosition + Vector2.right * _controller.x + Vector2.up * _controller.y;
-        _rigidbody.MovePosition(point + MOVE_SPEED * Time.deltaTime);
+        _rigidbody.MovePosition(point + MOVE_SPEED * Time.deltaTime * Vector2.right);
         _animator.SetBool("isStop", false);
 
         if (_controller.x > 0)
