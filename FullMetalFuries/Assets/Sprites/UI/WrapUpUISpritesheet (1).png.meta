@@ -1,0 +1,6030 @@
+fileFormatVersion: 2
+guid: 384269f71dbc047b5bb5c175f908a6f4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 689
+        width: 217
+        height: 335
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ee0f1c053594b7d8a4f05694e1579e
+      internalID: -2012839750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_1
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 698
+        width: 509
+        height: 326
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7431c60a396224c7ba5ac6b5a12676b6
+      internalID: 256586237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_2
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 782
+        width: 959
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce118bf08b3a74c6393ac8fe58509acd
+      internalID: -1989485890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_3
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 812
+        width: 194
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2be9f9286b7d40aca86b4f454c5e1e0
+      internalID: 1063412691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_4
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 882
+        width: 130
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410a4e52e38244fed9700625ba3ad43c
+      internalID: 655159432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_5
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 930
+        width: 33
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e7515d6405e4658a2a22102abdb9e5
+      internalID: 1921140882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_6
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 901
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994439e93ba5b46a9badd4f9cca85187
+      internalID: -1857640361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_7
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 916
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b99b8d16e554976aac3eb2b46a5a4d
+      internalID: -1341406403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_8
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 921
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d434df40df4742db872f3af4b6847f9
+      internalID: -393833136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_9
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 906
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d4c4de30f604fcb92194a0b8904af7
+      internalID: 1463011259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_10
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 887
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0699d96254d1942288189543a93c9682
+      internalID: -1323651249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_11
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 671
+        width: 59
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2aebdc1fde4a4effbce46daecce86e7
+      internalID: 1448043097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_12
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 782
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32440fdb64024436a2f7934e57d8083
+      internalID: -1517030055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_13
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 767
+        width: 76
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b909d32fa636c4361a79c737c200b7d5
+      internalID: 965645692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_14
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 742
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9443980a44d04872ae3e8f1dd605012
+      internalID: -801589829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_15
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 761
+        width: 118
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0c3512d91ca40329c8aa36c957728c
+      internalID: 537258927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_16
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 765
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e133dd6edf7e49bc9796e6952107788
+      internalID: -1376905513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_17
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 773
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb9dd59d57f64582907e64100349534
+      internalID: 1421803107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_18
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 776
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ffea9a98e6e8458ab57e83bd2dbe93b
+      internalID: -12800830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_19
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 738
+        width: 52
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0658acfcc42f5464888b018236650ce6
+      internalID: 1931788231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_20
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 744
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1248ed86776f42faa3c61a2e6d1444c
+      internalID: -1115780421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_21
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 734
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbeb2bf81a844928a86f66289da1bc5
+      internalID: 2062784317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_22
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 722
+        width: 14
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6faeafdb189c48708202bd0bdd81425
+      internalID: -781936454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_23
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 642
+        width: 116
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923d6eb3dbfb34801adc83bc99c3a225
+      internalID: -236973940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_24
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 721
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ee18563504e40a39fc821da78290bc
+      internalID: 1936724537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_25
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 721
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c37e8ff42f9045cca209680f67e993d
+      internalID: 1477891871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_26
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 715
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7df8f73b1d6147cd9bd25aef4e5219f
+      internalID: 1239908766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_27
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 668
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5e206405601445fba5d29ad70b9325
+      internalID: -272481514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_28
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 721
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02223563bded3444681a4706528d8250
+      internalID: 1768396352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_29
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 726
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7f28b2289c24ddab56bae84aa06d33
+      internalID: -1603603021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_30
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 714
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0900d99f3e17b45c0bc61b875855c207
+      internalID: 1128973054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_31
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 646
+        width: 54
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fcb7860e6eee49fd8d5c127541bb1c4
+      internalID: 68573751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_32
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 717
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98933243a45e0407988bf34f4055f7ae
+      internalID: -1305747466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_33
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 716
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa467f1252c945a690cf79f5668fb5a
+      internalID: 999661593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_34
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 696
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2e65c16340544d389e40a2d0e87043
+      internalID: 1684679604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_35
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 672
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70f980b93fcc4ab6a9bb255340f9e3e
+      internalID: 1942560471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_36
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 705
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1626995e8ae4754b222863f35aaae3
+      internalID: -1203590090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_37
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 697
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f043c50ac01ac42ddaba7a786336a653
+      internalID: 263807328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_38
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 696
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87f8f824846d4a7a8b2312ed428163b
+      internalID: -1975251001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_39
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 694
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11a8834f0f78457a95e0a05df8c5d75
+      internalID: -405626620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_40
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 697
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6870730ab66054b11933c2e13f8080b4
+      internalID: -73294525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 476
+        width: 194
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f008b265122b74f868d589021576cbf4
+      internalID: -89930211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_42
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 485
+        width: 194
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201a6a4497b734f87b779e95876ea9a4
+      internalID: 1967438600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_43
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 485
+        width: 194
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62986ce2f98443b0a047697c0807262
+      internalID: 602101781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_44
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 485
+        width: 194
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3d1f0794f2d4867bdcd9b16f9b2d0c
+      internalID: -693757988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_45
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 686
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b63de26988514fbbb8c0bda8c26f364
+      internalID: -1604670810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_46
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 661
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147b932d4958f4a1580192860c109915
+      internalID: -1043213504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_47
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 680
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16975196f7ae9439ca5abdcd2c77098d
+      internalID: 959091276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_48
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 674
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3515f6c925945c081246e277d51f2f
+      internalID: 760709472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_49
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 668
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f90ca82ccde489f8a3958c48fc4977
+      internalID: -661338481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_50
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 683
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3698db3f895428ab22de18ac11a1ed
+      internalID: -1246863631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_51
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 669
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb10b286fa7b4b71aaa2128b39aea7c
+      internalID: 86033255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_52
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 679
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20af0d73aa2cc4c87a2e71c7f831abc9
+      internalID: -652134300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_53
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 668
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6b62aeb3cd54dd7992e5552935f8c8
+      internalID: 2134719155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_54
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 676
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923f3c81c0bb8403683947f3dd9a32b8
+      internalID: -338843974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_55
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 665
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486aed844739041a2bd55d3a3fa46ce4
+      internalID: 432700729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_56
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 659
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d7a6e5d876d40b39020acc5ad05f90
+      internalID: 559426381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_57
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 667
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9b645fae0a04de5aed1c94f85a7d69
+      internalID: -236224110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_58
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 655
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7e449e586b14e6d82c6f83d357f00a
+      internalID: -1867142183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_59
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 670
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb5787d7bdaf4b0b91fb13ee5cd9014
+      internalID: -938263396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_60
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 668
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82530bdc788740efa7a32240062f648
+      internalID: -1441991243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_61
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 654
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68f5c7cb9a1c423e92beb7e9cd7387f
+      internalID: -512815832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_62
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 652
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5a06f3698504f5bb3b401df54f14ce
+      internalID: -659056719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_63
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 666
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132d36b0fa8ee449d85344c1bd543784
+      internalID: 2045521440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_64
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 643
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32938e522cfc2463d8fd5e872b40d05f
+      internalID: -1225121298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_65
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 659
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068f0e84368c549f5b91a44438a1cd6f
+      internalID: 98921193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_66
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 650
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29cc48e79213e422a86f6e1135df2dbb
+      internalID: 882485338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_67
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 650
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873ad8d6f135c40b98372c18e5a54f08
+      internalID: -509460364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_68
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 661
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8fbf1e48f5ef498a956bfe790c28f84
+      internalID: 557431809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_69
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 651
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d640cfc1b90646319a5aaf99c32ad76
+      internalID: 1209286400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_70
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 640
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015b8fd8b10c44e659e1a98b5d642361
+      internalID: -778842553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_71
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 653
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d70f3974a688485289a84ff0ab90b58
+      internalID: -522062419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_72
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 650
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29ee7db94de449d99e9312e331aba93
+      internalID: -1414011909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_73
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 618
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4877656ba2042ab994dfb2697e6584
+      internalID: -276843813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_74
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 632
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a69efebb4d794f21b87cd2aa8a88fc2
+      internalID: 798268186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_75
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 641
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0dfc3332789241428eec8dab1d31dcf
+      internalID: 437919976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_76
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 642
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a167ce33ff54c03937c4a4cdc46a79
+      internalID: -491107920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_77
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 642
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6004b861c5bae49d9983e9e7b74a06bc
+      internalID: -242196692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_78
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 625
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df59140a2b164e12aa2f76b87d52884
+      internalID: 300964199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_79
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 532
+        width: 90
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca627ad8683e484d9cb72181391b08c
+      internalID: 1297982963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_80
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 532
+        width: 78
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530498be618a84d9aaf714cec49cdba4
+      internalID: 1800415313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_81
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 533
+        width: 97
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ade1ecd7abe54c0e94a20d1603c79f8
+      internalID: -77512141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_82
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 588
+        width: 21
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b32ddb5a5c2b44bd967fd91be80b36d
+      internalID: 1128618328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_83
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 597
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3492bf35fd344d91af79472ccd75c98
+      internalID: -1593021835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_84
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 587
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a96933c44cdd453d91095a3e4b679e3
+      internalID: -1795122173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_85
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 581
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78da237667884054920643f6bb42203
+      internalID: 1378202406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_86
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 576
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f28467ec28c04c178c06c4f5721eb35
+      internalID: 1660838294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_87
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 572
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0d8bd8dac8d4c9ab419fba30795117
+      internalID: -1490848058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_88
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 564
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e06f4eb42a084b02a7aa8c30d1d788b
+      internalID: 1052351611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_89
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 573
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218ee0f442eca47f3b3254c6d704f71d
+      internalID: 1437704444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_90
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 571
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a8986d6d5d94719afaa29bfb0c5509
+      internalID: 434094467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_91
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 444
+        width: 82
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9b1b0277fff476f8b6bff0a24e20bc
+      internalID: -2080228545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_92
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 548
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde770af0731a48edb8c465d403dbff3
+      internalID: 696289666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_93
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 537
+        width: 74
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c2cbe3500434b37a3761c889f0c8d3
+      internalID: -2077280880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_94
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 431
+        width: 435
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b21572282164b03bb2959055e32f1c
+      internalID: -1070676609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_95
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 456
+        width: 74
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d57ba772b1284685be3daf95263dd1a
+      internalID: -1189412506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_96
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 550
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811032ad575d0495492b511c104b0e48
+      internalID: -668877736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_97
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 540
+        width: 69
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8c9d26431854af9a3493c1c5472561
+      internalID: 1268898733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_98
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 456
+        width: 225
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a62f6d990f43424c922fd28dfc0743b
+      internalID: 790586994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_99
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 541
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2705de8c885314e6aba2c3e146c19866
+      internalID: -577361916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_100
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 536
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4049c9fe3d0455d99a107b642ac273
+      internalID: 1460875452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_101
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 515
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b20883f70a144f6bca12d647c148e4
+      internalID: -1726286137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_102
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 535
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bff599dca7d4c7f927d065dddd9777
+      internalID: 665508278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_103
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 516
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b627a776943e64694a1cbe7cf46dc5d1
+      internalID: -2026196211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_104
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 511
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a1e4083380b413d84e75890af1cf3b
+      internalID: 1681901012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_105
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 508
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48034f10ec5346a8b3d0066a68b343e
+      internalID: -669431819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_106
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 520
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582b85d5aa5c64042aedf5ba2ff673ef
+      internalID: -1674489061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_107
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 531
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2566a39d7184d2dbbcc3d668652a7d
+      internalID: -489556056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_108
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 528
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144819c0cde2d4dd4a6c4685cbb0812c
+      internalID: 1930036121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_109
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 522
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33f1e9c26d3f4736a7969f7263d60c6
+      internalID: -447915875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_110
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 521
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e50b3bd2265a40a4b2bde469b01eba9
+      internalID: -32155416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_111
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 531
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a39a0bd280d41979fecfbc93f1d3c1
+      internalID: -1216904920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_112
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 504
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203d6c15b3b034c739a752823b9b9cb9
+      internalID: -96513771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_113
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 427
+        width: 38
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e420706a2124b6da8cd0a4141e1d66
+      internalID: 1291985172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_114
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 446
+        width: 81
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcc8815cd4d7473c97855c310f277f2
+      internalID: 1489059293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_115
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 497
+        width: 8
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dab6cc182f9d430ab398babf0a323de
+      internalID: 433437179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_116
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 514
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f3fe8512e0043ad8df6e284c0dfdce
+      internalID: -322717510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_117
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 426
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baac82283ef0149d09b00321a1e8ace2
+      internalID: -241519290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_118
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 426
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14192699fa5bc4e729bdba5d173c4d2a
+      internalID: 1916568121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_119
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 508
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a134f0c569cf47b593950bb5364e008
+      internalID: 1668914235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_120
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 501
+        width: 67
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a888e34043846416fa512b9655a66b9a
+      internalID: -218340344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_121
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 493
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b282b488115ca45d3914dc8165002805
+      internalID: 1923799655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_122
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 493
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7748c90ac0c04bfeb5891cbf2aa2d7e
+      internalID: -489700432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_123
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 493
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9698e3fa99aa4358b4f90e4f511d5e0
+      internalID: 1814641691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_124
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 496
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a4a238b878b40db85fa69a155945de
+      internalID: -1417199808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_125
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 501
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a8394bcab474c0fa2ff533911e4d8c
+      internalID: -1998258759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_126
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 447
+        width: 78
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1f533c067d144558722dcf001867ce
+      internalID: -600328527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_127
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 501
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc32fc7187874a54b81142dda4012bf
+      internalID: 538342736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_128
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 501
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d04668ade9546839ab472a1c490163
+      internalID: 166759536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_129
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 436
+        width: 90
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266e470a2553846e6bc6f71707d3e7b9
+      internalID: 700278102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_130
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 493
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09323c5303ef471b9184b1d8594f662
+      internalID: 834669955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_131
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 493
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2af123ef3f13449db2ae870ed457050
+      internalID: 1218592682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_132
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 450
+        width: 53
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6035f1272af1f4e52b49096646ab3b8a
+      internalID: 675776146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_133
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 334
+        width: 217
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a427d0c8232274667ad32c4206e8d756
+      internalID: 1944718155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_134
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 342
+        width: 130
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e10a0204d3d24ffdb58ce95d48db033
+      internalID: 1308712354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_135
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 342
+        width: 130
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0499c6c2796a4840bcc5b5f6843495f
+      internalID: -888448173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_136
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 342
+        width: 130
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3492df373b5143e29d28c4360e240ad
+      internalID: 677422056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_137
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 460
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d22d9745690f4f9c86b9719f38036ba
+      internalID: 379312892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_138
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 464
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9328897bacd0e478f810cca11b05a35f
+      internalID: 92914765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_139
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 463
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a38887f3a814401e9aa80e5cf6c64ce
+      internalID: 34996835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_140
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 466
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9540f56e450c845e08c7ffb6fd75e430
+      internalID: -1920473050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_141
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 471
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8749ec7bf5dae4eb3b9d2a96d0383be3
+      internalID: -1038937211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_142
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 474
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1dd2adb12f544a2b81df04b6e334b2d
+      internalID: -1058182500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_143
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 474
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb1309d58c044e8996710d633ffdf29
+      internalID: 1435737022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_144
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 471
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367738347743a4e9292799dca70b05b1
+      internalID: 1961167168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_145
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 358
+        width: 59
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2786a5af4381e4865b659bf16c5c2bf1
+      internalID: 536245873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_146
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 449
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1ddbdde4b784ab489c4d951a7eaa5c
+      internalID: 1528932987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_147
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 460
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa402f14d83748b688ea1e5560826c6
+      internalID: -2054926314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_148
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 453
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06aa0953e32646cb83719ba671713af
+      internalID: -1273683090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_149
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 451
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd37c8dbbae24ddcad3ca84573abf6f
+      internalID: 312581195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_150
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 452
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13f5123421ae40f9a6da704ed63004f
+      internalID: -2073405613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_151
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 457
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5fec0af31f341c99e3e4f5eb315d7f
+      internalID: 320775237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_152
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 446
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb0a6e2b12a6467489af648b9fe879b
+      internalID: 1349040047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_153
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 444
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2f953b9a4b5489a970f7c2f196f6cf
+      internalID: -2103260980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_154
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 453
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589395f5cf84145668142945bd6bd875
+      internalID: -942841528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_155
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 449
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143d0b8ecb8364b20afec953c99888a0
+      internalID: 1892987365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_156
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 450
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be7d92dc7d9d4389893e699299fdd95
+      internalID: -1863611227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_157
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 449
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c93a130954704a7fa9e8ced293c843a
+      internalID: 2037215013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_158
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 449
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102a11f4b58074d95a8f721cdb2f5371
+      internalID: -1621728766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_159
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 350
+        width: 88
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfdbd64fd0b614584856a93268946d80
+      internalID: 405622835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_160
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 350
+        width: 86
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61eeb89fa930d4d0d8fe7f47a9b4b4f7
+      internalID: 1069803519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_161
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 350
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5bf00910786452198e22fd8c0c90a7
+      internalID: 599713791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_162
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 441
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85018093c7874895ab76b765e4178a4
+      internalID: 1455215777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_163
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 438
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ada2da9579ab4e1c8ba93517a162f26
+      internalID: 97562691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_164
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 439
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784ba69630d2947b18e8cc3a1a06447d
+      internalID: 170547332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_165
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 446
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d650f650fee324147841e2a6e1cadc36
+      internalID: 183265163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_166
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 444
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8771ee5c1d7a14b5988aa8241bb8483e
+      internalID: -580990531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_167
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 443
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722c55082b2db4b1e8c67c7b025b24fe
+      internalID: 2005779295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_168
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 437
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a215c577cc96404c8c5531801236c33
+      internalID: 989354459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_169
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 441
+        width: 19
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca310ef3e64d4f41949e7f7d2ef2f7b
+      internalID: -1853343690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_170
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 440
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1624c71962c3425e89314d0ab80c979
+      internalID: 984679737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_171
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 436
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de75dbecb22ea4c88ae55c701ecaed5f
+      internalID: 2003019659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_172
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 336
+        width: 101
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7764f07060140b8b52ba7879f28768
+      internalID: -876655366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_173
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 374
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08590a5c6181149128e5ff9e4863f77f
+      internalID: -1275598104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_174
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 414
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff39ba9853da481b911df1ae71a9e43
+      internalID: 1150477409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_175
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 433
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419ce50ba909649539817083dfc2fad1
+      internalID: -840365844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_176
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 436
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e08a953129640dd9d074615ea6fdf3
+      internalID: -1115779083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_177
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 433
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c623a119b1f4754aa7ead482874204
+      internalID: -1959039469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_178
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 430
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee01788d8a2f400cb777bcc8e0be731
+      internalID: 240338944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_179
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 429
+        width: 29
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31b58fbe66e24546ab0e1ee7b9920a0
+      internalID: -1277145739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_180
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 337
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bbd6c7fef7842749fa7a62d86a061f
+      internalID: 138387327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_181
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 310
+        width: 54
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91d7ef1f9c9041b789f49c14c54bd9c
+      internalID: -107775202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_182
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 386
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b44b2c23af94c92a91b5200dd89ce8
+      internalID: 629771972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_183
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 380
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8122086e32c6d4848aa58e2df42d34e0
+      internalID: 1910134980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_184
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 347
+        width: 72
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7ae6ea143ff407caaef5564eea8308
+      internalID: -1175449196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_185
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 347
+        width: 62
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9595f3dc6db9a4d45b88a73c06e552af
+      internalID: 1013542650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_186
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 348
+        width: 31
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0620eb92e81764a53a1f48288d2accbb
+      internalID: -1917661975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_187
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 332
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fc682965408409c8f62254706520ab
+      internalID: 1737646297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_188
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 318
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3bb764b5fca41d58fd8a2b56917229
+      internalID: -2072117637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_189
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 235
+        width: 960
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a71e57f6d92a40ec92292215000503c
+      internalID: 1976735615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_190
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 235
+        width: 77
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7efac0ed70c4fa6a8cddedb7151812
+      internalID: 1289483468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_191
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 260
+        width: 37
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d602fdf441e4a598ea696040404207
+      internalID: -899703786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_192
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 249
+        width: 77
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14429adfd717544649440c2b56b505b6
+      internalID: -435915919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_193
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 333
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de034a205d8ca4fb289d747ad2f46c6c
+      internalID: 237234299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_194
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 263
+        width: 85
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0a9ab10b91b4644be8cd604bd3b01a
+      internalID: -709547576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_195
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 269
+        width: 53
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6488002d3c847418f3093364504847
+      internalID: 466294741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_196
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 270
+        width: 67
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4991bd9fac34990a51873000e70b04
+      internalID: -469677634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_197
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 275
+        width: 89
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a031ee0c72e9f47d4ad0435fad3df2b2
+      internalID: -523792677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_198
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 283
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d316ce1736e340da9d288b33cd7326e
+      internalID: 710420115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_199
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 290
+        width: 69
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4748bf32c30b4fcbb999462512d4e51
+      internalID: 1769261035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_200
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 319
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d73e359e7df847ab906b6ec42af9f52
+      internalID: 1812171762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_201
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 306
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cc897c18fe74bc69095e29dc05b177
+      internalID: -1231186987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_202
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 325
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a2c416e8cd34f85a304d3d3b65d2a4
+      internalID: -746942239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_203
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 315
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833d7b675828d4476ab7e884d46b6148
+      internalID: -862992162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_204
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 225
+        width: 75
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57bada83087a43948455ee9dd5fae05
+      internalID: 188018467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_205
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 226
+        width: 75
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4682890739d431384d594b6fc0c5b1
+      internalID: -506557538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_206
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 246
+        width: 37
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb50be3c7f07649e6b7dc92de9205862
+      internalID: -413197205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_207
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 319
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a9108b7a935452088c74dca2d0fbc6
+      internalID: 278324567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_208
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 329
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29905c02e72bb4168a15d37ff76eac1c
+      internalID: -1176501821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_209
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 314
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ebff25530c44b009c1fcfa28f0c2af
+      internalID: -1512843457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_210
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 314
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b780e9fe362b34e9d90c04ea79138940
+      internalID: 721282794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_211
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 315
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f9966042de742f9b8fc7d005ae9066
+      internalID: 1426039110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_212
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 311
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0f938f13ff34b47ba7c540f95c9471
+      internalID: 1988792877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_213
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 306
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74e4549f97684395b1ac5770ca6808e
+      internalID: 338832575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_214
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 306
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd44e535896f47d2b1ff30c4d9188c2
+      internalID: 833701794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_215
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 297
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f43d7b19c3084080a7d9f5e2379f485
+      internalID: -978271074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_216
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 197
+        width: 85
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee751872e1e94b0da866c6066d023ce
+      internalID: 1998998662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_217
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 197
+        width: 75
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d772a222f40874b6bbcb624c17a498e5
+      internalID: -1763628272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_218
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 294
+        width: 50
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e915a3c2bc59d4f39982972103a9578c
+      internalID: 167937920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_219
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 280
+        width: 50
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325b0616425c84f819ea6a5697da39ce
+      internalID: 1933366887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_220
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 266
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde912783243e4f96b36306bfe5050da
+      internalID: -1526109701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_221
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 271
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d372d6338de47440ba76609352a2317a
+      internalID: -158249973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_222
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 229
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cceb91f96b14fe7a85bb5ac28b4e10
+      internalID: -874126463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_223
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 245
+        width: 100
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77529096ee2124635b4abfaf2211c3e3
+      internalID: 1664643878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_224
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 252
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46af4ffc812c40dc9c9d026c69dbf1d
+      internalID: -1800703986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_225
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 257
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c26722ae2b24eee8b05932069315b2
+      internalID: 685127816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_226
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 250
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d07400bc68b48fd843896ade4ebedf
+      internalID: 1825326108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_227
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 256
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27be24c3a5aed4d68be09817effebe89
+      internalID: 613368374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_228
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 254
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7b3438c697f4be9b86f6d1203e1cf2
+      internalID: 47537240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_229
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 254
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78e429d815ba490c8515d089de34e7d
+      internalID: 619907131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_230
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 213
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b27c79f6f2a4e3babe7c6f14c8a98a
+      internalID: -830519433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_231
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 220
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3462129d1527434a907569d6d541255
+      internalID: -2015625293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_232
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 221
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a86db902bf64db393b7bf33a39e263
+      internalID: 301316859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_233
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 242
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d45a8e1544b45b0b8c0bd6f4676434
+      internalID: 1523309615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_234
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 249
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a93f02c4671049979145f22ea9f89b9
+      internalID: -841448770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_235
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 236
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a0d0663c5084859807ea655d03ac39
+      internalID: -241816085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_236
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 240
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13586f2cd9d084f3daf3138b424a944d
+      internalID: 932698445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_237
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 240
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6863456db4544ab8ab1fd41b3d2614
+      internalID: -1703505875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_238
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 211
+        width: 91
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e7b4383fcf04d298cd1d4ca465a33f
+      internalID: 1233173232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_239
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 235
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884796dbc20d549f1bdfd23a6327ebb5
+      internalID: 157874487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 103
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92fa9d8e9dc3b4176bd2e36288d914fb
+      internalID: -1924816918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_241
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 166
+        width: 465
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383a04a46e0424608bd1e787a872aa09
+      internalID: 1710785659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_242
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 173
+        width: 960
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c93fd51e554543499842104c7fd8eca
+      internalID: 1914838215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_243
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 168
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580d05b09f1604afa932b4689e2ae7d0
+      internalID: 1369088307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_244
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 175
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7680ae35d7a428385ac0e3c33c0cc3
+      internalID: 1689817904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_245
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 176
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd26abbc9e63d49fb861142683f3490c
+      internalID: 1741260957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_246
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 184
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d250123a96d1245cf98e5b219243db49
+      internalID: 836759322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_247
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 177
+        width: 91
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7998563ef9440a7a29079e46fce113
+      internalID: -775636215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_248
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 111
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7bbf6dd298e4b67aa330fa29d65025
+      internalID: -1356217210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_249
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 111
+        width: 21
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e110b75322c174f27b2851c9ea380e45
+      internalID: 2146409641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_250
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 111
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85138b3fd8d3e411392aa4b5fe92c4da
+      internalID: -63046379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_251
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 111
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adb49361364f4ef399715344931b4eb
+      internalID: -2056300424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_252
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 111
+        width: 21
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcfac15dcee041f1b23dbc4ef40420e
+      internalID: 611101564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_253
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 111
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd232e0fd0a50490fb068e36c971ca32
+      internalID: -649465354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_254
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 111
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee50d0c8b1ff049c7b1004126df76c66
+      internalID: -1956331824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_255
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 115
+        width: 306
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2fea56c24d54e60bf1d25b18cd0c02
+      internalID: -124909149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_256
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 127
+        width: 949
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31ff1a6c71594bb4954692dc54e1850
+      internalID: 1754272631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_257
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 126
+        width: 302
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a47892f8165e40c3832460d4507fe5c
+      internalID: 1667129078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_258
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6fe1d6c4f2448308b3a2d96e0477e8
+      internalID: 330292011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_259
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 47
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f75ddd0eb1e42158a59a9e56aba7a6
+      internalID: 1944531942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_260
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 70
+        width: 330
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21dfa8dde7254709a16f03ee7ef3f5e
+      internalID: -851216983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_261
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 86
+        width: 482
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded7d96c857994a4895129827001e923
+      internalID: -1118308282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_262
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 86
+        width: 181
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c0d08156ab34bf5bd595bd415d1a63
+      internalID: 1288636561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_263
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 87
+        width: 664
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3582a74dfccb4a56ba69606ae6d48bf
+      internalID: 107948927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_264
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 36
+        width: 651
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e3ec936da4f4211b616305deb8035f
+      internalID: -50883956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_265
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 52
+        width: 651
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693daf82206c24ddc89521f6d9131b20
+      internalID: -453425539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_266
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 64
+        width: 172
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c817e387230a415986322b8d1273f25
+      internalID: 426788134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WrapUpUISpritesheet (1)_267
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 220
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf57a16869d340f591e20fbac795988
+      internalID: 1151413860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      WrapUpUISpritesheet (1)_181: -107775202
+      WrapUpUISpritesheet (1)_54: -338843974
+      WrapUpUISpritesheet (1)_55: 432700729
+      WrapUpUISpritesheet (1)_70: -778842553
+      WrapUpUISpritesheet (1)_137: 379312892
+      WrapUpUISpritesheet (1)_115: 433437179
+      WrapUpUISpritesheet (1)_190: 1289483468
+      WrapUpUISpritesheet (1)_46: -1043213504
+      WrapUpUISpritesheet (1)_212: 1988792877
+      WrapUpUISpritesheet (1)_21: 2062784317
+      WrapUpUISpritesheet (1)_226: 1825326108
+      WrapUpUISpritesheet (1)_67: -509460364
+      WrapUpUISpritesheet (1)_51: 86033255
+      WrapUpUISpritesheet (1)_87: -1490848058
+      WrapUpUISpritesheet (1)_122: -489700432
+      WrapUpUISpritesheet (1)_109: -447915875
+      WrapUpUISpritesheet (1)_60: -1441991243
+      WrapUpUISpritesheet (1)_40: -73294525
+      WrapUpUISpritesheet (1)_183: 1910134980
+      WrapUpUISpritesheet (1)_244: 1689817904
+      WrapUpUISpritesheet (1)_30: 1128973054
+      WrapUpUISpritesheet (1)_214: 833701794
+      WrapUpUISpritesheet (1)_172: -876655366
+      WrapUpUISpritesheet (1)_149: 312581195
+      WrapUpUISpritesheet (1)_221: -158249973
+      WrapUpUISpritesheet (1)_20: -1115780421
+      WrapUpUISpritesheet (1)_32: -1305747466
+      WrapUpUISpritesheet (1)_108: 1930036121
+      WrapUpUISpritesheet (1)_225: 685127816
+      WrapUpUISpritesheet (1)_199: 1769261035
+      WrapUpUISpritesheet (1)_25: 1477891871
+      WrapUpUISpritesheet (1)_164: 170547332
+      WrapUpUISpritesheet (1)_234: -841448770
+      WrapUpUISpritesheet (1)_73: -276843813
+      WrapUpUISpritesheet (1)_267: 1151413860
+      WrapUpUISpritesheet (1)_89: 1437704444
+      WrapUpUISpritesheet (1)_120: -218340344
+      WrapUpUISpritesheet (1)_41: -89930211
+      WrapUpUISpritesheet (1)_142: -1058182500
+      WrapUpUISpritesheet (1)_264: -50883956
+      WrapUpUISpritesheet (1)_19: 1931788231
+      WrapUpUISpritesheet (1)_147: -2054926314
+      WrapUpUISpritesheet (1)_24: 1936724537
+      WrapUpUISpritesheet (1)_242: 1914838215
+      WrapUpUISpritesheet (1)_151: 320775237
+      WrapUpUISpritesheet (1)_0: -2012839750
+      WrapUpUISpritesheet (1)_5: 1921140882
+      WrapUpUISpritesheet (1)_246: 836759322
+      WrapUpUISpritesheet (1)_145: 536245873
+      WrapUpUISpritesheet (1)_17: 1421803107
+      WrapUpUISpritesheet (1)_130: 834669955
+      WrapUpUISpritesheet (1)_119: 1668914235
+      WrapUpUISpritesheet (1)_148: -1273683090
+      WrapUpUISpritesheet (1)_11: 1448043097
+      WrapUpUISpritesheet (1)_173: -1275598104
+      WrapUpUISpritesheet (1)_132: 675776146
+      WrapUpUISpritesheet (1)_177: -1959039469
+      WrapUpUISpritesheet (1)_178: 240338944
+      WrapUpUISpritesheet (1)_153: -2103260980
+      WrapUpUISpritesheet (1)_238: 1233173232
+      WrapUpUISpritesheet (1)_220: -1526109701
+      WrapUpUISpritesheet (1)_253: -649465354
+      WrapUpUISpritesheet (1)_103: -2026196211
+      WrapUpUISpritesheet (1)_255: -124909149
+      WrapUpUISpritesheet (1)_28: 1768396352
+      WrapUpUISpritesheet (1)_175: -840365844
+      WrapUpUISpritesheet (1)_118: 1916568121
+      WrapUpUISpritesheet (1)_243: 1369088307
+      WrapUpUISpritesheet (1)_12: -1517030055
+      WrapUpUISpritesheet (1)_158: -1621728766
+      WrapUpUISpritesheet (1)_57: -236224110
+      WrapUpUISpritesheet (1)_50: -1246863631
+      WrapUpUISpritesheet (1)_194: -709547576
+      WrapUpUISpritesheet (1)_112: -96513771
+      WrapUpUISpritesheet (1)_133: 1944718155
+      WrapUpUISpritesheet (1)_174: 1150477409
+      WrapUpUISpritesheet (1)_240: -1924816918
+      WrapUpUISpritesheet (1)_127: 538342736
+      WrapUpUISpritesheet (1)_201: -1231186987
+      WrapUpUISpritesheet (1)_170: 984679737
+      WrapUpUISpritesheet (1)_248: -1356217210
+      WrapUpUISpritesheet (1)_64: -1225121298
+      WrapUpUISpritesheet (1)_72: -1414011909
+      WrapUpUISpritesheet (1)_107: -489556056
+      WrapUpUISpritesheet (1)_156: -1863611227
+      WrapUpUISpritesheet (1)_139: 34996835
+      WrapUpUISpritesheet (1)_111: -1216904920
+      WrapUpUISpritesheet (1)_154: -942841528
+      WrapUpUISpritesheet (1)_187: 1737646297
+      WrapUpUISpritesheet (1)_251: -2056300424
+      WrapUpUISpritesheet (1)_63: 2045521440
+      WrapUpUISpritesheet (1)_106: -1674489061
+      WrapUpUISpritesheet (1)_18: -12800830
+      WrapUpUISpritesheet (1)_79: 1297982963
+      WrapUpUISpritesheet (1)_114: 1489059293
+      WrapUpUISpritesheet (1)_217: -1763628272
+      WrapUpUISpritesheet (1)_121: 1923799655
+      WrapUpUISpritesheet (1)_39: -405626620
+      WrapUpUISpritesheet (1)_155: 1892987365
+      WrapUpUISpritesheet (1)_76: -491107920
+      WrapUpUISpritesheet (1)_3: 1063412691
+      WrapUpUISpritesheet (1)_224: -1800703986
+      WrapUpUISpritesheet (1)_35: 1942560471
+      WrapUpUISpritesheet (1)_16: -1376905513
+      WrapUpUISpritesheet (1)_99: -577361916
+      WrapUpUISpritesheet (1)_96: -668877736
+      WrapUpUISpritesheet (1)_203: -862992162
+      WrapUpUISpritesheet (1)_219: 1933366887
+      WrapUpUISpritesheet (1)_135: -888448173
+      WrapUpUISpritesheet (1)_231: -2015625293
+      WrapUpUISpritesheet (1)_198: 710420115
+      WrapUpUISpritesheet (1)_117: -241519290
+      WrapUpUISpritesheet (1)_58: -1867142183
+      WrapUpUISpritesheet (1)_241: 1710785659
+      WrapUpUISpritesheet (1)_113: 1291985172
+      WrapUpUISpritesheet (1)_250: -63046379
+      WrapUpUISpritesheet (1)_92: 696289666
+      WrapUpUISpritesheet (1)_22: -781936454
+      WrapUpUISpritesheet (1)_56: 559426381
+      WrapUpUISpritesheet (1)_82: 1128618328
+      WrapUpUISpritesheet (1)_1: 256586237
+      WrapUpUISpritesheet (1)_165: 183265163
+      WrapUpUISpritesheet (1)_245: 1741260957
+      WrapUpUISpritesheet (1)_256: 1754272631
+      WrapUpUISpritesheet (1)_65: 98921193
+      WrapUpUISpritesheet (1)_125: -1998258759
+      WrapUpUISpritesheet (1)_189: 1976735615
+      WrapUpUISpritesheet (1)_13: 965645692
+      WrapUpUISpritesheet (1)_229: 619907131
+      WrapUpUISpritesheet (1)_232: 301316859
+      WrapUpUISpritesheet (1)_168: 989354459
+      WrapUpUISpritesheet (1)_185: 1013542650
+      WrapUpUISpritesheet (1)_191: -899703786
+      WrapUpUISpritesheet (1)_171: 2003019659
+      WrapUpUISpritesheet (1)_104: 1681901012
+      WrapUpUISpritesheet (1)_157: 2037215013
+      WrapUpUISpritesheet (1)_192: -435915919
+      WrapUpUISpritesheet (1)_161: 599713791
+      WrapUpUISpritesheet (1)_254: -1956331824
+      WrapUpUISpritesheet (1)_166: -580990531
+      WrapUpUISpritesheet (1)_42: 1967438600
+      WrapUpUISpritesheet (1)_176: -1115779083
+      WrapUpUISpritesheet (1)_53: 2134719155
+      WrapUpUISpritesheet (1)_227: 613368374
+      WrapUpUISpritesheet (1)_85: 1378202406
+      WrapUpUISpritesheet (1)_78: 300964199
+      WrapUpUISpritesheet (1)_86: 1660838294
+      WrapUpUISpritesheet (1)_213: 338832575
+      WrapUpUISpritesheet (1)_81: -77512141
+      WrapUpUISpritesheet (1)_179: -1277145739
+      WrapUpUISpritesheet (1)_222: -874126463
+      WrapUpUISpritesheet (1)_128: 166759536
+      WrapUpUISpritesheet (1)_182: 629771972
+      WrapUpUISpritesheet (1)_196: -469677634
+      WrapUpUISpritesheet (1)_180: 138387327
+      WrapUpUISpritesheet (1)_100: 1460875452
+      WrapUpUISpritesheet (1)_93: -2077280880
+      WrapUpUISpritesheet (1)_160: 1069803519
+      WrapUpUISpritesheet (1)_69: 1209286400
+      WrapUpUISpritesheet (1)_44: -693757988
+      WrapUpUISpritesheet (1)_97: 1268898733
+      WrapUpUISpritesheet (1)_152: 1349040047
+      WrapUpUISpritesheet (1)_252: 611101564
+      WrapUpUISpritesheet (1)_83: -1593021835
+      WrapUpUISpritesheet (1)_218: 167937920
+      WrapUpUISpritesheet (1)_34: 1684679604
+      WrapUpUISpritesheet (1)_116: -322717510
+      WrapUpUISpritesheet (1)_210: 721282794
+      WrapUpUISpritesheet (1)_8: -393833136
+      WrapUpUISpritesheet (1)_159: 405622835
+      WrapUpUISpritesheet (1)_186: -1917661975
+      WrapUpUISpritesheet (1)_188: -2072117637
+      WrapUpUISpritesheet (1)_4: 655159432
+      WrapUpUISpritesheet (1)_140: -1920473050
+      WrapUpUISpritesheet (1)_62: -659056719
+      WrapUpUISpritesheet (1)_216: 1998998662
+      WrapUpUISpritesheet (1)_230: -830519433
+      WrapUpUISpritesheet (1)_169: -1853343690
+      WrapUpUISpritesheet (1)_45: -1604670810
+      WrapUpUISpritesheet (1)_49: -661338481
+      WrapUpUISpritesheet (1)_126: -600328527
+      WrapUpUISpritesheet (1)_150: -2073405613
+      WrapUpUISpritesheet (1)_163: 97562691
+      WrapUpUISpritesheet (1)_98: 790586994
+      WrapUpUISpritesheet (1)_204: 188018467
+      WrapUpUISpritesheet (1)_233: 1523309615
+      WrapUpUISpritesheet (1)_105: -669431819
+      WrapUpUISpritesheet (1)_228: 47537240
+      WrapUpUISpritesheet (1)_68: 557431809
+      WrapUpUISpritesheet (1)_15: 537258927
+      WrapUpUISpritesheet (1)_52: -652134300
+      WrapUpUISpritesheet (1)_23: -236973940
+      WrapUpUISpritesheet (1)_61: -512815832
+      WrapUpUISpritesheet (1)_143: 1435737022
+      WrapUpUISpritesheet (1)_94: -1070676609
+      WrapUpUISpritesheet (1)_209: -1512843457
+      WrapUpUISpritesheet (1)_258: 330292011
+      WrapUpUISpritesheet (1)_43: 602101781
+      WrapUpUISpritesheet (1)_14: -801589829
+      WrapUpUISpritesheet (1)_80: 1800415313
+      WrapUpUISpritesheet (1)_29: -1603603021
+      WrapUpUISpritesheet (1)_88: 1052351611
+      WrapUpUISpritesheet (1)_102: 665508278
+      WrapUpUISpritesheet (1)_26: 1239908766
+      WrapUpUISpritesheet (1)_101: -1726286137
+      WrapUpUISpritesheet (1)_200: 1812171762
+      WrapUpUISpritesheet (1)_207: 278324567
+      WrapUpUISpritesheet (1)_31: 68573751
+      WrapUpUISpritesheet (1)_162: 1455215777
+      WrapUpUISpritesheet (1)_134: 1308712354
+      WrapUpUISpritesheet (1)_237: -1703505875
+      WrapUpUISpritesheet (1)_33: 999661593
+      WrapUpUISpritesheet (1)_184: -1175449196
+      WrapUpUISpritesheet (1)_59: -938263396
+      WrapUpUISpritesheet (1)_84: -1795122173
+      WrapUpUISpritesheet (1)_38: -1975251001
+      WrapUpUISpritesheet (1)_7: -1341406403
+      WrapUpUISpritesheet (1)_74: 798268186
+      WrapUpUISpritesheet (1)_215: -978271074
+      WrapUpUISpritesheet (1)_131: 1218592682
+      WrapUpUISpritesheet (1)_249: 2146409641
+      WrapUpUISpritesheet (1)_195: 466294741
+      WrapUpUISpritesheet (1)_260: -851216983
+      WrapUpUISpritesheet (1)_266: 426788134
+      WrapUpUISpritesheet (1)_208: -1176501821
+      WrapUpUISpritesheet (1)_110: -32155416
+      WrapUpUISpritesheet (1)_48: 760709472
+      WrapUpUISpritesheet (1)_259: 1944531942
+      WrapUpUISpritesheet (1)_265: -453425539
+      WrapUpUISpritesheet (1)_47: 959091276
+      WrapUpUISpritesheet (1)_257: 1667129078
+      WrapUpUISpritesheet (1)_206: -413197205
+      WrapUpUISpritesheet (1)_197: -523792677
+      WrapUpUISpritesheet (1)_27: -272481514
+      WrapUpUISpritesheet (1)_6: -1857640361
+      WrapUpUISpritesheet (1)_71: -522062419
+      WrapUpUISpritesheet (1)_66: 882485338
+      WrapUpUISpritesheet (1)_223: 1664643878
+      WrapUpUISpritesheet (1)_141: -1038937211
+      WrapUpUISpritesheet (1)_202: -746942239
+      WrapUpUISpritesheet (1)_211: 1426039110
+      WrapUpUISpritesheet (1)_247: -775636215
+      WrapUpUISpritesheet (1)_9: 1463011259
+      WrapUpUISpritesheet (1)_235: -241816085
+      WrapUpUISpritesheet (1)_77: -242196692
+      WrapUpUISpritesheet (1)_236: 932698445
+      WrapUpUISpritesheet (1)_36: -1203590090
+      WrapUpUISpritesheet (1)_193: 237234299
+      WrapUpUISpritesheet (1)_2: -1989485890
+      WrapUpUISpritesheet (1)_129: 700278102
+      WrapUpUISpritesheet (1)_138: 92914765
+      WrapUpUISpritesheet (1)_263: 107948927
+      WrapUpUISpritesheet (1)_95: -1189412506
+      WrapUpUISpritesheet (1)_91: -2080228545
+      WrapUpUISpritesheet (1)_124: -1417199808
+      WrapUpUISpritesheet (1)_37: 263807328
+      WrapUpUISpritesheet (1)_75: 437919976
+      WrapUpUISpritesheet (1)_123: 1814641691
+      WrapUpUISpritesheet (1)_262: 1288636561
+      WrapUpUISpritesheet (1)_146: 1528932987
+      WrapUpUISpritesheet (1)_167: 2005779295
+      WrapUpUISpritesheet (1)_136: 677422056
+      WrapUpUISpritesheet (1)_205: -506557538
+      WrapUpUISpritesheet (1)_261: -1118308282
+      WrapUpUISpritesheet (1)_10: -1323651249
+      WrapUpUISpritesheet (1)_144: 1961167168
+      WrapUpUISpritesheet (1)_90: 434094467
+      WrapUpUISpritesheet (1)_239: 157874487
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

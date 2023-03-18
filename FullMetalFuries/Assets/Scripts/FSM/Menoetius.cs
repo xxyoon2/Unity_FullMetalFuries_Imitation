@@ -13,8 +13,9 @@ public class Menoetius : MonoBehaviour
 
     private void Hit(int damage)
     {
-        Debug.Log($"미노 : 아야 {_hp}");
         _hp -= damage;
+        Model.BattleModel.SetHp(_hp);
+
 
         if (_hp <= 0)
         {
