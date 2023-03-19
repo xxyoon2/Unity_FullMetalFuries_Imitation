@@ -12,11 +12,18 @@ public class PlayerBehavior : MonoBehaviour
     private readonly string timeLimitKey = "attackTimeLimit";
 
     private const float MOVE_SPEED = 2f;
+    private int attackCombination = 1;
 
     [SerializeField] private int _hp = 100;
+    [SerializeField] private State _state = State.NONE;
 
-    private int attackCombination = 1;
-    private float attackTimeLimit = 0;
+
+
+    private enum State
+    {
+        NONE,
+        DEAD
+    }
 
     void Start()
     {
@@ -29,6 +36,11 @@ public class PlayerBehavior : MonoBehaviour
 
     void Update()
     {
+        if (_state == State.DEAD)
+        {
+            return;
+        }
+
         if (_controller.x != 0 || _controller.y != 0)
         {
             Move();
@@ -110,6 +122,7 @@ public class PlayerBehavior : MonoBehaviour
 
     private void Dead()
     {
-        Debug.Log("사망");
+        _state = State.DEAD;
+        _animator.SetTrigger("death");
     }
 }
