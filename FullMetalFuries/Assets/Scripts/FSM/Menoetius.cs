@@ -10,7 +10,7 @@ public class Menoetius : MonoBehaviour
 
     void Start()
     {
-        _animator = GetComponent<Animator>();
+        _animator = gameObject.GetComponent<Animator>();
 
         GameManager.Instance.playerAttack.AddListener(Hit);
     }

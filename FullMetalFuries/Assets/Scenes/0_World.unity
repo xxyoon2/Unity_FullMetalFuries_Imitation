@@ -123,32 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &162147637 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1008205905187116161, guid: c8d24b32ca8f9456eafc8d02125961dc, type: 3}
-  m_PrefabInstance: {fileID: 912789899}
-  m_PrefabAsset: {fileID: 0}
---- !u!50 &162147644
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 162147637}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1001 &247331993
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -307,7 +281,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.7598314
+  orthographic size: 7.46
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -710,6 +684,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 162147644, guid: c8d24b32ca8f9456eafc8d02125961dc, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 1008205905187116161, guid: c8d24b32ca8f9456eafc8d02125961dc, type: 3}
       propertyPath: m_Name
       value: Menoetius
@@ -724,7 +702,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1008205905187116164, guid: c8d24b32ca8f9456eafc8d02125961dc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.4
+      value: -2.84
       objectReference: {fileID: 0}
     - target: {fileID: 1008205905187116164, guid: c8d24b32ca8f9456eafc8d02125961dc, type: 3}
       propertyPath: m_LocalPosition.z

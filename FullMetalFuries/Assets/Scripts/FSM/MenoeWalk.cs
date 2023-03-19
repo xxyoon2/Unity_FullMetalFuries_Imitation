@@ -6,10 +6,15 @@ public class MenoeWalk : StateMachineBehaviour
 {
     private Vector2 _pos;
     private Transform _transform;
+    private Rigidbody2D _rigidbody;
 
-    private const float SPEED = 0.5f;
+    private const float SPEED = 5f;
     private const float DISTANCE = 1f;
     private const float ATTACK_RANGE = 5f;
+    private const float WAITING_TIME = 2f;
+    private const float TIME_OUT = 0f;
+
+    private float _counter;
 
     enum SkillTree
     {
@@ -23,8 +28,8 @@ public class MenoeWalk : StateMachineBehaviour
 
     private Vector2 SetDestination()
     {
-        float x = Random.Range(_transform.position.x - DISTANCE, _transform.position.x + DISTANCE);
-        float y = Random.Range(_transform.position.y - DISTANCE, _transform.position.y + DISTANCE);
+        float x = Random.Range(-1, 2);
+        float y = Random.Range(-1, 2);
 
         return new Vector2(x, y);
     }
@@ -49,6 +54,8 @@ public class MenoeWalk : StateMachineBehaviour
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         _transform = animator.transform;
+        _rigidbody = _transform.GetComponent<Rigidbody2D>();
+        _counter = WAITING_TIME;
         _pos = SetDestination();
 
         animator.SetInteger("attack", (int)SkillTree.NONE);
@@ -66,15 +73,15 @@ public class MenoeWalk : StateMachineBehaviour
 
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        _transform.position = Vector2.MoveTowards(_transform.position, _pos, SPEED * Time.deltaTime);
+        Vector2 position = _transform.position;
+        Vector2 point = position + _pos * SPEED * Time.fixedDeltaTime;
+        _rigidbody.MovePosition(point);
 
-        float distance = Vector2.Distance(_pos, _transform.position);
-        if (distance <= 0.01f)
+        if (_counter <= TIME_OUT)
         {
             _pos = SetDestination();
 
             SkillTree skill = (SkillTree)Attack();
-            //SkillTree skill = SkillTree.AX;
             switch (skill)
             {
                 case SkillTree.AX:
@@ -92,5 +99,7 @@ public class MenoeWalk : StateMachineBehaviour
                     break;
             }
         }
+
+        _counter -= Time.deltaTime;
     }
 }

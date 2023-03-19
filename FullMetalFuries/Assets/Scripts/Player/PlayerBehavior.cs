@@ -9,9 +9,8 @@ public class PlayerBehavior : MonoBehaviour
     private Animator _animator;
 
     private readonly string combinationKey = "attackCombination";
-    private readonly string timeLimitKey = "attackTimeLimit";
 
-    private const float MOVE_SPEED = 2f;
+    private const float MOVE_SPEED = 8f;
     private int attackCombination = 1;
 
     [SerializeField] private int _hp = 100;
@@ -22,7 +21,9 @@ public class PlayerBehavior : MonoBehaviour
     private enum State
     {
         NONE,
-        DEAD
+        ATTACK,
+        DEAD,
+        MAX
     }
 
     void Start()
@@ -34,7 +35,7 @@ public class PlayerBehavior : MonoBehaviour
         GameManager.Instance.playerHit.AddListener(Hit);
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (_state == State.DEAD)
         {
@@ -50,35 +51,27 @@ public class PlayerBehavior : MonoBehaviour
             _animator.SetBool("isStop", true);
         }
 
+        
+    }
+
+    void Update()
+    {
+        if (_state == State.DEAD)
+        {
+            return;
+        }
+
         if (_controller.attack)
         {
             Attack();
         }
-
-        //if (_controller.sec)
-        //{
-        //    // 보조기
-        //    Debug.Log("보조 ");
-        //}
-
-        //if (_controller.evade)
-        //{
-        //    // 회피기
-        //    Debug.Log("회피  ");
-        //}
-
-        //if (_controller.power)
-        //{
-        //    // 특수기
-        //    Debug.Log("특수 ");
-        //}
     }
 
     private void Move()
     {
         Vector2 playerPosition = transform.position;
-        Vector2 point = playerPosition + Vector2.right * _controller.x + Vector2.up * _controller.y;
-        _rigidbody.MovePosition(point + MOVE_SPEED * Time.deltaTime * Vector2.right);
+        Vector2 point = playerPosition + (Vector2.right * _controller.x + Vector2.up * _controller.y) * MOVE_SPEED * Time.fixedDeltaTime;
+        _rigidbody.MovePosition(point);
         _animator.SetBool("isStop", false);
 
         if (_controller.x > 0)
