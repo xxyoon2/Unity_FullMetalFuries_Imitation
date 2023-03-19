@@ -6,8 +6,12 @@ public class Menoetius : MonoBehaviour
 {
     [SerializeField] private int _hp = 100;
 
+    private Animator _animator;
+
     void Start()
     {
+        _animator = gameObject.GetComponent<Animator>();
+
         GameManager.Instance.playerAttack.AddListener(Hit);
     }
 
@@ -19,6 +23,7 @@ public class Menoetius : MonoBehaviour
 
         if (_hp <= 0)
         {
+            _animator.SetTrigger("death");
             Debug.Log("미노 : 죽음");
         }
     }
