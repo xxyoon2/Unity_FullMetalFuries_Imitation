@@ -55,7 +55,6 @@ public class MenoeWalk : StateMachineBehaviour
     {
         _transform = animator.transform;
         _rigidbody = _transform.GetComponent<Rigidbody2D>();
-        _counter = WAITING_TIME;
         _pos = SetDestination();
 
         animator.SetInteger("attack", (int)SkillTree.NONE);
@@ -80,8 +79,10 @@ public class MenoeWalk : StateMachineBehaviour
         if (_counter <= TIME_OUT)
         {
             _pos = SetDestination();
+            _counter = WAITING_TIME;
 
             SkillTree skill = (SkillTree)Attack();
+            Debug.Log($"{skill}");
             switch (skill)
             {
                 case SkillTree.AX:
