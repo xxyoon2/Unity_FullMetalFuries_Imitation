@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1008205904860598394}
   - component: {fileID: 1008205904860598395}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AXAttackRange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,7 +68,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1008205904896324548}
   - component: {fileID: 1008205904896324549}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RecoilRange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121,7 +121,7 @@ GameObject:
   - component: {fileID: 4756419552351409152}
   - component: {fileID: 178252786}
   - component: {fileID: 162147644}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Menoetius
   m_TagString: Untagged
   m_Icon: {fileID: 0}

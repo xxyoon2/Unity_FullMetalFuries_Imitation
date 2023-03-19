@@ -86,8 +86,6 @@ public class PlayerBehavior : MonoBehaviour
 
     private void Attack()
     {
-        Debug.Log("공격");
-
         _animator.SetInteger(combinationKey, attackCombination);
         _animator.SetTrigger("attack");
 
@@ -98,8 +96,6 @@ public class PlayerBehavior : MonoBehaviour
         // 2-1. 피격이 없을 때는 1 - 2 반복
         // 2-2. 1번이건 2번이건 피격시키면 3 - 4 - 5 콤비네이션으로 넘어감
         // 일단 공격이라도 되게,
-
-
     }
 
     private void Hit(int damage)
