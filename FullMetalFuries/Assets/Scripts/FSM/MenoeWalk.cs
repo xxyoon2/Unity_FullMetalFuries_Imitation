@@ -52,6 +52,16 @@ public class MenoeWalk : StateMachineBehaviour
         _pos = SetDestination();
 
         animator.SetInteger("attack", (int)SkillTree.NONE);
+
+        var targetPosition = GameObject.FindWithTag("Player").transform.position;
+        if (targetPosition.x > _transform.position.x)
+        {
+            _transform.localScale = new Vector3(2f, 2f, 1f);
+        }
+        else
+        {
+            _transform.localScale = new Vector3(-2f, 2f, 1f);
+        }
     }
 
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
