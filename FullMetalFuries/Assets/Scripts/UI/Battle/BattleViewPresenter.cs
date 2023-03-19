@@ -48,30 +48,4 @@ public class BattleViewPresenter : Presenter
     {
         _battleView.bossHealthBar.value = hp;
     }
-
-    //public void Oninitialize()
-    //{
-    //    _battleView = 
-    //}
-
-    //public void OnRelease()
-    //{
-    //    _battleView = default;
-    //    _compositeDisposable.Dispose();
-    //}
-
-    //private void InitalizeRx()
-    //{
-    //    
-    //}
-
-    //private void OnHpBar(int hp)
-    //{
-    //   
-    //}
-
-    //private void OnClose()
-    //{
-
-    //}
 }
