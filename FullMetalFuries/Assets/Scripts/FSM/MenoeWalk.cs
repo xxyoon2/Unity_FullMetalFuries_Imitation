@@ -8,10 +8,10 @@ public class MenoeWalk : StateMachineBehaviour
     private Transform _transform;
     private Rigidbody2D _rigidbody;
 
-    private const float SPEED = 5f;
-    private const float DISTANCE = 1f;
+    private const float SPEED = 1f;
+    //private const float DISTANCE = 1f;
     private const float ATTACK_RANGE = 5f;
-    private const float WAITING_TIME = 2f;
+    private const float WAITING_TIME = 1.2f;
     private const float TIME_OUT = 0f;
 
     private float _counter;
