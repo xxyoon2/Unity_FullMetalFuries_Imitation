@@ -111,6 +111,8 @@ public class PlayerBehavior : MonoBehaviour
 
     private void Dead()
     {
+        GameManager.Instance.GameOver();
+
         _state = State.DEAD;
         _animator.SetTrigger("death");
     }
