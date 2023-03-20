@@ -16,13 +16,12 @@ public class PlayerBehavior : MonoBehaviour
     [SerializeField] private int _hp = 100;
     [SerializeField] private State _state = State.NONE;
 
-
-
     private enum State
     {
         NONE,
-        ATTACK,
-        DEAD,
+        ATTACK,     // 공격
+        INVNC,      // 무적
+        DEAD,       // 죽음
         MAX
     }
 
@@ -67,6 +66,9 @@ public class PlayerBehavior : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// 플레이어 이동
+    /// </summary>
     private void Move()
     {
         Vector2 playerPosition = transform.position;
@@ -84,6 +86,9 @@ public class PlayerBehavior : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// 플레이어 공격 
+    /// </summary>
     private void Attack()
     {
         _animator.SetInteger(combinationKey, attackCombination);
@@ -98,17 +103,53 @@ public class PlayerBehavior : MonoBehaviour
         // 일단 공격이라도 되게,
     }
 
+    /// <summary>
+    /// 적 공격에 맞았을 때 이벤트에 의해 실행되는 함수
+    /// </summary>
+    /// <param name="damage"></param>
     private void Hit(int damage)
     {
-        Debug.Log("아야");
+        if (_state == State.INVNC)
+        {
+            return;
+        }
+
         _hp -= damage;
 
         if (_hp <= 0)
         {
             Dead();
         }
+
+        _state = State.INVNC;
+        StartCoroutine("InvincibleState");
     }
 
+    /// <summary>
+    /// 무적 상태
+    /// </summary>
+    /// <returns></returns>
+    IEnumerator InvincibleState()
+    {
+        SpriteRenderer sprite = GetComponent<SpriteRenderer>();
+        int count = 0;
+        while(count < 6)
+        {
+            sprite.color = new Color(255f, 255f, 255f, 0f);
+            yield return new WaitForSeconds(0.2f);
+            sprite.color = new Color(255f, 255f, 255f, 255f);
+            yield return new WaitForSeconds(0.2f);
+
+            ++count;
+        }
+
+        _state = State.NONE;
+        yield break;
+    }
+
+    /// <summary>
+    /// 플레이어가 체력이 0이 되었을 때 한 번 호출되는 함수 
+    /// </summary>
     private void Dead()
     {
         GameManager.Instance.GameOver();
