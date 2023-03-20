@@ -4,15 +4,14 @@ using UnityEngine;
 
 using UniRx;
 
-public class BattleViewPresenter : Presenter
+public class EndingViewPresenter : Presenter
 {
-    private BattleView _battleView;
+    private EndingView _endingView;
     private CompositeDisposable _compositeDisposable = new CompositeDisposable();
 
     public override void OnInitialize(View view)
     {
-        _battleView = view as BattleView;
-        Model.BattleModel.InitHP();
+        _endingView = view as EndingView;
         InitializeRx();
     }
 
@@ -22,7 +21,7 @@ public class BattleViewPresenter : Presenter
     /// </summary>
     public override void OnRelease()
     {
-        _battleView = default;
+        _endingView = default;
         _compositeDisposable.Dispose();
     }
 
@@ -41,11 +40,18 @@ public class BattleViewPresenter : Presenter
     /// </summary>
     protected override void OnUpdateModel()
     {
-        Model.BattleModel.hpData.Subscribe(UpdateBossHealthBar).AddTo(_compositeDisposable);
+        Model.Model.endingText.Subscribe(Ending).AddTo(_compositeDisposable);
     }
 
-    private void UpdateBossHealthBar(int hp)
+    private void Ending(string text)
     {
-        _battleView.bossHealthBar.value = hp;
+        if (text == null)
+        {
+            return;
+        }
+
+        _endingView.background.gameObject.SetActive(true);
+        _endingView.endingText.gameObject.SetActive(true);
+        _endingView.endingText.text = text;
     }
 }

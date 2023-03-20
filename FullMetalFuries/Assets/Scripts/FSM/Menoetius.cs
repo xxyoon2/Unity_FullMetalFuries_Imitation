@@ -18,12 +18,13 @@ public class Menoetius : MonoBehaviour
     private void Hit(int damage)
     {
         _hp -= damage;
-        Model.BattleModel.SetHp(_hp);
+        Model.Model.SetHp(_hp);
 
 
         if (_hp <= 0)
         {
             _animator.SetTrigger("death");
+            GameManager.Instance.GameClear();
             Debug.Log("미노 : 죽음");
         }
     }
