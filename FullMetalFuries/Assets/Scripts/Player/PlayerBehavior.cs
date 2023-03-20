@@ -11,7 +11,7 @@ public class PlayerBehavior : MonoBehaviour
     private readonly string combinationKey = "attackCombination";
 
     private const float MOVE_SPEED = 8f;
-    private int attackCombination = 1;
+    private int _attackCombination = 1;
 
     [SerializeField] private int _hp = 100;
     [SerializeField] private State _state = State.NONE;
@@ -19,7 +19,6 @@ public class PlayerBehavior : MonoBehaviour
     private enum State
     {
         NONE,
-        //ATTACK,     // 공격
         INVNC,      // 무적
         DEAD,       // 죽음
         MAX
@@ -79,16 +78,65 @@ public class PlayerBehavior : MonoBehaviour
     /// </summary>
     private void Attack()
     {
-        _animator.SetInteger(combinationKey, attackCombination);
+        _animator.SetInteger(combinationKey, _attackCombination);
         _animator.SetTrigger("attack");
+    }
 
-        // 파이터 일반 공격 구현
-        // 1. 공격할 때 파이터가 보고있는 방향으로 조금씩 움직여야 함 (BehaviorState)
-        // 1. 공격할 때는 키보드 입력으로 움직이는 것은 막아야함
-        // 2. 공격 패턴이 있음 (총 5개의 일반 공격이 있음) 
-        // 2-1. 피격이 없을 때는 1 - 2 반복
-        // 2-2. 1번이건 2번이건 피격시키면 3 - 4 - 5 콤비네이션으로 넘어감
-        // 일단 공격이라도 되게,
+    public void SetCombinationCount()
+    {
+        switch (_attackCombination)
+        {
+            case 1:
+            case 2:
+                if (_isCombinationPossible)
+                {
+                    _attackCombination = 3;
+                }
+                else
+                {
+                    _attackCombination = _attackCombination == 1 ? 2 : 1;
+                }
+                break;
+            case 3:
+            case 4:
+                if (_isCombinationPossible)
+                {
+                    ++_attackCombination;
+                }
+                else
+                {
+                    _attackCombination = 1;
+                }
+                break;
+            case 5:
+                _attackCombination = 1;
+                break;
+            default:
+                _attackCombination = 1;
+                break;
+        }
+    }
+
+    public void HitSuces()
+    {
+        StartCoroutine("HitDecisionCounter");
+    }
+
+    private bool _isCombinationPossible = false;
+    private const float COMBINATION_COUNTER_TIME = 2f;
+
+    IEnumerator HitDecisionCounter()
+    {
+        _isCombinationPossible = true;
+        float counter = 0f;
+        while (counter <= COMBINATION_COUNTER_TIME)
+        {
+            counter += Time.deltaTime;
+            yield return 0;
+        }
+
+        _isCombinationPossible = false;
+        yield break;
     }
 
     /// <summary>

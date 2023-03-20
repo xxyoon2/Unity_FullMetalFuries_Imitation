@@ -22,9 +22,13 @@ public class PlayerAttack : StateMachineBehaviour
         Collider2D collider = Physics2D.OverlapBox(attackRange.transform.position, attackRange.transform.localScale, 0f, ENEMY_LAYER);
         if (collider != null)
         {
+            _transform.GetComponent<PlayerBehavior>().HitSuces();
             Debug.Log("공격");
+
             GameManager.Instance.InflictDamage(DAMAGE);
         }
+
+        _transform.GetComponent<PlayerBehavior>().SetCombinationCount();
     }
 
     public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
