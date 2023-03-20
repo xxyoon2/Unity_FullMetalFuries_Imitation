@@ -19,7 +19,7 @@ public class PlayerBehavior : MonoBehaviour
     private enum State
     {
         NONE,
-        ATTACK,     // 공격
+        //ATTACK,     // 공격
         INVNC,      // 무적
         DEAD,       // 죽음
         MAX
@@ -71,19 +71,7 @@ public class PlayerBehavior : MonoBehaviour
     /// </summary>
     private void Move()
     {
-        Vector2 playerPosition = transform.position;
-        Vector2 point = playerPosition + (Vector2.right * _controller.x + Vector2.up * _controller.y) * MOVE_SPEED * Time.fixedDeltaTime;
-        _rigidbody.MovePosition(point);
         _animator.SetBool("isStop", false);
-
-        if (_controller.x > 0)
-        {
-            transform.localScale = new Vector3(1f, 1f, 1f);
-        }
-        else
-        {
-            transform.localScale = new Vector3(-1f, 1f, 1f);
-        }
     }
 
     /// <summary>
