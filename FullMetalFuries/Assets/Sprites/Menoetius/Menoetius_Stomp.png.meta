@@ -166,7 +166,7 @@ TextureImporter:
         width: 86
         height: 65
       alignment: 9
-      pivot: {x: 0.47, y: 0}
+      pivot: {x: 0.4815, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -187,7 +187,7 @@ TextureImporter:
         width: 86
         height: 66
       alignment: 9
-      pivot: {x: 0.48, y: 0}
+      pivot: {x: 0.528, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -208,7 +208,7 @@ TextureImporter:
         width: 86
         height: 67
       alignment: 9
-      pivot: {x: 0.49, y: 0}
+      pivot: {x: 0.5399, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -229,7 +229,7 @@ TextureImporter:
         width: 86
         height: 67
       alignment: 9
-      pivot: {x: 0.49, y: 0}
+      pivot: {x: 0.5514, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -246,11 +246,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 606
-        y: 216
+        y: 215
         width: 86
         height: 67
       alignment: 9
-      pivot: {x: 0.49, y: 0}
+      pivot: {x: 0.563, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -271,7 +271,7 @@ TextureImporter:
         width: 86
         height: 67
       alignment: 9
-      pivot: {x: 0.49, y: 0}
+      pivot: {x: 0.5514, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -292,7 +292,7 @@ TextureImporter:
         width: 81
         height: 64
       alignment: 9
-      pivot: {x: 0.49, y: 0}
+      pivot: {x: 0.5116, y: 0.0311}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -313,7 +313,7 @@ TextureImporter:
         width: 81
         height: 65
       alignment: 9
-      pivot: {x: 0.49, y: 0}
+      pivot: {x: 0.5237, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -329,12 +329,12 @@ TextureImporter:
       name: Menoetius_Stomp_10
       rect:
         serializedVersion: 2
-        x: 100
+        x: 101
         y: 0
         width: 81
         height: 65
       alignment: 9
-      pivot: {x: 0.49, y: 0}
+      pivot: {x: 0.5237, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -355,7 +355,7 @@ TextureImporter:
         width: 81
         height: 65
       alignment: 9
-      pivot: {x: 0.49, y: 0}
+      pivot: {x: 0.5237, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -376,7 +376,7 @@ TextureImporter:
         width: 85
         height: 63
       alignment: 9
-      pivot: {x: 0.49, y: 0}
+      pivot: {x: 0.4755, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -397,7 +397,7 @@ TextureImporter:
         width: 86
         height: 63
       alignment: 9
-      pivot: {x: 0.49, y: 0}
+      pivot: {x: 0.4815, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
