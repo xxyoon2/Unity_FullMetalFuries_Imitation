@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayeMove : StateMachineBehaviour
+public class PlayerStorm : StateMachineBehaviour
 {
     private Transform _transform;
     private Rigidbody2D _rigidbody;
     private Controller _controller;
 
-    private const float MOVE_SPEED = 6f;
+    private const float MOVE_SPEED = 8f;
 
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -31,5 +31,7 @@ public class PlayeMove : StateMachineBehaviour
         {
             _transform.localScale = new Vector3(-1f, 1f, 1f);
         }
+
+        // 일정한 텀을 두고 데미지를 입힘
     }
 }
