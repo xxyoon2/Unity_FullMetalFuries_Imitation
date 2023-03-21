@@ -20,12 +20,10 @@ public class Menoetius : MonoBehaviour
         _hp -= damage;
         Model.Model.SetHp(_hp);
 
-
         if (_hp <= 0)
         {
             _animator.SetTrigger("death");
             GameManager.Instance.GameClear();
-            Debug.Log("미노 : 죽음");
         }
     }
 }

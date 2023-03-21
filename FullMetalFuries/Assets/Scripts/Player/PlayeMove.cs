@@ -27,7 +27,7 @@ public class PlayeMove : StateMachineBehaviour
         {
             _transform.localScale = new Vector3(1f, 1f, 1f);
         }
-        else
+        else if (_controller.x < 0)
         {
             _transform.localScale = new Vector3(-1f, 1f, 1f);
         }

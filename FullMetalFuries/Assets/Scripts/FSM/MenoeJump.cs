@@ -29,7 +29,6 @@ public class MenoeJump : StateMachineBehaviour
         _targetPoint = GameObject.FindWithTag("Player").transform.position;
 
         _point = new Vector2(_jumpingPoint.x, _jumpingPoint.y + JUMP_HEIGHT);
-        Debug.Log("점프");
 
         _counter = 0f;
         animator.SetBool("isStop", false);
@@ -59,7 +58,6 @@ public class MenoeJump : StateMachineBehaviour
         Collider2D collider = Physics2D.OverlapCircle(attackRange.position, ATTACK_RANGE_RADIUS, PLAYER_LAYER);
         if (collider != null)
         {
-            Debug.Log("미노 : 공격");
             GameManager.Instance.SufferDamage(DAMAGE);
         }
     }

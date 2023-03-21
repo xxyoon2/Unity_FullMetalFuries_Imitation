@@ -41,7 +41,6 @@ public class MenoeRush : StateMachineBehaviour
         Collider2D collider = Physics2D.OverlapBox(attackRange.transform.position, attackRange.transform.localScale, 0f, PLAYER_LAYER);
         if (collider != null)
         {
-            Debug.Log("미노 : 공격");
             GameManager.Instance.SufferDamage(DAMAGE);
         }
     }

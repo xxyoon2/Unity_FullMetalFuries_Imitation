@@ -5,20 +5,20 @@ using UnityEngine;
 public class PlayerBehavior : MonoBehaviour
 {
     private Controller _controller;
-    private Rigidbody2D _rigidbody;
+    //private Rigidbody2D _rigidbody;
     private Animator _animator;
 
     private readonly string combinationKey = "attackCombination";
 
-    private const float MOVE_SPEED = 8f;
     private int _attackCombination = 1;
 
     [SerializeField] private int _hp = 100;
-    [SerializeField] private State _state = State.NONE;
+    [SerializeField] public State state { get; private set; }
 
-    private enum State
+    public enum State
     {
         NONE,
+        COUNTER,
         INVNC,      // 무적
         DEAD,       // 죽음
         MAX
@@ -27,15 +27,17 @@ public class PlayerBehavior : MonoBehaviour
     void Start()
     {
         _controller = GetComponent<Controller>();
-        _rigidbody = GetComponent<Rigidbody2D>();
+        //_rigidbody = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
+
+        SetState(State.NONE);
 
         GameManager.Instance.playerHit.AddListener(Hit);
     }
 
     void FixedUpdate()
     {
-        if (_state == State.DEAD)
+        if (state == State.DEAD)
         {
             return;
         }
@@ -52,7 +54,7 @@ public class PlayerBehavior : MonoBehaviour
 
     void Update()
     {
-        if (_state == State.DEAD)
+        if (state == State.DEAD)
         {
             return;
         }
@@ -66,6 +68,12 @@ public class PlayerBehavior : MonoBehaviour
         {
             SecSkill();
         }
+    }
+
+    public void SetState(State state)
+    {
+        this.state = state;
+        Debug.Log($"{this.state}");
     }
 
     /// <summary>
@@ -153,8 +161,13 @@ public class PlayerBehavior : MonoBehaviour
     /// <param name="damage"></param>
     private void Hit(int damage)
     {
-        if (_state == State.INVNC)
+        if (state == State.INVNC)
         {
+            return;
+        }
+        else if (state == State.COUNTER)
+        {
+            _animator.SetBool("isCounterStrike", true);
             return;
         }
 
@@ -165,7 +178,7 @@ public class PlayerBehavior : MonoBehaviour
             Dead();
         }
 
-        _state = State.INVNC;
+        state = State.INVNC;
         StartCoroutine("InvincibleState");
     }
 
@@ -187,7 +200,7 @@ public class PlayerBehavior : MonoBehaviour
             ++count;
         }
 
-        _state = State.NONE;
+        state = State.NONE;
         yield break;
     }
 
@@ -198,7 +211,7 @@ public class PlayerBehavior : MonoBehaviour
     {
         GameManager.Instance.GameOver();
 
-        _state = State.DEAD;
+        state = State.DEAD;
         _animator.SetTrigger("death");
     }
 }

@@ -82,7 +82,6 @@ public class MenoeWalk : StateMachineBehaviour
             _counter = WAITING_TIME;
 
             SkillTree skill = (SkillTree)Attack();
-            Debug.Log($"{skill}");
             switch (skill)
             {
                 case SkillTree.AX:
