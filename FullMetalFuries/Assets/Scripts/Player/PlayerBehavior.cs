@@ -68,6 +68,11 @@ public class PlayerBehavior : MonoBehaviour
         {
             SecSkill();
         }
+
+        if (_controller.power)
+        {
+            PowerAbility();
+        }
     }
 
     public void SetState(State state)
@@ -153,6 +158,11 @@ public class PlayerBehavior : MonoBehaviour
     private void SecSkill()
     {
         _animator.SetTrigger("counter");
+    }
+
+    private void PowerAbility()
+    {
+        _animator.SetTrigger("storm");
     }
 
     /// <summary>
