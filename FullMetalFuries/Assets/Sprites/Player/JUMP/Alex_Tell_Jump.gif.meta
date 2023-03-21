@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3245adcca93f84b8ca761941859f1705
+guid: 914645364c1d5464191509da43ea7880
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Alex_JumpFalling_0
+      name: Alex_Tell_Jump_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 16
         y: 0
-        width: 39
-        height: 36
+        width: 38
+        height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,8 +130,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7356d63a14b34b58a6b40c91533a467
-      internalID: -1304817564
+      spriteID: 3e58ab3c55c3e4d2fa6031e05830ecc7
+      internalID: 958773188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex_Tell_Jump_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 39
+        height: 32
+      alignment: 9
+      pivot: {x: 0.487, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ee21727b3564244ba91f636f4ba319
+      internalID: 1321782091
       vertices: []
       indices: 
       edges: []
@@ -147,7 +168,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Alex_JumpFalling_0: -1304817564
+      Alex_Tell_Jump_1: 1321782091
+      Alex_Tell_Jump_0: 958773188
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
