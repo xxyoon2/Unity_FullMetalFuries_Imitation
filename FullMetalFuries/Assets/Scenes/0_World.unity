@@ -451,22 +451,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6999768555675972435, guid: 49029ad9962674bd3948888c51c9bdf5, type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6999768555675972435, guid: 49029ad9962674bd3948888c51c9bdf5, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6999768555675972435, guid: 49029ad9962674bd3948888c51c9bdf5, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6999768555675972435, guid: 49029ad9962674bd3948888c51c9bdf5, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49029ad9962674bd3948888c51c9bdf5, type: 3}
 --- !u!1 &718297642
@@ -631,7 +615,7 @@ Transform:
   m_GameObject: {fileID: 793703417}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.25, y: 4.36, z: 8.66}
-  m_LocalScale: {x: 100, y: 2, z: 1}
+  m_LocalScale: {x: 200, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1563447461}

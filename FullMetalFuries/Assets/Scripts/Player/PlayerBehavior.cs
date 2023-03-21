@@ -48,8 +48,6 @@ public class PlayerBehavior : MonoBehaviour
         {
             _animator.SetBool("isStop", true);
         }
-
-        
     }
 
     void Update()
@@ -62,6 +60,11 @@ public class PlayerBehavior : MonoBehaviour
         if (_controller.attack)
         {
             Attack();
+        }
+
+        if (_controller.sec)
+        {
+            SecSkill();
         }
     }
 
@@ -137,6 +140,11 @@ public class PlayerBehavior : MonoBehaviour
 
         _isCombinationPossible = false;
         yield break;
+    }
+
+    private void SecSkill()
+    {
+        _animator.SetTrigger("counter");
     }
 
     /// <summary>
