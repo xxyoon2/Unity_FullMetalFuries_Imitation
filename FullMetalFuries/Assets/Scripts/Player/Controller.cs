@@ -30,12 +30,12 @@ public class Controller : MonoBehaviour
     void Update()
     {
         x = y = 0f;
-        evade = power = change = attack = sec;
+        evade = power = change = attack = sec = false;
 
         x = Input.GetAxis(xAxisName);
         y = Input.GetAxis(yAxisName);
 
-        evade = Input.GetButtonDown(evadeName);
+        evade = Input.GetButton(evadeName);
         power = Input.GetButtonDown(powerName);
         attack = Input.GetMouseButtonDown(LEFT_MOUSE_BUTTON);
         sec = Input.GetMouseButtonDown(RIGHT_MOUSE_BUTTON);

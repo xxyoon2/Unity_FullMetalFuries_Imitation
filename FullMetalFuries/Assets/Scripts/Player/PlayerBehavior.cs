@@ -19,6 +19,7 @@ public class PlayerBehavior : MonoBehaviour
     {
         NONE,
         COUNTER,
+        JUMP,
         INVNC,      // 무적
         DEAD,       // 죽음
         MAX
@@ -72,6 +73,11 @@ public class PlayerBehavior : MonoBehaviour
         if (_controller.power)
         {
             PowerAbility();
+        }
+
+        if (_controller.evade)
+        {
+            EvadeAbility();
         }
     }
 
@@ -163,6 +169,64 @@ public class PlayerBehavior : MonoBehaviour
     private void PowerAbility()
     {
         _animator.SetTrigger("storm");
+    }
+
+    private void EvadeAbility()
+    {
+        if (state == State.JUMP)
+        {
+            return;
+        }
+        else
+        {
+            _animator.SetTrigger("jump");
+            SetState(State.JUMP);
+
+            StartCoroutine("Jumping");
+        }
+    }
+
+    private const float JUMP_SPEED = 2f;
+    IEnumerator Jumping()
+    {
+        while (_controller.evade)
+        {
+            yield return 0;
+        }
+
+        SetState(State.INVNC);
+        _animator.SetBool("isJumping", true);
+
+        Vector2 jumpingPoint = transform.position;
+        Vector2 targetPoint = new Vector2(jumpingPoint.x + 5f, jumpingPoint.y);
+        Vector2 point = new Vector2(jumpingPoint.x, jumpingPoint.y + 8f);
+
+        float counter = 0f;
+
+        while(counter <= 1f)
+        {
+            Vector2 movePoint = BezierCurve(counter, jumpingPoint, targetPoint, point);
+            transform.position = Vector2.MoveTowards(movePoint, movePoint, JUMP_SPEED * Time.deltaTime);
+            counter += 0.005f;
+
+            if (!_animator.GetBool("isFalling") && counter >= 0.5f)
+            {
+                _animator.SetBool("isFalling", true);
+            }
+
+            yield return 0;
+        }
+
+        _animator.SetBool("isJumping", false);
+        _animator.SetBool("isFalling", false);
+        SetState(State.NONE);
+        yield break;
+    }
+
+    private Vector2 BezierCurve(float t, Vector2 jumpingPoint, Vector2 targetPoint, Vector2 point)
+    {
+        float s = 1 - t;
+        return (Mathf.Pow(s, 2) * jumpingPoint) + (2 * s * t * point) + (Mathf.Pow(t, 2) * targetPoint);
     }
 
     /// <summary>
