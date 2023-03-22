@@ -187,9 +187,12 @@ public class PlayerBehavior : MonoBehaviour
     }
 
     LineRenderer _lineRenderer;
+    private const float JUMP_DISTENCE = 5f;
     private const float JUMP_SPEED = 10f;
     IEnumerator Jumping()
     {
+        Vector2 mousePosition1 = Input.mousePosition;
+
         _lineRenderer = GetComponent<LineRenderer>();
         _lineRenderer.SetColors(Color.white, Color.white);
         _lineRenderer.SetWidth(0.1f, 0.1f);
@@ -200,6 +203,10 @@ public class PlayerBehavior : MonoBehaviour
 
         while (_controller.evade)
         {
+            Vector2 mousePosition2 = Input.mousePosition;
+            Vector2 dir = (mousePosition2 - mousePosition1).normalized;
+            targetPoint = jumpingPoint + dir * JUMP_DISTENCE;
+
             for (int i = 0; i < 10; i += 1)
             {
                 Vector2 movePoint = BezierCurve(i / 10f, jumpingPoint, targetPoint, point);
@@ -212,10 +219,6 @@ public class PlayerBehavior : MonoBehaviour
         _lineRenderer.enabled = false;
         SetState(State.INVNC);
         _animator.SetBool("isJumping", true);
-
-        //Vector2 jumpingPoint = transform.position;
-        //Vector2 targetPoint = new Vector2(jumpingPoint.x + 5f, jumpingPoint.y);
-        //Vector2 point = new Vector2(jumpingPoint.x, jumpingPoint.y + 8f);
 
         float counter = 0f;
 
