@@ -186,20 +186,36 @@ public class PlayerBehavior : MonoBehaviour
         }
     }
 
+    LineRenderer _lineRenderer;
     private const float JUMP_SPEED = 10f;
     IEnumerator Jumping()
     {
-        while (_controller.evade)
-        {
-            yield return 0;
-        }
-
-        SetState(State.INVNC);
-        _animator.SetBool("isJumping", true);
+        _lineRenderer = GetComponent<LineRenderer>();
+        _lineRenderer.SetColors(Color.white, Color.white);
+        _lineRenderer.SetWidth(0.1f, 0.1f);
 
         Vector2 jumpingPoint = transform.position;
         Vector2 targetPoint = new Vector2(jumpingPoint.x + 5f, jumpingPoint.y);
         Vector2 point = new Vector2(jumpingPoint.x, jumpingPoint.y + 8f);
+
+        while (_controller.evade)
+        {
+            for (int i = 0; i < 10; i += 1)
+            {
+                Vector2 movePoint = BezierCurve(i / 10f, jumpingPoint, targetPoint, point);
+                _lineRenderer.SetPosition(i, movePoint);
+            }
+            _lineRenderer.enabled = true;
+            yield return 0;
+        }
+
+        _lineRenderer.enabled = false;
+        SetState(State.INVNC);
+        _animator.SetBool("isJumping", true);
+
+        //Vector2 jumpingPoint = transform.position;
+        //Vector2 targetPoint = new Vector2(jumpingPoint.x + 5f, jumpingPoint.y);
+        //Vector2 point = new Vector2(jumpingPoint.x, jumpingPoint.y + 8f);
 
         float counter = 0f;
 
