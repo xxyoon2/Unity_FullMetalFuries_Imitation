@@ -186,7 +186,7 @@ public class PlayerBehavior : MonoBehaviour
         }
     }
 
-    private const float JUMP_SPEED = 2f;
+    private const float JUMP_SPEED = 10f;
     IEnumerator Jumping()
     {
         while (_controller.evade)
@@ -207,7 +207,7 @@ public class PlayerBehavior : MonoBehaviour
         {
             Vector2 movePoint = BezierCurve(counter, jumpingPoint, targetPoint, point);
             transform.position = Vector2.MoveTowards(movePoint, movePoint, JUMP_SPEED * Time.deltaTime);
-            counter += 0.005f;
+            counter += 0.002f;
 
             if (!_animator.GetBool("isFalling") && counter >= 0.5f)
             {
