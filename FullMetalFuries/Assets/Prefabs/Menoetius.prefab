@@ -116,7 +116,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1008205905187116164}
   - component: {fileID: 1008205905187116165}
-  - component: {fileID: 1008205905187116167}
   - component: {fileID: 1008205905187116166}
   - component: {fileID: 4756419552351409152}
   - component: {fileID: 162147644}
@@ -187,8 +186,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -979645775, guid: 359348940948e482093b09e71050426c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 35813536, guid: 9a61a1affe98a4fecb5c9367d307ea82, type: 3}
+  m_Color: {r: 1, g: 0.94509804, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -198,28 +197,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!111 &1008205905187116167
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1008205905187116161}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 7f3f182cac0ca4b6a80ec7a889772c67, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 7f3f182cac0ca4b6a80ec7a889772c67, type: 2}
-  - {fileID: 7400000, guid: 6746d28fb5c0b4fafbc30f18589f7566, type: 2}
-  - {fileID: 7400000, guid: 1dd74675de71a48b79ac3cf3da4955a1, type: 2}
-  - {fileID: 7400000, guid: 6c9ff991c829941e39fe0db2f9194806, type: 2}
-  - {fileID: 7400000, guid: 3dc03d17e31284b609892a0dc5b6f3d4, type: 2}
-  - {fileID: 7400000, guid: 6d3334953da42400ab092ab2af1ea159, type: 2}
-  - {fileID: 7400000, guid: 0e590e748dad343ce834e2283bf511a1, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &1008205905187116166
 Animator:
   serializedVersion: 4
@@ -252,7 +229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3255dc61e7b674ca2a8e6e2b94261949, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _hp: 100
+  _stat: {fileID: 11400000, guid: 5c52fde0fdb4441528923c07eec5b26e, type: 2}
 --- !u!50 &162147644
 Rigidbody2D:
   serializedVersion: 4
