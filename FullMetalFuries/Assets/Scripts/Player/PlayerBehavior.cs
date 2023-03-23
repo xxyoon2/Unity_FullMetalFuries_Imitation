@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerBehavior : MonoBehaviour
 {
     private Controller _controller;
-    //private Rigidbody2D _rigidbody;
+    private Rigidbody2D _rigidbody;
     private Animator _animator;
     private LineRenderer _lineRenderer;
 
@@ -30,7 +30,7 @@ public class PlayerBehavior : MonoBehaviour
     void Start()
     {
         _controller = GetComponent<Controller>();
-        //_rigidbody = GetComponent<Rigidbody2D>();
+        _rigidbody = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         _lineRenderer = GetComponent<LineRenderer>();
 
@@ -189,7 +189,7 @@ public class PlayerBehavior : MonoBehaviour
 
     private const float JUMP_DISTENCE = 5f;
     private const float JUMP_HEIGHT = 8f;
-    private const float JUMP_SPEED = 10f;
+    private const float JUMP_SPEED = 1.5f;
     IEnumerator Jumping()
     {
         Vector2 mousePosition1 = Input.mousePosition;
@@ -231,8 +231,9 @@ public class PlayerBehavior : MonoBehaviour
         while(counter <= 1f)
         {
             Vector2 movePoint = BezierCurve(counter, jumpingPoint, targetPoint, highestPoint);
-            transform.position = Vector2.MoveTowards(movePoint, movePoint, JUMP_SPEED * Time.deltaTime);
-            counter += 0.002f;
+            _rigidbody.MovePosition(movePoint);
+
+            counter += Time.deltaTime * JUMP_SPEED;
 
             if (!_animator.GetBool("isFalling") && counter >= 0.5f)
             {
@@ -288,13 +289,15 @@ public class PlayerBehavior : MonoBehaviour
     IEnumerator InvincibleState()
     {
         SpriteRenderer sprite = GetComponent<SpriteRenderer>();
+        Color existingColor = new Color(255f, 255f, 255f, 0f);
+        Color transparent = new Color(255f, 255f, 255f, 255f);
         int count = ZERO;
-        while(count < 6)
+        while(count < 8)
         {
-            sprite.color = new Color(255f, 255f, 255f, 0f);
-            yield return new WaitForSeconds(0.1f);
-            sprite.color = new Color(255f, 255f, 255f, 255f);
-            yield return new WaitForSeconds(0.1f);
+            sprite.color = existingColor;
+            yield return new WaitForSeconds(0.15f);
+            sprite.color = transparent;
+            yield return new WaitForSeconds(0.15f);
 
             ++count;
         }
