@@ -7,10 +7,12 @@ public class PlayerBehavior : MonoBehaviour
     private Controller _controller;
     //private Rigidbody2D _rigidbody;
     private Animator _animator;
+    private LineRenderer _lineRenderer;
 
     private readonly string combinationKey = "attackCombination";
-
     private int _attackCombination = 1;
+
+    private const int ZERO = 0;
 
     [SerializeField] private int _hp = 100;
     [SerializeField] public State state { get; private set; }
@@ -30,6 +32,7 @@ public class PlayerBehavior : MonoBehaviour
         _controller = GetComponent<Controller>();
         //_rigidbody = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
+        _lineRenderer = GetComponent<LineRenderer>();
 
         SetState(State.NONE);
 
@@ -43,7 +46,7 @@ public class PlayerBehavior : MonoBehaviour
             return;
         }
 
-        if (_controller.x != 0 || _controller.y != 0)
+        if (_controller.x != ZERO || _controller.y != ZERO)
         {
             Move();
         }
@@ -84,7 +87,6 @@ public class PlayerBehavior : MonoBehaviour
     public void SetState(State state)
     {
         this.state = state;
-        Debug.Log($"{this.state}");
     }
 
     /// <summary>
@@ -146,15 +148,14 @@ public class PlayerBehavior : MonoBehaviour
 
     private bool _isCombinationPossible = false;
     private const float COMBINATION_COUNTER_TIME = 2f;
-
     IEnumerator HitDecisionCounter()
     {
         _isCombinationPossible = true;
-        float counter = 0f;
+        float counter = ZERO;
         while (counter <= COMBINATION_COUNTER_TIME)
         {
             counter += Time.deltaTime;
-            yield return 0;
+            yield return ZERO;
         }
 
         _isCombinationPossible = false;
@@ -186,45 +187,50 @@ public class PlayerBehavior : MonoBehaviour
         }
     }
 
-    LineRenderer _lineRenderer;
     private const float JUMP_DISTENCE = 5f;
+    private const float JUMP_HEIGHT = 8f;
     private const float JUMP_SPEED = 10f;
     IEnumerator Jumping()
     {
         Vector2 mousePosition1 = Input.mousePosition;
-
-        _lineRenderer = GetComponent<LineRenderer>();
-        _lineRenderer.SetColors(Color.white, Color.white);
-        _lineRenderer.SetWidth(0.1f, 0.1f);
-
         Vector2 jumpingPoint = transform.position;
-        Vector2 targetPoint = new Vector2(jumpingPoint.x + 5f, jumpingPoint.y);
-        Vector2 point = new Vector2(jumpingPoint.x, jumpingPoint.y + 8f);
+        Vector2 targetPoint = new Vector2(jumpingPoint.x + JUMP_DISTENCE, jumpingPoint.y);
+        Vector2 highestPoint = new Vector2(jumpingPoint.x, jumpingPoint.y + JUMP_HEIGHT);
 
         while (_controller.evade)
         {
             Vector2 mousePosition2 = Input.mousePosition;
             Vector2 dir = (mousePosition2 - mousePosition1).normalized;
             targetPoint = jumpingPoint + dir * JUMP_DISTENCE;
+            highestPoint = jumpingPoint + dir * (JUMP_DISTENCE / 2);
+            highestPoint.y += JUMP_HEIGHT;
 
             for (int i = 0; i < 10; i += 1)
             {
-                Vector2 movePoint = BezierCurve(i / 10f, jumpingPoint, targetPoint, point);
+                Vector2 movePoint = BezierCurve(i / 10f, jumpingPoint, targetPoint, highestPoint);
                 _lineRenderer.SetPosition(i, movePoint);
             }
             _lineRenderer.enabled = true;
-            yield return 0;
+            yield return ZERO;
         }
 
         _lineRenderer.enabled = false;
         SetState(State.INVNC);
         _animator.SetBool("isJumping", true);
 
-        float counter = 0f;
+        if (targetPoint.x > transform.position.x)
+        {
+            transform.localScale = new Vector3(1f, 1f, 1f);
+        }
+        else if (targetPoint.x < transform.position.x)
+        {
+            transform.localScale = new Vector3(-1f, 1f, 1f);
+        }
 
+        float counter = ZERO;
         while(counter <= 1f)
         {
-            Vector2 movePoint = BezierCurve(counter, jumpingPoint, targetPoint, point);
+            Vector2 movePoint = BezierCurve(counter, jumpingPoint, targetPoint, highestPoint);
             transform.position = Vector2.MoveTowards(movePoint, movePoint, JUMP_SPEED * Time.deltaTime);
             counter += 0.002f;
 
@@ -233,7 +239,7 @@ public class PlayerBehavior : MonoBehaviour
                 _animator.SetBool("isFalling", true);
             }
 
-            yield return 0;
+            yield return ZERO;
         }
 
         _animator.SetBool("isJumping", false);
@@ -242,10 +248,10 @@ public class PlayerBehavior : MonoBehaviour
         yield break;
     }
 
-    private Vector2 BezierCurve(float t, Vector2 jumpingPoint, Vector2 targetPoint, Vector2 point)
+    private Vector2 BezierCurve(float t, Vector2 jumpingPoint, Vector2 targetPoint, Vector2 highestPoint)
     {
         float s = 1 - t;
-        return (Mathf.Pow(s, 2) * jumpingPoint) + (2 * s * t * point) + (Mathf.Pow(t, 2) * targetPoint);
+        return (Mathf.Pow(s, 2) * jumpingPoint) + (2 * s * t * highestPoint) + (Mathf.Pow(t, 2) * targetPoint);
     }
 
     /// <summary>
@@ -266,12 +272,12 @@ public class PlayerBehavior : MonoBehaviour
 
         _hp -= damage;
 
-        if (_hp <= 0)
+        if (_hp <= ZERO)
         {
             Dead();
         }
 
-        state = State.INVNC;
+        SetState(State.INVNC);
         StartCoroutine("InvincibleState");
     }
 
@@ -282,18 +288,18 @@ public class PlayerBehavior : MonoBehaviour
     IEnumerator InvincibleState()
     {
         SpriteRenderer sprite = GetComponent<SpriteRenderer>();
-        int count = 0;
+        int count = ZERO;
         while(count < 6)
         {
             sprite.color = new Color(255f, 255f, 255f, 0f);
-            yield return new WaitForSeconds(0.2f);
+            yield return new WaitForSeconds(0.1f);
             sprite.color = new Color(255f, 255f, 255f, 255f);
-            yield return new WaitForSeconds(0.2f);
+            yield return new WaitForSeconds(0.1f);
 
             ++count;
         }
 
-        state = State.NONE;
+        SetState(State.NONE);
         yield break;
     }
 
@@ -303,8 +309,7 @@ public class PlayerBehavior : MonoBehaviour
     private void Dead()
     {
         GameManager.Instance.GameOver();
-
-        state = State.DEAD;
+        SetState(State.DEAD);
         _animator.SetTrigger("death");
     }
 }

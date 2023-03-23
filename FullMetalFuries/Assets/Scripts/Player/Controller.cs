@@ -9,10 +9,6 @@ public class Controller : MonoBehaviour
 
     private readonly string evadeName = "Evade Ability";
     private readonly string powerName = "Power Ability";
-    //private readonly string attackName = "Primary Attack";
-    //private readonly string secName = "Secondary Skill";
-
-    private readonly string eKeyName = "Change Charactor";
 
     private const int LEFT_MOUSE_BUTTON = 0;
     private const int RIGHT_MOUSE_BUTTON = 1;
@@ -39,9 +35,5 @@ public class Controller : MonoBehaviour
         power = Input.GetButtonDown(powerName);
         attack = Input.GetMouseButtonDown(LEFT_MOUSE_BUTTON);
         sec = Input.GetMouseButtonDown(RIGHT_MOUSE_BUTTON);
-
-        change = Input.GetButtonDown(eKeyName);
-
-
     }
 }
