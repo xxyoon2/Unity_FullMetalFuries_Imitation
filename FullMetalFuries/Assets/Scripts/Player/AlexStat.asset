@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b84fa4fe48b3546fb94fd6f31c992fdf, type: 3}
+  m_Name: AlexStat
+  m_EditorClassIdentifier: 
+  _name: Alex
+  _hp: 100
+  _moveSpeed: 6
+  _attackDamage: 10
+  _attackMoveSpeed: 0
+  _secDamage: 10
+  _secMoveSpeed: 9.96
+  _evadeDamage: 10
+  _evadeMoveSpeed: 0
+  _powerDamage: 10
+  _powerMoveSpeed: 0

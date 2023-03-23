@@ -2,8 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerBehavior : MonoBehaviour
+public class Player : MonoBehaviour
 {
+    [SerializeField] private Stat _stat;
+    public Stat stat { get { return _stat; } }
+
     private Controller _controller;
     private Rigidbody2D _rigidbody;
     private Animator _animator;
@@ -14,7 +17,6 @@ public class PlayerBehavior : MonoBehaviour
 
     private const int ZERO = 0;
 
-    [SerializeField] private int _hp = 100;
     [SerializeField] public State state { get; private set; }
 
     public enum State
@@ -34,7 +36,7 @@ public class PlayerBehavior : MonoBehaviour
         _animator = GetComponent<Animator>();
         _lineRenderer = GetComponent<LineRenderer>();
 
-        SetState(State.NONE);
+        initialization();
 
         GameManager.Instance.playerHit.AddListener(Hit);
     }
@@ -83,6 +85,18 @@ public class PlayerBehavior : MonoBehaviour
             EvadeAbility();
         }
     }
+
+    /// <summary>
+    /// 초기화 함
+    /// </summary>
+    private void initialization()
+    {
+        _stat.HP = 100;
+        SetState(State.NONE);
+    }
+
+
+
 
     public void SetState(State state)
     {
@@ -271,9 +285,9 @@ public class PlayerBehavior : MonoBehaviour
             return;
         }
 
-        _hp -= damage;
+        _stat.HP -= damage;
 
-        if (_hp <= ZERO)
+        if (_stat.HP <= ZERO)
         {
             Dead();
         }
