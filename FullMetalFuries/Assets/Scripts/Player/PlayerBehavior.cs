@@ -205,10 +205,10 @@ public class PlayerBehavior : MonoBehaviour
             highestPoint = jumpingPoint + dir * (JUMP_DISTENCE / 2);
             highestPoint.y += JUMP_HEIGHT;
 
-            for (int i = 0; i < 10; i += 1)
+            for (int i = 1; i <= 10; i += 1)
             {
                 Vector2 movePoint = BezierCurve(i / 10f, jumpingPoint, targetPoint, highestPoint);
-                _lineRenderer.SetPosition(i, movePoint);
+                _lineRenderer.SetPosition(i - 1, movePoint);
             }
             _lineRenderer.enabled = true;
             yield return ZERO;
