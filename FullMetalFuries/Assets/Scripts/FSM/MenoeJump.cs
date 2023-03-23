@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MenoeJump : StateMachineBehaviour
 {
+    private Stat _stat;
     private Transform _transform;
     private Vector3 _targetPoint;
     private Vector3 _jumpingPoint;
@@ -12,9 +13,6 @@ public class MenoeJump : StateMachineBehaviour
 
     private float _counter = 0f;
 
-    private const float JUMP_HEIGHT = 20f;
-    private const float SPEED = 5f;
-    private const int DAMAGE = 15;
 
     private Vector2 BezierCurve(float t)
     {
@@ -22,9 +20,11 @@ public class MenoeJump : StateMachineBehaviour
         return (Mathf.Pow(s, 2) * _jumpingPoint) + (2 * s * t * _point) + (Mathf.Pow(t, 2) * _targetPoint);
     }
 
+    private const float JUMP_HEIGHT = 20f;
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         _transform = animator.transform;
+        _stat = _transform.GetComponent<Menoetius>().stat;
         _jumpingPoint = _transform.position;
         _targetPoint = GameObject.FindWithTag("Player").transform.position;
 
@@ -46,7 +46,7 @@ public class MenoeJump : StateMachineBehaviour
         {
             _counter += Time.deltaTime;
             Vector2 movePoint = BezierCurve(_counter);
-            _transform.position = Vector2.MoveTowards(movePoint, movePoint, SPEED * Time.deltaTime);
+            _transform.position = Vector2.MoveTowards(movePoint, movePoint, _stat.EvadeDamage * Time.deltaTime);
         }
     }
 
@@ -58,7 +58,7 @@ public class MenoeJump : StateMachineBehaviour
         Collider2D collider = Physics2D.OverlapCircle(attackRange.position, ATTACK_RANGE_RADIUS, PLAYER_LAYER);
         if (collider != null)
         {
-            GameManager.Instance.SufferDamage(DAMAGE);
+            GameManager.Instance.SufferDamage(_stat.EvadeDamage);
         }
     }
 }

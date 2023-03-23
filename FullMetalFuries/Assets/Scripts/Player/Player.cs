@@ -271,6 +271,8 @@ public class Player : MonoBehaviour
     /// <param name="damage"></param>
     private void Hit(int damage)
     {
+        StartCoroutine("HitEffect");
+
         if (state == State.INVNC)
         {
             return;
@@ -292,6 +294,24 @@ public class Player : MonoBehaviour
         StartCoroutine("InvincibleState");
     }
 
+    IEnumerator HitEffect()
+    {
+        SpriteRenderer sprite = GetComponent<SpriteRenderer>();
+        Color existingColor = new Color(255f, 255f, 255f, 255f);
+        Color transparent = new Color(255f, 0f, 0f, 255f);
+        int counter = 0;
+        while (counter < 3)
+        {
+            sprite.color = transparent;
+            yield return new WaitForSeconds(0.02f);
+            sprite.color = existingColor;
+            yield return new WaitForSeconds(0.02f);
+
+            ++counter;
+        }
+        yield break;
+    }
+
     /// <summary>
     /// 무적 상태
     /// </summary>
@@ -299,14 +319,12 @@ public class Player : MonoBehaviour
     IEnumerator InvincibleState()
     {
         SpriteRenderer sprite = GetComponent<SpriteRenderer>();
-        Color existingColor = new Color(255f, 255f, 255f, 0f);
-        Color transparent = new Color(255f, 255f, 255f, 255f);
         int count = ZERO;
-        while(count < 8)
+        while(count < 10)
         {
-            sprite.color = existingColor;
+            sprite.enabled = false;
             yield return new WaitForSeconds(0.15f);
-            sprite.color = transparent;
+            sprite.enabled = true;
             yield return new WaitForSeconds(0.15f);
 
             ++count;
