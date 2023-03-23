@@ -16,10 +16,10 @@ MonoBehaviour:
   _hp: 100
   _moveSpeed: 6
   _attackDamage: 10
-  _attackMoveSpeed: 0
+  _attackMoveSpeed: 1
   _secDamage: 10
   _secMoveSpeed: 9.96
   _evadeDamage: 10
-  _evadeMoveSpeed: 0
+  _evadeMoveSpeed: 1.5
   _powerDamage: 10
-  _powerMoveSpeed: 0
+  _powerMoveSpeed: 8

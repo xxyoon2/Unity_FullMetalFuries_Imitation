@@ -95,9 +95,6 @@ public class Player : MonoBehaviour
         SetState(State.NONE);
     }
 
-
-
-
     public void SetState(State state)
     {
         this.state = state;
@@ -203,7 +200,6 @@ public class Player : MonoBehaviour
 
     private const float JUMP_DISTENCE = 5f;
     private const float JUMP_HEIGHT = 8f;
-    private const float JUMP_SPEED = 1.5f;
     IEnumerator Jumping()
     {
         Vector2 mousePosition1 = Input.mousePosition;
@@ -247,7 +243,7 @@ public class Player : MonoBehaviour
             Vector2 movePoint = BezierCurve(counter, jumpingPoint, targetPoint, highestPoint);
             _rigidbody.MovePosition(movePoint);
 
-            counter += Time.deltaTime * JUMP_SPEED;
+            counter += Time.deltaTime * _stat.EvadeMoveSpeed;
 
             if (!_animator.GetBool("isFalling") && counter >= 0.5f)
             {
