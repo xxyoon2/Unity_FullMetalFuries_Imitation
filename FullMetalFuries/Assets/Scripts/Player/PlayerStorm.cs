@@ -20,13 +20,14 @@ public class PlayerStorm : StateMachineBehaviour
     }
 
     private float _counter = 0f;
-    private const float ATTACK_TIME = 0.5f;
+    private const float ATTACK_TIME = 0.2f;
     private const int ENEMY_LAYER = 1 << 8;
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         Vector2 playerPosition = _transform.position;
         Vector2 point = playerPosition + (Vector2.right * _controller.x + Vector2.up * _controller.y) * _stat.PowerMoveSpeed * Time.fixedDeltaTime;
         _rigidbody.MovePosition(point);
+        _transform.position = new Vector3(_transform.position.x, _transform.position.y, _transform.position.y);
 
         if (_controller.x > 0)
         {
