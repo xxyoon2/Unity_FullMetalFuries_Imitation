@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MenoeWalk : StateMachineBehaviour
 {
-    private Vector2 _pos;
+    private Vector3 _pos;
     private Transform _transform;
     private Rigidbody2D _rigidbody;
 
@@ -13,6 +13,7 @@ public class MenoeWalk : StateMachineBehaviour
     private const float ATTACK_RANGE = 5f;
     private const float WAITING_TIME = 1.2f;
     private const float TIME_OUT = 0f;
+    private const int PLAYER_LAYER = 1 << 7;
 
     private float _counter;
 
@@ -41,10 +42,9 @@ public class MenoeWalk : StateMachineBehaviour
 
     private bool CheckTargetLocation()
     {
-        var targetPosition = GameObject.FindWithTag("Player").transform.position;
-        var MenoePosition = _transform.position;
-        float distance = (targetPosition - MenoePosition).sqrMagnitude;
-        if (distance <= ATTACK_RANGE)
+        Transform attackRange = _transform.Find("AXAttackRange");
+        Collider2D collider = Physics2D.OverlapBox(attackRange.transform.position, attackRange.transform.localScale, 0f, PLAYER_LAYER);
+        if (collider != null)
         {
             return true;
         }
@@ -72,9 +72,12 @@ public class MenoeWalk : StateMachineBehaviour
 
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        Vector2 position = _transform.position;
-        Vector2 point = position + _pos * SPEED * Time.fixedDeltaTime;
+        Vector3 position = _transform.position;
+        Vector3 point = position + _pos * SPEED * Time.fixedDeltaTime;
         _rigidbody.MovePosition(point);
+
+        _transform.position = new Vector3(_transform.position.x, _transform.position.y, _transform.position.y);
+
 
         if (_counter <= TIME_OUT)
         {

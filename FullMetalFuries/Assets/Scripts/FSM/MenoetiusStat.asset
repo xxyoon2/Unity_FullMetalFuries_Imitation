@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MenoetiusStat
   m_EditorClassIdentifier: 
   _name: Menoetius
-  _hp: 100
+  _hp: 200
   _moveSpeed: 6
   _attackDamage: 0
   _attackMoveSpeed: 0
@@ -22,4 +22,4 @@ MonoBehaviour:
   _evadeDamage: 15
   _evadeMoveSpeed: 5
   _powerDamage: 6
-  _powerMoveSpeed: 10
+  _powerMoveSpeed: 15

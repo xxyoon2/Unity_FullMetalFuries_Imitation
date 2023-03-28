@@ -14,7 +14,7 @@ namespace Model
 
         public static void InitHP()
         {
-            hpData.Value = 100;
+            hpData.Value = 200;
         }
 
         public static void SetEndingText(string text)

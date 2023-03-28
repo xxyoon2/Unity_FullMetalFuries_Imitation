@@ -237,6 +237,8 @@ public class Player : MonoBehaviour
             transform.localScale = new Vector3(-1f, 1f, 1f);
         }
 
+
+        GameObject shadow = transform.Find("Shadow").gameObject;
         float counter = ZERO;
         while(counter <= 1f)
         {

@@ -18,7 +18,7 @@ public class Menoetius : MonoBehaviour
 
     private void initialization()
     {
-        _stat.HP = 100;
+        _stat.HP = 200;
     }
 
     private void Hit(int damage)

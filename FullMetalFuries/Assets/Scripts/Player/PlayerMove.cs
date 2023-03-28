@@ -22,6 +22,7 @@ public class PlayerMove : StateMachineBehaviour
         Vector2 playerPosition = _transform.position;
         Vector2 point = playerPosition + (Vector2.right * _controller.x + Vector2.up * _controller.y) * _stat.MoveSpeed * Time.fixedDeltaTime;
         _rigidbody.MovePosition(point);
+        _transform.position = new Vector3(_transform.position.x, _transform.position.y, _transform.position.y);
 
         if (_controller.x > 0)
         {

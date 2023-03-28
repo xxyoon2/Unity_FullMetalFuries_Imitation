@@ -6,11 +6,9 @@ public class MenoeRush : StateMachineBehaviour
 {
     private Stat _stat;
     private Transform _Menoetius;
-    private Vector2 _targetPosition;
-    private Vector2 _dirVector;
+    private Vector3 _targetPosition;
+    private Vector3 _dirVector;
 
-    //private const float SPEED  = 6f;
-    //private const int DAMAGE = 10;
     private const int PLAYER_LAYER = 1 << 7;
 
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -18,7 +16,7 @@ public class MenoeRush : StateMachineBehaviour
         _stat = animator.transform.GetComponent<Menoetius>().stat;
         _targetPosition = GameObject.FindWithTag("Player").transform.position;
         _Menoetius = animator.transform;
-        Vector2 _menoetiusPosition = _Menoetius.position;
+        Vector3 _menoetiusPosition = _Menoetius.position;
         _dirVector = (_targetPosition - _menoetiusPosition).normalized;
 
         animator.SetBool("isRush", true);
@@ -26,7 +24,8 @@ public class MenoeRush : StateMachineBehaviour
 
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        Vector2 movePoint = new Vector2(_Menoetius.position.x, _Menoetius.position.y) + _dirVector * _stat.PowerMoveSpeed;
+        Vector3 movePoint = new Vector3(_Menoetius.position.x, _Menoetius.position.y) + _dirVector * _stat.PowerMoveSpeed;
+        movePoint.z = movePoint.y;
         _Menoetius.position = Vector2.MoveTowards(_Menoetius.position, movePoint, _stat.PowerMoveSpeed * Time.deltaTime);
 
         Transform attackRange = animator.transform.Find("AXAttackRange");

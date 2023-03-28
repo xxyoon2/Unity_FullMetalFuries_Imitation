@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8857707601053542501}
   - component: {fileID: 8857707601053542503}
   - component: {fileID: 8857707601053542500}
+  - component: {fileID: 406945312498914876}
   m_Layer: 0
   m_Name: Effect
   m_TagString: Untagged
@@ -41,7 +42,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8857707601053542498}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 32546ebb5a8da4ba5a45afa59f8f1616, type: 2}
   m_CullingMode: 0
@@ -99,9 +100,28 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.625, y: 1.625}
+  m_Size: {x: 2.3125, y: 3.1875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!111 &406945312498914876
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8857707601053542498}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: d157bc3b83eec48e3a600bb367272d8e, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: d157bc3b83eec48e3a600bb367272d8e, type: 2}
+  - {fileID: 7400000, guid: af7c777985b464508a08aa57670f68c7, type: 2}
+  - {fileID: 7400000, guid: 483352cf628d640d289ad172b9d946f6, type: 2}
+  - {fileID: 7400000, guid: df4601644b0664036988f189f7b2f24f, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
