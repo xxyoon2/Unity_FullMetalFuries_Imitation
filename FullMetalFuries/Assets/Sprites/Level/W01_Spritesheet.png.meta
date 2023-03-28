@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -5167,9 +5167,8 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       W01_Spritesheet_1: 1423055288
-      W01_Spritesheet_106: -139772497
-      W01_Spritesheet_26: -1227465960
       W01_Spritesheet_227: -2001341664
+      W01_Spritesheet_26: -1227465960
       W01_Spritesheet_205: -1599548775
       W01_Spritesheet_48: -147266655
       W01_Spritesheet_214: -1729987506
@@ -5187,11 +5186,11 @@ TextureImporter:
       W01_Spritesheet_231: 1759022739
       W01_Spritesheet_61: -1566178869
       W01_Spritesheet_74: -1485833421
+      W01_Spritesheet_207: -1762015018
       W01_Spritesheet_199: -1265073923
       W01_Spritesheet_84: 1306046294
       W01_Spritesheet_219: -1999610747
       W01_Spritesheet_42: 1847255472
-      W01_Spritesheet_207: -1762015018
       W01_Spritesheet_132: -630036113
       W01_Spritesheet_226: -654307471
       W01_Spritesheet_31: -517272550
@@ -5231,9 +5230,9 @@ TextureImporter:
       W01_Spritesheet_45: 678661806
       W01_Spritesheet_210: -841167541
       W01_Spritesheet_213: -1153788849
+      W01_Spritesheet_215: 292830314
       W01_Spritesheet_58: -2110201767
       W01_Spritesheet_124: 1322946201
-      W01_Spritesheet_215: 292830314
       W01_Spritesheet_128: 582987935
       W01_Spritesheet_206: 581470983
       W01_Spritesheet_146: -1882145741
@@ -5287,7 +5286,6 @@ TextureImporter:
       W01_Spritesheet_158: 836558844
       W01_Spritesheet_165: 1076169405
       W01_Spritesheet_126: -1710118033
-      W01_Spritesheet_30: -343672059
       W01_Spritesheet_178: 1262778303
       W01_Spritesheet_195: 585960728
       W01_Spritesheet_107: 1957722034
@@ -5299,6 +5297,7 @@ TextureImporter:
       W01_Spritesheet_81: 1469808612
       W01_Spritesheet_83: 2122418486
       W01_Spritesheet_122: -1501934618
+      W01_Spritesheet_30: -343672059
       W01_Spritesheet_211: -329551846
       W01_Spritesheet_184: 1313017124
       W01_Spritesheet_93: 148448951
@@ -5402,10 +5401,11 @@ TextureImporter:
       W01_Spritesheet_222: 500069926
       W01_Spritesheet_119: -275770319
       W01_Spritesheet_40: 814032841
-      W01_Spritesheet_12: -725289212
+      W01_Spritesheet_106: -139772497
       W01_Spritesheet_168: 460831116
-      W01_Spritesheet_169: -889260923
+      W01_Spritesheet_12: -725289212
       W01_Spritesheet_37: 354705310
+      W01_Spritesheet_169: -889260923
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

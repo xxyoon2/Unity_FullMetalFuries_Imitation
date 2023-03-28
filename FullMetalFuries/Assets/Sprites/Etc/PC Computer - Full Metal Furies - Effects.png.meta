@@ -1,0 +1,6325 @@
+fileFormatVersion: 2
+guid: 1f186e036207e4f59b9c73a222e0a0a4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 10586
+        width: 506
+        height: 511
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc7b1a4e5f004911b121585e89ef995
+      internalID: 1766923063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_3
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 10194
+        width: 185
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0f9a93790834f6282a13833496bce5
+      internalID: -970559621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_5
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 9852
+        width: 38
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02fd16f854124690aaf33cc8b6be675
+      internalID: 2019496523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_7
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 9509
+        width: 38
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6037f7c6df70f445e96be47a57045efe
+      internalID: -1273005184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_9
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 9167
+        width: 43
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185b2bedf68634e49b94676a609ffc0e
+      internalID: -510756383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_11
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 8873
+        width: 261
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606c336ee9fa74125aeb4abf27048269
+      internalID: 1092052547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_13
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 8650
+        width: 190
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43e1bb9e29ef4fa5872e1c20959d523
+      internalID: 1052772044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_15
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 8444
+        width: 158
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec31800ca14341ce83e25014a503347
+      internalID: 109835017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_17
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 8237
+        width: 174
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3dfeb6c9643412ebd08cb73e0b2aa0
+      internalID: -209009119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_18
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 8210
+        width: 103
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b708549537a0409aba1278f09dc7e71
+      internalID: 2056544016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_19
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 8036
+        width: 168
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1868b7d9337428e9bd1004759e7052
+      internalID: 1145514422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_20
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 8009
+        width: 119
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59da9e39c6e74995b1c57b95227a02b
+      internalID: -761642338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_21
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 7846
+        width: 158
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f5aa091385047ee9136881927b1cac
+      internalID: 1009656458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_22
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 7818
+        width: 119
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745e5dfb99cca4202960b4c64d9e394a
+      internalID: -565664836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_23
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 7655
+        width: 158
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18dc937cf2294df0a8183f1d0784251
+      internalID: -2067468557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_24
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 7628
+        width: 98
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bca633c7e1f54ea58deabbf62cc966f
+      internalID: -83644723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_25
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 7465
+        width: 158
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a205e65fcdbe45edaf30c7764810b0b
+      internalID: 1018032112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_26
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 7438
+        width: 103
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37fda7f63dfc14e9b8338d8ff63a92b9
+      internalID: 435214812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_27
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 7280
+        width: 147
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec914776de76e42638a51ffaba2e28ab
+      internalID: 311098503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_28
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 7253
+        width: 92
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b57df4087e440c181443f566833ff5
+      internalID: 1567357140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_29
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 7090
+        width: 136
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def7752c03e6147ada3452274fde294b
+      internalID: 2065856860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_30
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 7063
+        width: 92
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04ad06b2a1074cf7983bc4481d947a9
+      internalID: 1032129886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_31
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 6916
+        width: 163
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2c1b464b62a4697a3dac0cfb8eeedd
+      internalID: 134395601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_32
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 6889
+        width: 76
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3dbb4455e5834fe29ed3e1389fefa31
+      internalID: 1867240707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_33
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 6742
+        width: 212
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c524666273a442a6aa73cde8f04e67c
+      internalID: -1181613133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_34
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 6715
+        width: 92
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe07da56de284ca0860410a6e40add6
+      internalID: 1615447780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_35
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 6601
+        width: 185
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee16a22b54bad4c6cb53b14dae01c7c4
+      internalID: -231336475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_36
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 6568
+        width: 54
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba018cfc22f994d22b2682ed8cf9951b
+      internalID: 1286549399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_37
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 6541
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3fa4cf2506c46d5ad0643d4e68f44d
+      internalID: 1027157373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_38
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 6405
+        width: 38
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8017271eeeb634fba9b9627b939babf6
+      internalID: 504616317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_39
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 6378
+        width: 43
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe97907cc6464cee8ae0987b6e916ed
+      internalID: -2107930770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_40
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 6242
+        width: 11
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197e77b09c7ee4a3fa8630cff25bd8a1
+      internalID: 144999680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_41
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 6242
+        width: 16
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f805cb779d86441086af48860dd88ca
+      internalID: 1828625251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_42
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 6214
+        width: 98
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ced0038fefbe4773886df6383eed4b8
+      internalID: -1925665435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_43
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 6100
+        width: 206
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f6f6ed534bd4129aa7bc8b1bae6087
+      internalID: 1679493429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_44
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 6100
+        width: 196
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664b953cb43594066adf7d4b3d7d219a
+      internalID: -2038470392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_45
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 6100
+        width: 207
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8d1802716b347b98e5dac02a970f2e
+      internalID: 1439241234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_46
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 6073
+        width: 109
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0156eb0b5bd26401995a2fde314cf909
+      internalID: 990467019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_47
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 5959
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bac2fd6ac25a49eb8d149112ee61989
+      internalID: 623454626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_48
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 5932
+        width: 92
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b73a4e49ffbd4967b6e92fcae07cd11
+      internalID: -956492586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_49
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 5823
+        width: 60
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d602de1fea6a14e66aee12429c9c7449
+      internalID: -772860176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_50
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 5790
+        width: 98
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de9f1bfae8f94d57897bbfab00b4a56
+      internalID: -1844152787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_51
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 5682
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bbd812a20864503b7ba90a77e906f1
+      internalID: 1028485574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_52
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 5654
+        width: 65
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488f1754bbe2742bcb8154697a3a42c4
+      internalID: 905083860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_53
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 5557
+        width: 114
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46512c205a3c5476b94d6575909de79b
+      internalID: 744753319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_54
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 5529
+        width: 81
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd11fa31c93049c79f274f5cbe92f67
+      internalID: -1293499233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_55
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 5432
+        width: 114
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302560cf77ac44ad58902da32079a086
+      internalID: -1424989037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_56
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 5404
+        width: 92
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb9d828ce77f4b94b6323128222a288
+      internalID: -1029927560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_57
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 5307
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e852ed13cb4540c98c01d8a7477e807
+      internalID: -722103138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_58
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 5279
+        width: 60
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf9e6f88096749c4a301d23d3b86f2c
+      internalID: 390396037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_59
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 5187
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a72b2f191a94f40a4b01cdf9ac4f89
+      internalID: -795904562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_60
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 5187
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d30a490e43c48bc850a84555ccdbf8
+      internalID: 752407458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_61
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 5187
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8932fcbc9994884b9c8e9316828582
+      internalID: 1288818601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_62
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 5187
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79760af9feacd4d79a60ff0703276839
+      internalID: 135374345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_63
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 5187
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d205db96b6fe04f3eb4785b780767675
+      internalID: 1529804476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_64
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 5160
+        width: 43
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a5e118760a944499884d3757a9d00b
+      internalID: -1660557816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_65
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 5078
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cb793f35e50491795acb1b619035d2
+      internalID: -1644749083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_66
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 5078
+        width: 77
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623870832e71b4a678f0e157c94e8059
+      internalID: 1962858563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_67
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 5078
+        width: 82
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8aaf2e56e4b49238717cb522b1eabe
+      internalID: -1331011356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_68
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 5078
+        width: 82
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20d17173b496429fa424da3e65e238d
+      internalID: -1652080119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_69
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 5078
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6798e2a42d54473afe3a8aa5f4545e
+      internalID: -1371295951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_70
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 5078
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da6ce95abd164643b92d020a502ec71
+      internalID: 537336993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_71
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 5078
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e7c4a6eb1704e51a51d1b907f8a997
+      internalID: 1849011340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_72
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 5051
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc58b4987fa3b448c8eb172126e309c5
+      internalID: -1952529114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_73
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4975
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5619d26f7fca449eb5c3dc9d69e9ff6
+      internalID: -833784917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_74
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4948
+        width: 109
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e936aea8c524fd9be5f2583e52da61
+      internalID: -92550967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_75
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4866
+        width: 71
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e2075375b3d4076be544cfd4c613e0
+      internalID: 804962539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_76
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4839
+        width: 92
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e31f175b9e97407f920b0c59f6f9edf
+      internalID: -1947629095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_77
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4763
+        width: 71
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021c4e662ce324bd2a3928dc46bede90
+      internalID: -1151199460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_78
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 4763
+        width: 71
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bca2168124e7409d897bf6dc3a35c7a
+      internalID: -1013437844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_79
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6a58661d14748c9b08a07769946992
+      internalID: 657014539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_80
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4683a663bf3724f9eabcea4c8bfb1f26
+      internalID: -1497020783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_81
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7956298e24ac435f8ec64e9f2057f69
+      internalID: -2081891544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_82
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f4512d603394bee8e0b702ac6b2898
+      internalID: 2132466702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_83
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 4763
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155e7bd35d1734011b85c1952f362d34
+      internalID: 562072375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_84
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61839d12b2e194e818cdf9396183b689
+      internalID: -1879819546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_85
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6764d6af0a34d9c93510612ac135f7
+      internalID: -1830966063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_86
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9faeae1badadc409cb65546fcb539bd7
+      internalID: 599968191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_87
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 4763
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51b5369e2e124a729a45fce3d73aa8d
+      internalID: 172026811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_88
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc5827aabd86497e9d8bcd2c8488b1d
+      internalID: 1479696415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_89
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e13eeae38f4440fa3231f76fafaeb4
+      internalID: 1375338286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_90
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 4763
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1214210cb57046c59e9ebc1aa878a63
+      internalID: -1772414674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_91
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0e14d03a6264f1ab50c826a4a4c61f
+      internalID: -1353295270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_92
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb1679fbe2ce4f329e41291c6eea292
+      internalID: 1363349932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_93
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 4763
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49677b3b7a3804f879348a6de1895fc6
+      internalID: -1261073522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_94
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 4763
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17f4eb31d9e942f2b335bbd70e2397d
+      internalID: 228446998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_95
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396c0d400f572477d87ff7f66e179828
+      internalID: 2119617464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_96
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 4763
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89387fa561064986843b6a26c919a82
+      internalID: 266832398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_97
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 4763
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cffa0e731f342338d2e1283eee6a00
+      internalID: -1978141474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_98
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 4763
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0c7f73ec0c6437dbe187ff7c7f5db5
+      internalID: 2118310008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_99
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74e8a4e15c184876ac620fd7d84b83d
+      internalID: -1611083717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_100
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7a7cfac384a434882ddf6c2fb60ee1
+      internalID: -315910851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_101
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e351b122adf64b62ae2d040414cf9ff
+      internalID: -1699650804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_102
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 4763
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b161d61c9e2471abaab8c69e142ee6
+      internalID: -1631205903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_103
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfd75c2416d9491a8fa56351e6e1a7f
+      internalID: -274025125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_104
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 4763
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05583477d47ad4042ab37c9f51dcfa60
+      internalID: 612612170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_105
+      rect:
+        serializedVersion: 2
+        x: 2186
+        y: 4763
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c510774936849f4811d547a59331c1
+      internalID: 958033756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_106
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ffeecb2fe1c84ee8bde231f66a007e6
+      internalID: 1446984972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_107
+      rect:
+        serializedVersion: 2
+        x: 2343
+        y: 4763
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0d7a9e69aeb4f43a7184fc28a77c8e
+      internalID: -1437913677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_108
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 4763
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f50f38cbf2a44c6b855a29d3b22251
+      internalID: 1052906512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_109
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 4763
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54734be22aac498e80f192818ea1aae
+      internalID: -184392938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_110
+      rect:
+        serializedVersion: 2
+        x: 2577
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225a3081ec544491ca10aad45b7fdaae
+      internalID: 258981405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_111
+      rect:
+        serializedVersion: 2
+        x: 2653
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa10c70d7819b406f90763f8e10bf118
+      internalID: 1979478801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_112
+      rect:
+        serializedVersion: 2
+        x: 2735
+        y: 4763
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdd0d4f24ef44c65b9d5c18d57db939
+      internalID: -59870810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_113
+      rect:
+        serializedVersion: 2
+        x: 2811
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fc0838c1a4144938c6ce0cdf6df2f8
+      internalID: 2101187437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_114
+      rect:
+        serializedVersion: 2
+        x: 2887
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c994d2a3e9c4eadbb135edc0799cc7
+      internalID: -1834806367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_115
+      rect:
+        serializedVersion: 2
+        x: 2969
+        y: 4763
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0c27fdd481346b0a6a1b550a6f2de2
+      internalID: -1257427773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_116
+      rect:
+        serializedVersion: 2
+        x: 3045
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7654dc0b9268430392450bc236f41e8
+      internalID: 93317546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_117
+      rect:
+        serializedVersion: 2
+        x: 3121
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ac1a54c94ca41ca887421e0aa4592a
+      internalID: 1234305331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_118
+      rect:
+        serializedVersion: 2
+        x: 3203
+        y: 4763
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc889f62fc62541438e59349eb0ede11
+      internalID: 785816154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_119
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 4763
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40179a9a06f5b489487e26f2825162f5
+      internalID: -687010840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_120
+      rect:
+        serializedVersion: 2
+        x: 3355
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984e775714b5f475e9982714b326a27d
+      internalID: 1083837897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_121
+      rect:
+        serializedVersion: 2
+        x: 3436
+        y: 4763
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be100c30dc5c40989a47c7708d419c8
+      internalID: -338699365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_122
+      rect:
+        serializedVersion: 2
+        x: 3513
+        y: 4763
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1364853595849ecb5b967e47481509
+      internalID: 836320997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_123
+      rect:
+        serializedVersion: 2
+        x: 3589
+        y: 4763
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ed84fe597ed469ab3e8577ea774b42
+      internalID: 893386378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_124
+      rect:
+        serializedVersion: 2
+        x: 3670
+        y: 4763
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adcca394c7ad8499db5a7e813bde5738
+      internalID: -10544100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_125
+      rect:
+        serializedVersion: 2
+        x: 3746
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931048495601d4148befe43e5e0c25b6
+      internalID: -150757187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_126
+      rect:
+        serializedVersion: 2
+        x: 3822
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4356935078e4938bdc700ae48c7f07
+      internalID: -1162095967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_127
+      rect:
+        serializedVersion: 2
+        x: 3899
+        y: 4763
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797d42d34d52e457b8d5d37d8ff5c176
+      internalID: 1638003040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_128
+      rect:
+        serializedVersion: 2
+        x: 3980
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46a20807b2274d55ae87b547aac7ec9
+      internalID: -671605186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_129
+      rect:
+        serializedVersion: 2
+        x: 4056
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb63e1a0e8604ebd8fd9577123b85f2
+      internalID: 767292191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_130
+      rect:
+        serializedVersion: 2
+        x: 4132
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbec2f629f4e4a3eae8340a08369e7a
+      internalID: -802753273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_131
+      rect:
+        serializedVersion: 2
+        x: 4214
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc42b29bbe8ce46d0bf6e1b44dd514a6
+      internalID: -432676672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_132
+      rect:
+        serializedVersion: 2
+        x: 4290
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c93ac73b2f442009d7d8a52600177f
+      internalID: 633507643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_133
+      rect:
+        serializedVersion: 2
+        x: 4366
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b421704d058014b19a0daaa2f678f065
+      internalID: 644374813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_134
+      rect:
+        serializedVersion: 2
+        x: 4442
+        y: 4763
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c66dcc8ef6d547aa8bd8b6e0ae95a2a
+      internalID: 1503717222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_135
+      rect:
+        serializedVersion: 2
+        x: 4518
+        y: 4763
+        width: 71
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c33fb254612494d91daa974ddc4eb1
+      internalID: 650443216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_136
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4736
+        width: 71
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03af32e64bbaf48a89821d6d1a98ebe0
+      internalID: 70826205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_137
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4660
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647f0814e74b14f5d828e8d0c727bf7c
+      internalID: 189880421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_138
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4632
+        width: 103
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550088a5ec4164ab89bacb01b75fa906
+      internalID: 1432089332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_139
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4556
+        width: 38
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624f40c3346394effac4eac31a7b8fae
+      internalID: 614394639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_140
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 4556
+        width: 38
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0cadca5abb4488c9c805b1b2a49664
+      internalID: -1251810395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_141
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 4556
+        width: 38
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dda94a972b9a4df1837a5f6f47d64a9
+      internalID: -686120633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_142
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 4556
+        width: 38
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2752ff45b7c460a8abe5dab68cdf90
+      internalID: 121330501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_143
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 4556
+        width: 38
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d964c983e3e243ca97c61adaba8e318
+      internalID: 559975582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_144
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 4556
+        width: 32
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4099ebf54c3354b24bf59ccc042dcfb8
+      internalID: 1436865012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_145
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 4556
+        width: 43
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61732aef566544511877253642e1e9f8
+      internalID: 126237698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_146
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 4556
+        width: 38
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6283ea73aad9f4effb81db7f22596782
+      internalID: -1736160275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_147
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 4556
+        width: 22
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cfba1c1270d410087ab08c248ef5d3
+      internalID: 402134462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_148
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 4556
+        width: 17
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb3a3e238ea44040a00e8f59fe69b74
+      internalID: 397191589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_149
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 4556
+        width: 11
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61bd2b001fcf41eca62529ff73c46ea
+      internalID: 1524499328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_150
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 4556
+        width: 10
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4389d608fac49a99c2832b7dd1eaba
+      internalID: -1932823283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_151
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 4556
+        width: 11
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a81a8f35d9904b7cbf4f9d21935f7c4
+      internalID: -920082007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_152
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 4556
+        width: 11
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc4eb57acf4042f1b56467bc470be94
+      internalID: 1110962198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_153
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 4556
+        width: 11
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0773c5fc76ad44f9eb75c6fb767b391c
+      internalID: -49287882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_154
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 4594
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e8e97760ad44e8d89bd3a2f1b11284
+      internalID: -1006980191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_155
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 4556
+        width: 11
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce27aee752d814df4afa006b1d7bb33f
+      internalID: 1565035516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_156
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4529
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755b3d2d10379446588502ff78588182
+      internalID: 571205692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_157
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4458
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bd432dc24754a46b7f3a2715d93c65
+      internalID: -1528142924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_158
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 4458
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a079d696adc254aaa8f11354861adb86
+      internalID: -1258226398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_159
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 4458
+        width: 136
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3cc96e2943d43bbaa885da3453cc6c
+      internalID: 468484962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_160
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4431
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2650560a96c14b55a45df1feaffd4be
+      internalID: -2080419189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_161
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4388
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b0ac2f4eef34821a776a00992bf745
+      internalID: 1006478736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_162
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 4388
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df28d8e2c25e4de69e99f2294ae1a04
+      internalID: 68175176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_163
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 4388
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792f6da0aab5649c697db76743d8c0fd
+      internalID: -1221299861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_164
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 4388
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87cb27f14c65497b975ef18bd91108b
+      internalID: 2087659116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_165
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 4388
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c3b2c52f8e448f1a185b61c8bc8de7
+      internalID: -753920291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_166
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 4388
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2060506928a5f4d4ea21f37aa0bbdfd4
+      internalID: -359837420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_167
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 4388
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b904c52e6ed7491897aee6f66a25229
+      internalID: 1929203651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_168
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 4388
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a9c05d3e0f04a648b65bb121f415b1
+      internalID: 1171657261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_169
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 4388
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e769dafe335c4bef946735658e0602a
+      internalID: -667548032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_170
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 4388
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b5f4c0ef9fa42ac9de87834ef16b0c
+      internalID: -2081096598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_171
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 4388
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cc4976779d643f7b78f54c57199b6d
+      internalID: 729501000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_172
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4360
+        width: 141
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17998822c39504c9f8aa7077b1847035
+      internalID: -525718783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_173
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 4290
+        width: 11
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8402a80a29794578bbcd587931ea22b
+      internalID: -1351011209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_174
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 4290
+        width: 11
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72eae16fdf444ddfa151c7f3e71de0e
+      internalID: 295004000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_175
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 4290
+        width: 11
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30aa7d619401f4ef886f4c0f101a23dc
+      internalID: -569877753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_176
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 4339
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c7e6f1621704dee90f23cecb65b9db
+      internalID: -875192791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_177
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 4290
+        width: 17
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39260abb401b742ffb716169bc6bb18a
+      internalID: 479338115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_178
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 4290
+        width: 11
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0a6188c9eec46d9a90603ff529dff9
+      internalID: -880810574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_179
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 4290
+        width: 10
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee13f3072a674603a1817ce7fcd684a
+      internalID: -923795717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_180
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 4328
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac727901b3719481c83d1e69b413dee5
+      internalID: -1918767650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_181
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4290
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1372940d86d76439882aec862c222d2e
+      internalID: 1742947207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_182
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 4290
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0a5b140b2704c48aa2f4a543d4e518
+      internalID: -351530513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_183
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 4290
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5332eb9707c841d5b80146fc59cfe0d
+      internalID: -1478904056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_184
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 4290
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70f815b1b91a417bb2cd26316fda057
+      internalID: 240406856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_185
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 4290
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216a699db5dab4f099f3d94a4a1db1db
+      internalID: 1235564336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_186
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 4290
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728c96a7dcf6647b5aad819daae969a8
+      internalID: -1097442827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_187
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4263
+        width: 60
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b387f4d75fdae45fb90f7c1054c47b67
+      internalID: 1347331328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_188
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4197
+        width: 76
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622f4fe9fd77f4ebdb90a45a8e67ec5b
+      internalID: -1648335704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_189
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 4197
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91858d65cf0d45bfa94a0210d156137
+      internalID: -1967634281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_190
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 4197
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca32215aeb7c4a0b84132b66a3b05cf
+      internalID: -1291995391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_191
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 4225
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade5410d155284e0d931be43b91027ef
+      internalID: -1714342487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_192
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 4197
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e12a3334741c4ec5ace848f11218213
+      internalID: 1881620725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_193
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 4197
+        width: 65
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0438224933e5a422c901e4620c84bbad
+      internalID: -2080235505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_194
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 4214
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81b92b7d643e438185ddcdd3613bc14
+      internalID: 271172956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_195
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 4230
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605154c3a4c174d4b90408625ff96245
+      internalID: 1419316374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_196
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 4197
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc6134d0c9d442258a3e7460f794f7d
+      internalID: 2045898272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_197
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 4230
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7a81274f81e4700abf8ed2ed1b5e3c
+      internalID: -473614508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_198
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 4197
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a164f717bf154436f87faac7dde85256
+      internalID: 1714594319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_199
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 4203
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e47ec29a4fda41329ddbaf64d4a5ae0
+      internalID: -849610992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_200
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 4203
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dcef393887284f2285feb0dadc1a66e
+      internalID: 1400879606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_201
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 4203
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64035a94149bd4280b37d98d355314c2
+      internalID: 796837828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_202
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 4197
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc14ba95f0e94c3c8030e46d39de29a
+      internalID: -709639873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_203
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 4197
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f2341dded444e59af8ca070dd383f0
+      internalID: -1739688559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_204
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 4197
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43aaeec177a15468fa81fc679863c0eb
+      internalID: 1819713585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_205
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 4203
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca21ee50762d4fc98af14db9d6e65f8
+      internalID: -1845963138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_206
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 4197
+        width: 54
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b4dfbce16284fdbb85040dd5693142
+      internalID: -1738248723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_207
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 4203
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2273c49aa2c6b4cb09c66f03848d3590
+      internalID: -795163768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_208
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 4197
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd6516f047b543c68246c8505c93648
+      internalID: 1828887448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_209
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 4203
+        width: 44
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c13c89131e24fb5a6e06bb3853f828
+      internalID: 413750738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_210
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 4197
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6f9c70cfb3f44ec8f2520f84c53170
+      internalID: 1207234511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_211
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 4197
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea8bf270963a4cabad374a4c8d7c76d
+      internalID: -1120261818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_212
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4170
+        width: 71
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fceb92bc7174e3790a1dc32859f95f
+      internalID: 881759634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_213
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4105
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf701e921ab74a5aa804ff72c666619
+      internalID: -1497528875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_214
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 4105
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11862b1279204ec3afcbd566bd423dc
+      internalID: -1943970368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_215
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 4105
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c79971de289146adb5ba2b34c2939a0
+      internalID: 1806889560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_216
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 4105
+        width: 65
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e4b2be5c65240f3bd038505e6b239b
+      internalID: 1327299565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_217
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 4105
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c93d9861a9d45a3a0666eba23f17ef
+      internalID: -303468411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_218
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 4105
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daeac63d8364c4528bd41b9a3f0e7826
+      internalID: -981326670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_219
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 4105
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2445ffd4873340b784a0c4e80bd6cfe
+      internalID: 331005214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_220
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 4105
+        width: 17
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588a03d2d789a44f0a8aa244227b1b5a
+      internalID: -1207533922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_221
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 4127
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e4066cfcf324954b52b9753f8e7c6a
+      internalID: 1239633447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_222
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4078
+        width: 60
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec475c240722f4352bce33aedb6c1e26
+      internalID: -1725006223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_223
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4013
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5467d8e27dcb342998d0d086730a3148
+      internalID: 292013020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_224
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 4013
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a25518de222f4f419961416fdd3f32a
+      internalID: -1858891575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_225
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 4013
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf6694749e4f430d90f3b8ce1431dbc
+      internalID: 2077109458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_226
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 4013
+        width: 65
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621ba04edddf745ab82d87cb5f2f62fa
+      internalID: 570403353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_227
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 4013
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6976b6b14322c49d686c1ff9bdcc8db9
+      internalID: 994716943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_228
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 4013
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b30b9d423334a33b397c1f1554825f
+      internalID: -71499532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_229
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 4013
+        width: 60
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4daf28dae7b8a49da8d535f22757a42a
+      internalID: -726206998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_230
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 4013
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1253e7826734416b0293085dcf8d2a
+      internalID: 1959573533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_231
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 4013
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d6068e208084b48a705a10b3fe8ceb
+      internalID: -768751089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_232
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3985
+        width: 125
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6966ca95b75da4a418d7e5b8575bf0cf
+      internalID: -926321067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_233
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3926
+        width: 76
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b6b9217192b4933bdfc64c881ca143
+      internalID: 1529748137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_234
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3893
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af930841b0f444be9e0eeb046a25a71
+      internalID: -651071869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_235
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3833
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fd9637dc0ee4b138906f87462ed3b9
+      internalID: -653250948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_236
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 3833
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6d72b56ea9049b58e6ed0ceb540301
+      internalID: 1819243021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_237
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 3833
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c348850489c4784aa682d491e45d59
+      internalID: -87346944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_238
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 3833
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871ec5aa414664e069e520fadc274643
+      internalID: 699922511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_239
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 3833
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f128f0f6c423f4bb2958e536088e0241
+      internalID: 1122888141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_240
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 3833
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98de03d6fea504b3a8f1134011d0bec5
+      internalID: 1618307945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_241
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3806
+        width: 43
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ad793ec5d88468f8d78eb878519dad
+      internalID: -67631073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_242
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3746
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870d3e839c514455682719aa9d863a9d
+      internalID: -190809722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_243
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 3746
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f35df5a1ef854740aa77adee5d97fd7
+      internalID: -77110802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_244
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 3746
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cea845f879243b2aed33953412869e
+      internalID: -2018893123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_245
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3719
+        width: 43
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0664630dc78e746dcb2329bff9b0253d
+      internalID: 1065616015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_246
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 3654
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58e15371581d41cba9193fdc7ec8eca
+      internalID: -379956484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_247
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 3686
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb7d61bfaf4f42799de9d7267f62bc7
+      internalID: -1894363035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_248
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 3697
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2e719e4c19248ec88be83bcb2760eb
+      internalID: -1319403621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_249
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 3654
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfdca1814e7b4f669d02b0b8dd8f048
+      internalID: 1723153993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_250
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3654
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec938e67505f041da926141e20a20a22
+      internalID: -1521931029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_251
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 3654
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472d08d92a63b4df39ca788b0d9e9902
+      internalID: 859758121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_252
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 3654
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e2958426b2c41fea798aaab14ceaa9
+      internalID: -1565635750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_253
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 3665
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13c41432f54c437a968c34ea6f821e7
+      internalID: -1363757087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_254
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 3654
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a299dbbdd809b410ea9c1c068798f8ea
+      internalID: 692344977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_255
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 3654
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55594ed5fd9c1420bb6d8161bf274968
+      internalID: -500580654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_256
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3626
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97146b8bcf254eff8ee98994eb1b746
+      internalID: -736240987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_257
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3567
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e57fddeb39a4b209831419593c376c
+      internalID: -187543020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_258
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 3567
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba8721e92d2442f9ac68397826de78a
+      internalID: -1581883220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_259
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 3567
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17c634cd1c724778a2550db5c51f535
+      internalID: 366714986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_260
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 3567
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18be901c93734ad69ce9a2ffeabb97b
+      internalID: 233657042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_261
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 3567
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32459c80d9424abf98e633ee1891d40
+      internalID: -1756598029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_262
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 3567
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcdb729105269478aac3976d8f182fb7
+      internalID: -424093027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_263
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 3567
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db736310cd3e46ebab7dbedf6b3aab8
+      internalID: -1625081126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_264
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 3567
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815557426ab554794bdd812798aeed5a
+      internalID: -149556861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_265
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 3567
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce224222c154145ed94141c7740e35d4
+      internalID: 1130476830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_266
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 3567
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bf337cb97734840b2aa5a24d1927fc
+      internalID: -814786754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_267
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 3567
+        width: 44
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a62b243aa00474ca83160b9a549363
+      internalID: 2080595986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_268
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 3567
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2376e42b57bc415591abdaad401d6f1
+      internalID: -1622479555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_269
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 3567
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f908902de714f6fb2fc55227f461c9
+      internalID: -1597857421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_270
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3539
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d524061f5e24fb5880de12966d037f
+      internalID: 1075144150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_271
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b96aa5abd4f4597aee360483a954b3
+      internalID: -1896692385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_272
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 3496
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ff1c758051947908c4b97171e38a82
+      internalID: 262713878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_273
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 3496
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e765490312042c58127fbdbb418bec
+      internalID: -2094293277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_274
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 3496
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81008940a3f24c3ca99f402c28feb35
+      internalID: -950572366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_275
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 3496
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd41e259d424343afaa815fcdeaf498f
+      internalID: 798647607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_276
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 3496
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb063aa14f1e433d943e4415d4dd594
+      internalID: -1166043292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_277
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3469
+        width: 76
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: badb7419e6e6d4d7a9593866671451c1
+      internalID: -63793507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_278
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3409
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929fb71dccec54bd5981ff2637f6c8ee
+      internalID: -1758139357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_279
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3382
+        width: 114
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d5bf0a94df74eceb3c50c32dabc5cd
+      internalID: 2091384669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_280
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3322
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4924c74436fa4c7ba4b342a1efb29b8
+      internalID: -644987135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_281
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3295
+        width: 114
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca04a40ce1b7e45a1814a427230a6e4b
+      internalID: 1988142797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_282
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3240
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d541c1148435242a98c671df9efb64fd
+      internalID: 215202509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_283
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3208
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89fe95a3d2e346b2a3d9bd2de2d4536
+      internalID: 1210409674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_284
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3153
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e3c1cc92ac14dada8335fcbde691d5
+      internalID: 1691750417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_285
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 3153
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcfb37e21da445f6b4254dbba1eb864
+      internalID: 1319544629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_286
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 3153
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ec529cd39794100badf2ba614790ea
+      internalID: -1990939006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_287
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 3153
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef7ba7fc19e9486ca2e7ca94ab4d378
+      internalID: 1536306999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_288
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 3153
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d6edf2127cd4d31b64ed3c88db7446
+      internalID: 489236836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Full Metal Furies - Effects_289
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3132
+        width: 92
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ca0d1d7e98b4862a700a35f0a5daf1
+      internalID: 1795440964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Full Metal Furies - Effects_181: 1742947207
+      PC Computer - Full Metal Furies - Effects_262: -424093027
+      PC Computer - Full Metal Furies - Effects_126: -1162095967
+      PC Computer - Full Metal Furies - Effects_221: 1239633447
+      PC Computer - Full Metal Furies - Effects_286: -1990939006
+      PC Computer - Full Metal Furies - Effects_276: -1166043292
+      PC Computer - Full Metal Furies - Effects_64: -1660557816
+      PC Computer - Full Metal Furies - Effects_186: -1097442827
+      PC Computer - Full Metal Furies - Effects_155: 1565035516
+      PC Computer - Full Metal Furies - Effects_188: -1648335704
+      PC Computer - Full Metal Furies - Effects_145: 126237698
+      PC Computer - Full Metal Furies - Effects_22: -565664836
+      PC Computer - Full Metal Furies - Effects_139: 614394639
+      PC Computer - Full Metal Furies - Effects_189: -1967634281
+      PC Computer - Full Metal Furies - Effects_193: -2080235505
+      PC Computer - Full Metal Furies - Effects_115: -1257427773
+      PC Computer - Full Metal Furies - Effects_0: -2134608430
+      PC Computer - Full Metal Furies - Effects_1: 1766923063
+      PC Computer - Full Metal Furies - Effects_66: 1962858563
+      PC Computer - Full Metal Furies - Effects_55: -1424989037
+      PC Computer - Full Metal Furies - Effects_98: 2118310008
+      PC Computer - Full Metal Furies - Effects_232: -926321067
+      PC Computer - Full Metal Furies - Effects_200: 1400879606
+      PC Computer - Full Metal Furies - Effects_50: -1844152787
+      PC Computer - Full Metal Furies - Effects_257: -187543020
+      PC Computer - Full Metal Furies - Effects_166: -359837420
+      PC Computer - Full Metal Furies - Effects_196: 2045898272
+      PC Computer - Full Metal Furies - Effects_125: -150757187
+      PC Computer - Full Metal Furies - Effects_91: -1353295270
+      PC Computer - Full Metal Furies - Effects_95: 2119617464
+      PC Computer - Full Metal Furies - Effects_123: 893386378
+      PC Computer - Full Metal Furies - Effects_148: 397191589
+      PC Computer - Full Metal Furies - Effects_15: 109835017
+      PC Computer - Full Metal Furies - Effects_210: 1207234511
+      PC Computer - Full Metal Furies - Effects_192: 1881620725
+      PC Computer - Full Metal Furies - Effects_160: -2080419189
+      PC Computer - Full Metal Furies - Effects_107: -1437913677
+      PC Computer - Full Metal Furies - Effects_135: 650443216
+      PC Computer - Full Metal Furies - Effects_137: 189880421
+      PC Computer - Full Metal Furies - Effects_141: -686120633
+      PC Computer - Full Metal Furies - Effects_96: 266832398
+      PC Computer - Full Metal Furies - Effects_165: -753920291
+      PC Computer - Full Metal Furies - Effects_203: -1739688559
+      PC Computer - Full Metal Furies - Effects_236: 1819243021
+      PC Computer - Full Metal Furies - Effects_38: 504616317
+      PC Computer - Full Metal Furies - Effects_34: 1615447780
+      PC Computer - Full Metal Furies - Effects_49: -772860176
+      PC Computer - Full Metal Furies - Effects_122: 836320997
+      PC Computer - Full Metal Furies - Effects_7: -1273005184
+      PC Computer - Full Metal Furies - Effects_225: 2077109458
+      PC Computer - Full Metal Furies - Effects_110: 258981405
+      PC Computer - Full Metal Furies - Effects_11: 1092052547
+      PC Computer - Full Metal Furies - Effects_173: -1351011209
+      PC Computer - Full Metal Furies - Effects_132: 633507643
+      PC Computer - Full Metal Furies - Effects_233: 1529748137
+      PC Computer - Full Metal Furies - Effects_103: -274025125
+      PC Computer - Full Metal Furies - Effects_223: 292013020
+      PC Computer - Full Metal Furies - Effects_36: 1286549399
+      PC Computer - Full Metal Furies - Effects_74: -92550967
+      PC Computer - Full Metal Furies - Effects_94: 228446998
+      PC Computer - Full Metal Furies - Effects_143: 559975582
+      PC Computer - Full Metal Furies - Effects_104: 612612170
+      PC Computer - Full Metal Furies - Effects_247: -1894363035
+      PC Computer - Full Metal Furies - Effects_275: 798647607
+      PC Computer - Full Metal Furies - Effects_51: 1028485574
+      PC Computer - Full Metal Furies - Effects_159: 468484962
+      PC Computer - Full Metal Furies - Effects_100: -315910851
+      PC Computer - Full Metal Furies - Effects_246: -379956484
+      PC Computer - Full Metal Furies - Effects_45: 1439241234
+      PC Computer - Full Metal Furies - Effects_88: 1479696415
+      PC Computer - Full Metal Furies - Effects_260: 233657042
+      PC Computer - Full Metal Furies - Effects_130: -802753273
+      PC Computer - Full Metal Furies - Effects_149: 1524499328
+      PC Computer - Full Metal Furies - Effects_9: -510756383
+      PC Computer - Full Metal Furies - Effects_60: 752407458
+      PC Computer - Full Metal Furies - Effects_87: 172026811
+      PC Computer - Full Metal Furies - Effects_35: -231336475
+      PC Computer - Full Metal Furies - Effects_254: 692344977
+      PC Computer - Full Metal Furies - Effects_6: -942711019
+      PC Computer - Full Metal Furies - Effects_120: 1083837897
+      PC Computer - Full Metal Furies - Effects_83: 562072375
+      PC Computer - Full Metal Furies - Effects_111: 1979478801
+      PC Computer - Full Metal Furies - Effects_28: 1567357140
+      PC Computer - Full Metal Furies - Effects_279: 2091384669
+      PC Computer - Full Metal Furies - Effects_124: -10544100
+      PC Computer - Full Metal Furies - Effects_39: -2107930770
+      PC Computer - Full Metal Furies - Effects_25: 1018032112
+      PC Computer - Full Metal Furies - Effects_255: -500580654
+      PC Computer - Full Metal Furies - Effects_57: -722103138
+      PC Computer - Full Metal Furies - Effects_164: 2087659116
+      PC Computer - Full Metal Furies - Effects_204: 1819713585
+      PC Computer - Full Metal Furies - Effects_147: 402134462
+      PC Computer - Full Metal Furies - Effects_281: 1988142797
+      PC Computer - Full Metal Furies - Effects_19: 1145514422
+      PC Computer - Full Metal Furies - Effects_138: 1432089332
+      PC Computer - Full Metal Furies - Effects_229: -726206998
+      PC Computer - Full Metal Furies - Effects_29: 2065856860
+      PC Computer - Full Metal Furies - Effects_264: -149556861
+      PC Computer - Full Metal Furies - Effects_105: 958033756
+      PC Computer - Full Metal Furies - Effects_79: 657014539
+      PC Computer - Full Metal Furies - Effects_99: -1611083717
+      PC Computer - Full Metal Furies - Effects_205: -1845963138
+      PC Computer - Full Metal Furies - Effects_217: -303468411
+      PC Computer - Full Metal Furies - Effects_288: 489236836
+      PC Computer - Full Metal Furies - Effects_68: -1652080119
+      PC Computer - Full Metal Furies - Effects_230: 1959573533
+      PC Computer - Full Metal Furies - Effects_180: -1918767650
+      PC Computer - Full Metal Furies - Effects_272: 262713878
+      PC Computer - Full Metal Furies - Effects_58: 390396037
+      PC Computer - Full Metal Furies - Effects_277: -63793507
+      PC Computer - Full Metal Furies - Effects_108: 1052906512
+      PC Computer - Full Metal Furies - Effects_32: 1867240707
+      PC Computer - Full Metal Furies - Effects_48: -956492586
+      PC Computer - Full Metal Furies - Effects_195: 1419316374
+      PC Computer - Full Metal Furies - Effects_261: -1756598029
+      PC Computer - Full Metal Furies - Effects_271: -1896692385
+      PC Computer - Full Metal Furies - Effects_256: -736240987
+      PC Computer - Full Metal Furies - Effects_158: -1258226398
+      PC Computer - Full Metal Furies - Effects_163: -1221299861
+      PC Computer - Full Metal Furies - Effects_73: -833784917
+      PC Computer - Full Metal Furies - Effects_191: -1714342487
+      PC Computer - Full Metal Furies - Effects_30: 1032129886
+      PC Computer - Full Metal Furies - Effects_168: 1171657261
+      PC Computer - Full Metal Furies - Effects_53: 744753319
+      PC Computer - Full Metal Furies - Effects_266: -814786754
+      PC Computer - Full Metal Furies - Effects_280: -644987135
+      PC Computer - Full Metal Furies - Effects_219: 331005214
+      PC Computer - Full Metal Furies - Effects_37: 1027157373
+      PC Computer - Full Metal Furies - Effects_114: -1834806367
+      PC Computer - Full Metal Furies - Effects_185: 1235564336
+      PC Computer - Full Metal Furies - Effects_211: -1120261818
+      PC Computer - Full Metal Furies - Effects_20: -761642338
+      PC Computer - Full Metal Furies - Effects_118: 785816154
+      PC Computer - Full Metal Furies - Effects_81: -2081891544
+      PC Computer - Full Metal Furies - Effects_62: 135374345
+      PC Computer - Full Metal Furies - Effects_177: 479338115
+      PC Computer - Full Metal Furies - Effects_249: 1723153993
+      PC Computer - Full Metal Furies - Effects_171: 729501000
+      PC Computer - Full Metal Furies - Effects_187: 1347331328
+      PC Computer - Full Metal Furies - Effects_235: -653250948
+      PC Computer - Full Metal Furies - Effects_212: 881759634
+      PC Computer - Full Metal Furies - Effects_258: -1581883220
+      PC Computer - Full Metal Furies - Effects_209: 413750738
+      PC Computer - Full Metal Furies - Effects_240: 1618307945
+      PC Computer - Full Metal Furies - Effects_4: -494137171
+      PC Computer - Full Metal Furies - Effects_3: -970559621
+      PC Computer - Full Metal Furies - Effects_284: 1691750417
+      PC Computer - Full Metal Furies - Effects_289: 1795440964
+      PC Computer - Full Metal Furies - Effects_274: -950572366
+      PC Computer - Full Metal Furies - Effects_23: -2067468557
+      PC Computer - Full Metal Furies - Effects_161: 1006478736
+      PC Computer - Full Metal Furies - Effects_170: -2081096598
+      PC Computer - Full Metal Furies - Effects_12: -270586848
+      PC Computer - Full Metal Furies - Effects_251: 859758121
+      PC Computer - Full Metal Furies - Effects_285: 1319544629
+      PC Computer - Full Metal Furies - Effects_197: -473614508
+      PC Computer - Full Metal Furies - Effects_199: -849610992
+      PC Computer - Full Metal Furies - Effects_21: 1009656458
+      PC Computer - Full Metal Furies - Effects_5: 2019496523
+      PC Computer - Full Metal Furies - Effects_117: 1234305331
+      PC Computer - Full Metal Furies - Effects_157: -1528142924
+      PC Computer - Full Metal Furies - Effects_267: 2080595986
+      PC Computer - Full Metal Furies - Effects_208: 1828887448
+      PC Computer - Full Metal Furies - Effects_18: 2056544016
+      PC Computer - Full Metal Furies - Effects_245: 1065616015
+      PC Computer - Full Metal Furies - Effects_282: 215202509
+      PC Computer - Full Metal Furies - Effects_59: -795904562
+      PC Computer - Full Metal Furies - Effects_8: 1303988817
+      PC Computer - Full Metal Furies - Effects_270: 1075144150
+      PC Computer - Full Metal Furies - Effects_242: -190809722
+      PC Computer - Full Metal Furies - Effects_84: -1879819546
+      PC Computer - Full Metal Furies - Effects_184: 240406856
+      PC Computer - Full Metal Furies - Effects_140: -1251810395
+      PC Computer - Full Metal Furies - Effects_243: -77110802
+      PC Computer - Full Metal Furies - Effects_129: 767292191
+      PC Computer - Full Metal Furies - Effects_136: 70826205
+      PC Computer - Full Metal Furies - Effects_287: 1536306999
+      PC Computer - Full Metal Furies - Effects_92: 1363349932
+      PC Computer - Full Metal Furies - Effects_97: -1978141474
+      PC Computer - Full Metal Furies - Effects_17: -209009119
+      PC Computer - Full Metal Furies - Effects_47: 623454626
+      PC Computer - Full Metal Furies - Effects_248: -1319403621
+      PC Computer - Full Metal Furies - Effects_175: -569877753
+      PC Computer - Full Metal Furies - Effects_198: 1714594319
+      PC Computer - Full Metal Furies - Effects_119: -687010840
+      PC Computer - Full Metal Furies - Effects_222: -1725006223
+      PC Computer - Full Metal Furies - Effects_238: 699922511
+      PC Computer - Full Metal Furies - Effects_146: -1736160275
+      PC Computer - Full Metal Furies - Effects_269: -1597857421
+      PC Computer - Full Metal Furies - Effects_102: -1631205903
+      PC Computer - Full Metal Furies - Effects_85: -1830966063
+      PC Computer - Full Metal Furies - Effects_178: -880810574
+      PC Computer - Full Metal Furies - Effects_127: 1638003040
+      PC Computer - Full Metal Furies - Effects_253: -1363757087
+      PC Computer - Full Metal Furies - Effects_56: -1029927560
+      PC Computer - Full Metal Furies - Effects_250: -1521931029
+      PC Computer - Full Metal Furies - Effects_106: 1446984972
+      PC Computer - Full Metal Furies - Effects_226: 570403353
+      PC Computer - Full Metal Furies - Effects_75: 804962539
+      PC Computer - Full Metal Furies - Effects_10: -1341916186
+      PC Computer - Full Metal Furies - Effects_207: -795163768
+      PC Computer - Full Metal Furies - Effects_244: -2018893123
+      PC Computer - Full Metal Furies - Effects_265: 1130476830
+      PC Computer - Full Metal Furies - Effects_93: -1261073522
+      PC Computer - Full Metal Furies - Effects_116: 93317546
+      PC Computer - Full Metal Furies - Effects_179: -923795717
+      PC Computer - Full Metal Furies - Effects_71: 1849011340
+      PC Computer - Full Metal Furies - Effects_101: -1699650804
+      PC Computer - Full Metal Furies - Effects_206: -1738248723
+      PC Computer - Full Metal Furies - Effects_273: -2094293277
+      PC Computer - Full Metal Furies - Effects_82: 2132466702
+      PC Computer - Full Metal Furies - Effects_61: 1288818601
+      PC Computer - Full Metal Furies - Effects_65: -1644749083
+      PC Computer - Full Metal Furies - Effects_54: -1293499233
+      PC Computer - Full Metal Furies - Effects_142: 121330501
+      PC Computer - Full Metal Furies - Effects_80: -1497020783
+      PC Computer - Full Metal Furies - Effects_24: -83644723
+      PC Computer - Full Metal Furies - Effects_27: 311098503
+      PC Computer - Full Metal Furies - Effects_40: 144999680
+      PC Computer - Full Metal Furies - Effects_228: -71499532
+      PC Computer - Full Metal Furies - Effects_234: -651071869
+      PC Computer - Full Metal Furies - Effects_154: -1006980191
+      PC Computer - Full Metal Furies - Effects_278: -1758139357
+      PC Computer - Full Metal Furies - Effects_31: 134395601
+      PC Computer - Full Metal Furies - Effects_176: -875192791
+      PC Computer - Full Metal Furies - Effects_44: -2038470392
+      PC Computer - Full Metal Furies - Effects_216: 1327299565
+      PC Computer - Full Metal Furies - Effects_134: 1503717222
+      PC Computer - Full Metal Furies - Effects_213: -1497528875
+      PC Computer - Full Metal Furies - Effects_89: 1375338286
+      PC Computer - Full Metal Furies - Effects_239: 1122888141
+      PC Computer - Full Metal Furies - Effects_167: 1929203651
+      PC Computer - Full Metal Furies - Effects_69: -1371295951
+      PC Computer - Full Metal Furies - Effects_133: 644374813
+      PC Computer - Full Metal Furies - Effects_16: -1382907122
+      PC Computer - Full Metal Furies - Effects_33: -1181613133
+      PC Computer - Full Metal Furies - Effects_153: -49287882
+      PC Computer - Full Metal Furies - Effects_202: -709639873
+      PC Computer - Full Metal Furies - Effects_14: -1995453552
+      PC Computer - Full Metal Furies - Effects_26: 435214812
+      PC Computer - Full Metal Furies - Effects_215: 1806889560
+      PC Computer - Full Metal Furies - Effects_263: -1625081126
+      PC Computer - Full Metal Furies - Effects_237: -87346944
+      PC Computer - Full Metal Furies - Effects_41: 1828625251
+      PC Computer - Full Metal Furies - Effects_52: 905083860
+      PC Computer - Full Metal Furies - Effects_268: -1622479555
+      PC Computer - Full Metal Furies - Effects_109: -184392938
+      PC Computer - Full Metal Furies - Effects_70: 537336993
+      PC Computer - Full Metal Furies - Effects_283: 1210409674
+      PC Computer - Full Metal Furies - Effects_252: -1565635750
+      PC Computer - Full Metal Furies - Effects_182: -351530513
+      PC Computer - Full Metal Furies - Effects_201: 796837828
+      PC Computer - Full Metal Furies - Effects_86: 599968191
+      PC Computer - Full Metal Furies - Effects_13: 1052772044
+      PC Computer - Full Metal Furies - Effects_214: -1943970368
+      PC Computer - Full Metal Furies - Effects_113: 2101187437
+      PC Computer - Full Metal Furies - Effects_190: -1291995391
+      PC Computer - Full Metal Furies - Effects_220: -1207533922
+      PC Computer - Full Metal Furies - Effects_72: -1952529114
+      PC Computer - Full Metal Furies - Effects_172: -525718783
+      PC Computer - Full Metal Furies - Effects_43: 1679493429
+      PC Computer - Full Metal Furies - Effects_46: 990467019
+      PC Computer - Full Metal Furies - Effects_131: -432676672
+      PC Computer - Full Metal Furies - Effects_90: -1772414674
+      PC Computer - Full Metal Furies - Effects_156: 571205692
+      PC Computer - Full Metal Furies - Effects_174: 295004000
+      PC Computer - Full Metal Furies - Effects_231: -768751089
+      PC Computer - Full Metal Furies - Effects_78: -1013437844
+      PC Computer - Full Metal Furies - Effects_183: -1478904056
+      PC Computer - Full Metal Furies - Effects_151: -920082007
+      PC Computer - Full Metal Furies - Effects_63: 1529804476
+      PC Computer - Full Metal Furies - Effects_2: -2058687012
+      PC Computer - Full Metal Furies - Effects_224: -1858891575
+      PC Computer - Full Metal Furies - Effects_128: -671605186
+      PC Computer - Full Metal Furies - Effects_162: 68175176
+      PC Computer - Full Metal Furies - Effects_227: 994716943
+      PC Computer - Full Metal Furies - Effects_241: -67631073
+      PC Computer - Full Metal Furies - Effects_150: -1932823283
+      PC Computer - Full Metal Furies - Effects_152: 1110962198
+      PC Computer - Full Metal Furies - Effects_169: -667548032
+      PC Computer - Full Metal Furies - Effects_112: -59870810
+      PC Computer - Full Metal Furies - Effects_259: 366714986
+      PC Computer - Full Metal Furies - Effects_144: 1436865012
+      PC Computer - Full Metal Furies - Effects_76: -1947629095
+      PC Computer - Full Metal Furies - Effects_42: -1925665435
+      PC Computer - Full Metal Furies - Effects_77: -1151199460
+      PC Computer - Full Metal Furies - Effects_121: -338699365
+      PC Computer - Full Metal Furies - Effects_194: 271172956
+      PC Computer - Full Metal Furies - Effects_67: -1331011356
+      PC Computer - Full Metal Furies - Effects_218: -981326670
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
