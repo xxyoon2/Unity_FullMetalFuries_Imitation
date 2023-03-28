@@ -15,8 +15,13 @@ public class PlayerStorm : StateMachineBehaviour
         _stat = _transform.GetComponent<Player>().stat;
         _rigidbody = _transform.GetComponent<Rigidbody2D>();
         _controller = _transform.GetComponent<Controller>();
+
+        _counter = 0f;
     }
 
+    private float _counter = 0f;
+    private const float ATTACK_TIME = 0.5f;
+    private const int ENEMY_LAYER = 1 << 8;
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         Vector2 playerPosition = _transform.position;
@@ -32,6 +37,17 @@ public class PlayerStorm : StateMachineBehaviour
             _transform.localScale = new Vector3(-1f, 1f, 1f);
         }
 
-        // 일정한 텀을 두고 데미지를 입힘
+
+        Transform attackRange = animator.transform.Find("StormRange");
+        Collider2D collider = Physics2D.OverlapCapsule(attackRange.transform.position, attackRange.transform.localScale, CapsuleDirection2D.Horizontal, 0f, ENEMY_LAYER);
+        _counter += Time.deltaTime;
+        if (_counter >= ATTACK_TIME)
+        {
+            if (collider != null)
+            {
+                GameManager.Instance.InflictDamage(_stat.AttackDamage);
+            }
+            _counter = 0f;
+        }
     }
 }

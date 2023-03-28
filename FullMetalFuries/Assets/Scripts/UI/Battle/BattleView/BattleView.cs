@@ -9,7 +9,7 @@ public class BattleView : View
 
     void Awake()
     {
-        bossHealthBar = RectTransform.FindObjectOfType<Slider>();
+        bossHealthBar = transform.Find("BossHealthBar").GetComponent<Slider>();
         Debug.Assert(bossHealthBar != null, "체력바가 들어오지 않았습니다.");
     }
 }
